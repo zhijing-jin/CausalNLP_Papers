@@ -26,8 +26,9 @@ The Case of Gender Bias [[PDF](https://arxiv.org/pdf/2004.12265.pdf)]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cause: native language, confounder: topic, effect: text
 
-- (EMNLP 2018, Stanford) Deconfounded lexicon induction for interpretable social science
+- (NAACL 2018, Stanford) Deconfounded lexicon induction for interpretable social science [[PDF](https://www.aclweb.org/anthology/N18-1146.pdf)]
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cause: some keywords, confounder: , effect: output prediction
 
 - Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style
 
