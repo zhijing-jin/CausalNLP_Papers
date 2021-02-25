@@ -19,6 +19,8 @@ The Case of Gender Bias [[PDF](https://arxiv.org/pdf/2004.12265.pdf)]
 
 - (ACL 2020) Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates [[PDF](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)]
 
+- (UAI 2020) Adapting Text Embeddings for Causal Inference [[PDF](https://arxiv.org/pdf/1905.12741.pdf)]
+
 - (arXiv 2020) Causal Effects of Linguistic Properties [[PDF](https://arxiv.org/pdf/2010.12919.pdf)]
 
 
