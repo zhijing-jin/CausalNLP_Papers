@@ -2,6 +2,9 @@ This repository lists papers on causality for natural language processing (NLP).
 
 
 ## Causality Basics 
+### Talks/Tutorial/Overview
+- (Vivid, beginner-friendly) Yoshua Bengio's Overview of Causality&NLP [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
+### Books
 - (For ML Audience) Elements of Causal Inference: [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 
 - (Quick Primer by Judea Pearl) Causal Inference in Statistics: A Primer [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
@@ -14,7 +17,7 @@ The Case of Gender Bias [[PDF](https://arxiv.org/pdf/2004.12265.pdf)]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cause: input text, mediator: some neurons, effect: output prediction
 
-- (ACL 2020) Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)
+- (ACL 2020) Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates [[PDF](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)]
 
 - (arXiv 2020) Causal Effects of Linguistic Properties [[PDF](https://arxiv.org/pdf/2010.12919.pdf)]
 
