@@ -39,7 +39,8 @@ The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sha
 1. (NAACL 2018, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
 <br>[Summary] Cause: some keywords, confounder: , effect: output prediction
 
-1. Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style
+1. **Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style.** _Reid Pryzant, Sugato Basu, Kazoo Sone_. [[pdf](https://www.aclweb.org/anthology/W18-5415.pdf)]
+
 ### 3.1 Causality tools that can be applied to deconfound
 1. (NIPS 2017, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
 
@@ -110,7 +111,7 @@ _Emmanuel Bengio, Valentin Thomas, Joelle Pineau, Doina Precup, Yoshua Bengio_. 
 
 1. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
 1. (Focus on SCM) **Causality: Models, Reasoning, and Inference.** _Judea Pearl_. [[Book, 2009](https://www.amazon.de/Causality-Reasoning-Inference-Judea-Pearl/dp/0521773628)]
-- More reading recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book).
+1. More reading recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book).
 
 ## Contributions
 All types of contributions to this paper list is welcome. Feel free to open a Pull Request.
