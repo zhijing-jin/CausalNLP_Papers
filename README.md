@@ -21,13 +21,11 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
     - [Applying causality to model design](Applying-causality-to-model-design)
     - [Causal induction from interventional data](Causal-induction-from-interventional-data)
     - [Grounded AI](Grounded-AI)
-
   - [4.3 Books (for Systematic Learning)](#43-books-for-systematic-learning)
   - [4.4 Online Courses](4.4-Online-Courses)
   - [4.5 People Directory](4.5-People-Directory)
   - [4.6 Workshops](4.6-Workshops)
   - [4.7 Others](4.7-Others)
-
 - [Contributions](#contributions)
 
 ## 1. Causality Basics
