@@ -2,7 +2,7 @@
 
 This repository lists papers on causality for natural language processing (NLP). 
 
-**Contributor:** [Zhijing Jin](zhijing-jin.com).
+**Contributor:** [Zhijing Jin](http://zhijing-jin.com).
 Welcome to be a collaborator, -- you can make an issue/pull request, and I can add you :).
 
 ### Contents (Actively Updating)
