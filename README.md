@@ -18,7 +18,6 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.4 Judicial Decision](#34-judicial-decision)
 - [4. Addressing "Confounders" in NLP](#4-addressing-confounders-in-nlp)
   - [4.1 Causality tools that can be applied to deconfound](#41-causality-tools-that-can-be-applied-to-deconfound)
-
 - [5. More Resources](#5-more-resources)
   - [5.1 Causality Papers from Schoelkopf's Lab, MPI](#51-causality-papers-from-schoelkopfs-lab-mpi)
   - [5.2 Causality Papers from Bengio's Lab, MILA](#52-causality-papers-from-bengios-lab-mila)
