@@ -11,21 +11,27 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [1.1 Talks/Tutorial/etc](#11-Talkstutorialetc)
   - [1.2 Overview Papers](#12-overview-papers)
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
-- [3. Addressing "Confounders" in NLP](#3-addressing-confounders-in-nlp)
-  - [3.1 Causality tools that can be applied to deconfound](#31-causality-tools-that-can-be-applied-to-deconfound)
-- [4. More Resources](#4-more-resources)
-  - [4.1 Causality Papers from Schoelkopf's Lab, MPI](#41-causality-papers-from-schoelkopfs-lab-mpi)
-  - [4.2 Causality Papers from Bengio's Lab, MILA](#42-causality-papers-from-bengios-lab-mila)
+- [3. Causality for Various Applications](#3-causality-for-various-applications)
+  - [3.1 Persuasion](#31-persuation)
+  - [3.2 Psychology and Behavior](#32-psychology-and-behavior)
+  - [3.3 Economics](#33-economics)
+  - [3.4 Judicial Decision](#34-judicial-decision)
+- [4. Addressing "Confounders" in NLP](#4-addressing-confounders-in-nlp)
+  - [4.1 Causality tools that can be applied to deconfound](#41-causality-tools-that-can-be-applied-to-deconfound)
+
+- [5. More Resources](#5-more-resources)
+  - [5.1 Causality Papers from Schoelkopf's Lab, MPI](#51-causality-papers-from-schoelkopfs-lab-mpi)
+  - [5.2 Causality Papers from Bengio's Lab, MILA](#52-causality-papers-from-bengios-lab-mila)
     - [Motivational Position Papers](#motivational-position-papers)
     - [Applying Causality Knowledge for RL Interaction Design](#applying-causality-knowledge-for-rl-interaction-design)
     - [Applying causality to model design](#applying-causality-to-model-design)
     - [Causal induction from interventional data](#causal-induction-from-interventional-data)
     - [Grounded AI](#grounded-AI)
-  - [4.3 Books (for Systematic Learning)](#43-books-for-systematic-learning)
-  - [4.4 Online Courses](#44-online-courses)
-  - [4.5 People Directory](#45-people-directory)
-  - [4.6 Workshops](#46-workshops)
-  - [4.7 Others](#47-others)
+  - [5.3 Books (for Systematic Learning)](#53-books-for-systematic-learning)
+  - [5.4 Online Courses](#54-online-courses)
+  - [5.5 People Directory](#55-people-directory)
+  - [5.6 Workshops](#56-workshops)
+  - [5.7 Others](#57-others)
 - [Contributions](#contributions)
 
 ## 1. Causality Basics
@@ -45,7 +51,10 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 ## 2. Causality Applied to General NLP
 
-1. (NeurIPS 2020 Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
+1. **Discovery of Treatments from Text Corpora.** _Christian Fong, Justin Grimmer_. [[pdf](https://www.aclweb.org/anthology/P16-1151.pdf)]
+1. **How to Make Causal Inferences Using Texts.** _Naoki Egami, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, Brandon M. Stewart_. [[pdf](https://arxiv.org/pdf/1802.02163.pdf)]
+
+3. (NeurIPS 2020 Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
 
@@ -57,8 +66,60 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 1. (arXiv 2020) **Causal Effects of Linguistic Properties.** _Reid Pryzant, Dallas Card, Dan Jurafsky, Victor Veitch, Dhanya Sridhar_. [[pdf](https://arxiv.org/pdf/2010.12919.pdf)]
    <br>[Summary] Cause: binary writer intent, confounder: other linguistic habits of the writer, mediator: text by the writer, effect: reader's response time
+   
+1. (arXiv 2020) **Decoupling entrainment from consistency using deep neural networks.** [[pdf](https://arxiv.org/pdf/2011.01860.pdf)]
+   <br>[Note] Entrainment = speakers adapting to conversation partners so as to become more similar
+   
+1. (arXiv 2020) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
+   
+## 3. Causality for Various Applications
+### 3.1 Persuasion
+1. (arXiv 2020) **Influence via Ethos: On the Persuasive Power of Reputation in Deliberation Online.** _Emaad Manzoor, George H. Chen, Dokyun Lee, Michael D. Smith_. [[pdf](https://arxiv.org/pdf/2006.00707.pdf)]
+   <br>[Summary] Cause: reputation, effect: persuation in debates.
 
-## 3. Addressing "Confounders" in NLP
+1. **Estimating Causal Effects of Tone in Online Debates.**
+_Dhanya Sridhar and Lise Getoor_. [[pdf](https://arxiv.org/pdf/1906.04177.pdf)]
+
+### 3.2 Psychology and Behavior
+1. **The effect of wording on message propagation: Topic- and author-controlled natural experiments on Twitter.** _Chenhao Tan, Lillian Lee, Bo Pang_. [[pdf](https://www.aclweb.org/anthology/P14-1017.pdf)] 
+3. (CHI 2016) **Discovering shifts to suicidal ideation from mental health content in social media.** _Munmun De Choudhury, Emre Kiciman, Mark Dredze, Glen Coppersmith, Mrinal Kumar_. [[pdf](https://dl.acm.org/doi/pdf/10.1145/2858036.2858207?casa_token=ZJKLrg8LAOsAAAAA%3Aecs8HsunRyeUeD_De6Dx15_nPRZ1-mmjiXfAEXLpr25wwz6ywzQcJuZqWjJQIyibEGxZTOkULd1h)]
+   <br>[Summary] Method: propensity score matching. Cause: linguistic and social interaction based measures on Reddit text, effect: suicidal attempt.
+2. (CWSM 2017) **The Language of Social Support in Social Media and its Effect on Suicidal Ideation Risk.** _Munmun De Choudhury, Emre Kıcıman_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565730/pdf/nihms891351.pdf)]
+   <br>[Summary] Cause: linguistic clues of Reddit comments, effect: suicidal attempt.
+   
+1. (Political Behavior, 2017) **Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment.** _Kevin Munger_. [[pdf](https://link.springer.com/content/pdf/10.1007/s11109-016-9373-5.pdf)]   
+
+1. (ICWSM 2017) **Estimating the Effect Of Exercising On Users’ Online Behavior.**
+_Seyed Amin Mirlohi Falavarjani, Hawre Hosseini, Zeinab Noorian, Ebrahim Bagheri_.
+[[pdf](https://ojs.aaai.org/index.php/ICWSM/article/view/14975/14825)]
+   <br>[Summary] Cause: offline activities from Foursquare posts (e.g., check-ins at a gym, effect: user interests from topics of their Twitter posts. Discovery: shift in interest reduces significantly after users start exercising.
+   
+1. (CSCW 2017) **Distilling the outcomes of personal experiences: A propensity-scored analysis of social media.** _Alexandra Olteanu, Onur Varol, Emre Kiciman_. [[pdf](https://dl.acm.org/doi/pdf/10.1145/2998181.2998353?casa_token=U8iCSHz-uGUAAAAA:i9qcF0UCEH-lYKhTE9aA5RNMxFlvqfPW0tiHtUsh_lkmdV1F1O9ko9jPIl_nb8Cx5Rbtf4nn5JGq)]
+
+1. (ICWSM 2018) **Using longitudinal social media analysis to understand the effects of early college alcohol use.**
+_Emre Kiciman, Scott Counts, Melissa Gasser_. [[pdf](http://kiciman.org/wp-content/uploads/2018/10/college_alcohol_tweets_icwsm18e.pdf)]
+
+1. (ICML 2018) **Estimating causal effects of exercise from mood logging data.**
+_Dhanya Sridhar, Aaron Springer, Victoria Hollis, Steve Whittaker, Lise Getoor_.
+   <br>[Summary] Cause: daily activities, effect: wellness markers (e.g., mood) on EmotiCal, confounder: Text of mood triggers. Confounding adjustment method: Propensity score matching
+
+1. (ICWSM 2019) **A social media study on the effects of psychiatric medication use.** _Koustuv Saha, Benjamin Sugar, John Torous, Bruno Abrahao, Emre Kıcıman, Munmun De Choudhury_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152507/pdf/nihms-1578147.pdf)]
+   <br>[Summary] Cause: psychiatric drugs, confounder: previous Twitter posts, effect: psychopathology (incl. mood, cognition, depression, anxiety, psychosis, and suicidal ideation). Method: stratified propensity score matching.
+
+1. (Psychological Science 2019) **Increasing vegetable intake by emphasizing tasty and enjoyable attributes: A randomized controlled multisite intervention for taste-focused labeling.** _
+Bradley Turnwald, Jaclyn Bertoldo, Margaret Perry, Peggy Policastro, Maureen Timmons, Christopher Bosso, Priscilla Connors, Robert Valgenti, Lindsey Pine, Ghislaine Challamel, Christopher Gardner, Alia Crum_. [pdf](https://journals.sagepub.com/doi/pdf/10.1177/0956797619872191)
+   <br>[Summary] Cause: taste-focused lables, or health-focused labels, effect: vegetable intake. Method: RCT.
+### 3.3 Economics
+1. (arXiv 2017) **A deep causal inference approach to measuring the effects of forming group loans in online non-profit microfinance platform.**
+_Thai T Pham and Yuanyuan Shen_. [[pdf](https://arxiv.org/pdf/1706.02795.pdf)]
+
+### 3.4 Judicial Decision
+1. (SSRN 2015) **How Judicial Identity Changes the Text of Legal Rulings**
+Michael Gill and Andrew Hall
+   <br>[Summary] Cause: male or female/white of PoC judge. Method: RCT. [[pdf](https://poseidon01.ssrn.com/delivery.php?ID=952112098007006068097068030025100024031086037020053013069083081065096025112124105087055031099031027019034093127090116094014000033047002081054085089100116124096000121088020035013095127084107003013090092027067114011113122085113122096083067080012083116104&EXT=pdf&INDEX=TRUE)]
+   
+
+## 4. Addressing "Confounders" in NLP
 
 1. (EMNLP 2019) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
    <br>[Summary] Cause: native language, confounder: topic, effect: text
@@ -66,15 +127,27 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 1. (NAACL 2018, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
    <br>[Summary] Cause: some keywords, confounder: , effect: output prediction
 
+
+1. (EMNLP 2020) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
+   <br>[Summary] Method: propensity matching and adversarial learning.
+
+1. (AJPS 2020) **Adjusting for confounding with text matching.**
+_Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
+
+
+### Marketing strategies and sales prediction
 1. **Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style.** _Reid Pryzant, Sugato Basu, Kazoo Sone_. [[pdf](https://www.aclweb.org/anthology/W18-5415.pdf)]
 
-### 3.1 Causality tools that can be applied to deconfound
+1. (eCOM@SIGIR 2017) **Predicting Sales from the Language of Product Descriptions.** _Reid Pryzant, Young-Joo Chung, Dan Jurafsky_ [[pdf](http://ceur-ws.org/Vol-2311/paper_3.pdf)]
+   <br>[Summary] Cause: product description (e.g., writing styles and word usages), confounder: brand loyalty and price strategies, effect: sales. Method: adversarial training.
+
+### 4.1 Causality tools that can be applied to deconfound
 
 1. (NIPS 2017, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
 
-## 4. More Resources
+## 5. More Resources
 
-### 4.1 Causality Papers from Schoelkopf's Lab, MPI
+### 5.1 Causality Papers from Schoelkopf's Lab, MPI
 
 #### Overview
 
@@ -86,7 +159,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 1. **Causal Discovery from Heterogeneous/Nonstationary Data with Independent Changes.** _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1903.01672.pdf)]
 
 
-### 4.2 Causality Papers from Bengio's Lab, MILA
+### 5.2 Causality Papers from Bengio's Lab, MILA
 
 1. (Summary) **Yoshua Bengio's Summary Talk.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
@@ -144,7 +217,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 
 
-### 4.3 Books (for Systematic Learning)
+### 5.3 Books (for Systematic Learning)
 
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 1. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
@@ -152,14 +225,14 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 1. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
 1. A long paper&book list including multiple categories of causality papers: [[spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=0)]
 
-### 4.4 Online Courses
+### 5.4 Online Courses
 
 1. **Graphical Models and Causality.** _[Isabelle Guyon](http://www.clopinet.com/isabelle) (ETH)_. [[course website](http://clopinet.com/isabelle/Projects/ETH/Causality_Reading_Group.html)]
 1. **Applied Causality (Spring 2019).** _David Blei (Columbia University)_. [[course reading list](http://www.cs.columbia.edu/~blei/seminar/2019-applied-causality/index.html)]
 
 1. (Reading group) **Causality Reading Club@Amsterdam ML Lab.** _Prof. Joris Mooij_. [[past readings](https://amlab.science.uva.nl/meetings/causality-reading-club/)]
 
-### 4.5 People Directory
+### 5.5 People Directory
 
 (Credits to [Causal Resources](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=1999914756).)
 
@@ -181,11 +254,11 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 - **Ferederick Eberhardt** (Caltech; former: CMU), US.
 - **Cheng Soon Ong** (Data61; former: MPI Tübingen), Canberra, Australia.
 
-### 4.6 Workshops
+### 5.6 Workshops
 
 Please see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=416373885) for a list of causality workshops (2016 - now). 
 
-### 4.7 Others
+### 5.7 Others
 
 - Job postings for causality researchers: [[website](https://sites.google.com/view/ocis/opportunities-in-causal-inference)]
 - [*Causality notes*](https://docs.google.com/document/d/1nsN7KMAWhxENpSIxzBwcPaflPKra-1gr9TdPqXjLmb8/edit) by Tailin Wu
