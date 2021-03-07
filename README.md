@@ -26,11 +26,12 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
     - [Applying causality to model design](#applying-causality-to-model-design)
     - [Causal induction from interventional data](#causal-induction-from-interventional-data)
     - [Grounded AI](#grounded-AI)
-  - [5.3 Books (for Systematic Learning)](#53-books-for-systematic-learning)
-  - [5.4 Online Courses](#54-online-courses)
-  - [5.5 People Directory](#55-people-directory)
-  - [5.6 Workshops](#56-workshops)
-  - [5.7 Others](#57-others)
+  - [5.3 Other Causality Papers (Potentially Applicable to NLP)](53-other-causality-papers-potentially-applicable-to-nlp)
+  - [5.4 Books (for Systematic Learning)](#53-books-for-systematic-learning)
+  - [5.5 Online Courses](#54-online-courses)
+  - [5.6 People Directory](#55-people-directory)
+  - [5.7 Workshops](#56-workshops)
+  - [5.8 Others](#57-others)
 - [Contributions](#contributions)
 
 ## 1. Causality Basics
@@ -213,10 +214,10 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 
 
 
+### 5.3 Other Causality Papers (Potentially Applicable to NLP)
+- (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
 
-
-
-### 5.3 Books (for Systematic Learning)
+### 5.4 Books (for Systematic Learning)
 
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 1. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
@@ -224,14 +225,14 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 1. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
 1. A long paper&book list including multiple categories of causality papers: [[spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=0)]
 
-### 5.4 Online Courses
+### 5.5 Online Courses
 
 1. **Graphical Models and Causality.** _[Isabelle Guyon](http://www.clopinet.com/isabelle) (ETH)_. [[course website](http://clopinet.com/isabelle/Projects/ETH/Causality_Reading_Group.html)]
 1. **Applied Causality (Spring 2019).** _David Blei (Columbia University)_. [[course reading list](http://www.cs.columbia.edu/~blei/seminar/2019-applied-causality/index.html)]
 
 1. (Reading group) **Causality Reading Club@Amsterdam ML Lab.** _Prof. Joris Mooij_. [[past readings](https://amlab.science.uva.nl/meetings/causality-reading-club/)]
 
-### 5.5 People Directory
+### 5.6 People Directory
 
 (Credits to [Causal Resources](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=1999914756).)
 
@@ -253,11 +254,11 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 - **Ferederick Eberhardt** (Caltech; former: CMU), US.
 - **Cheng Soon Ong** (Data61; former: MPI Tübingen), Canberra, Australia.
 
-### 5.6 Workshops
+### 5.7 Workshops
 
 Please see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=416373885) for a list of causality workshops (2016 - now). 
 
-### 5.7 Others
+### 5.8 Others
 
 - Job postings for causality researchers: [[website](https://sites.google.com/view/ocis/opportunities-in-causal-inference)]
 - [*Causality notes*](https://docs.google.com/document/d/1nsN7KMAWhxENpSIxzBwcPaflPKra-1gr9TdPqXjLmb8/edit) by Tailin Wu
