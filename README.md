@@ -27,17 +27,17 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
     - [Causal induction from interventional data](#causal-induction-from-interventional-data)
     - [Grounded AI](#grounded-AI)
   - [5.3 Other Causality Papers (Potentially Applicable to NLP)](53-other-causality-papers-potentially-applicable-to-nlp)
-  - [5.4 Books (for Systematic Learning)](#53-books-for-systematic-learning)
-  - [5.5 Online Courses](#54-online-courses)
-  - [5.6 People Directory](#55-people-directory)
-  - [5.7 Workshops](#56-workshops)
-  - [5.8 Others](#57-others)
+  - [5.4 Books (for Systematic Learning)](#54-books-for-systematic-learning)
+  - [5.5 Online Courses](#55-online-courses)
+  - [5.6 People Directory](#56-people-directory)
+  - [5.7 Workshops](#57-workshops)
+  - [5.8 Others](#58-others)
 - [Contributions](#contributions)
 
 ## 1. Causality Basics
 
 ### 1.1 Talks/Tutorial/etc
-
+1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
 1. (Vivid, beginner-friendly) **Yoshua Bengio's Primer on the Future of Causality&NLP.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
 1. (Global, weekly reading group) Online Causal Inference Seminar. Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
