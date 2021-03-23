@@ -33,6 +33,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [5.7 Workshops](#57-workshops)
   - [5.8 Others](#58-others)
 - [Contributions](#contributions)
+- [How to Cite This Repo](#How-to-Cite-This-Repo)
 
 ## 1. Causality Basics
 
@@ -72,6 +73,9 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
    
 1. (arXiv 2020) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
    
+### Causal Relation Extraction
+1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
+   <br>[Summary] CausalRE datasets: SemEval 2007 Task 4 (114 causal sentences), SemEval 2021 Task 8 (1,331), EventCausality (485), Causal-TimeBank (318), EventStoryLine v1.5 (2,608), CaTeRS (308), BECauSE v2.1 (554), Choice of Plausible Alternatives (COPA) (1,000), The Penn Discourse Treebank (PDTB) 3.0 (7,991).
 ## 3. Causality for Various Applications
 ### 3.1 Persuasion
 1. (arXiv 2020) **Influence via Ethos: On the Persuasive Power of Reputation in Deliberation Online.** _Emaad Manzoor, George H. Chen, Dokyun Lee, Michael D. Smith_. [[pdf](https://arxiv.org/pdf/2006.00707.pdf)]
@@ -268,3 +272,15 @@ Please see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1byI
 All types of contributions to this paper list is welcome. Feel free to open a Pull Request.
 
 Contact: [Zhijing Jin](zhijing-jin.com), PhD of Bernhard Schoelkopf at Max Planck Institute for Intelligent Systems, working on NLP & Causality.
+
+## How to Cite This Repo
+```bibtex
+@misc{causality2021jin,
+  author = {Zhijing Jin},
+  title = {Causality for NLP Reading List},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/zhijing-jin/Causality4NLP_Papers}}
+}
+```
