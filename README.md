@@ -113,6 +113,13 @@ _Dhanya Sridhar, Aaron Springer, Victoria Hollis, Steve Whittaker, Lise Getoor_.
 1. (Psychological Science 2019) **Increasing vegetable intake by emphasizing tasty and enjoyable attributes: A randomized controlled multisite intervention for taste-focused labeling.** _
 Bradley Turnwald, Jaclyn Bertoldo, Margaret Perry, Peggy Policastro, Maureen Timmons, Christopher Bosso, Priscilla Connors, Robert Valgenti, Lindsey Pine, Ghislaine Challamel, Christopher Gardner, Alia Crum_. [pdf](https://journals.sagepub.com/doi/pdf/10.1177/0956797619872191)
    <br>[Summary] Cause: taste-focused lables, or health-focused labels, effect: vegetable intake. Method: RCT.
+
+1. (ICWSM 2021) **The Effect of Moderation on Online Mental Health Conversations.** _
+David Wadden, Tal August, Qisheng Li, Tim Althoff_. [pdf](https://arxiv.org/pdf/2005.09225.pdf)
+   <br>[Summary] Cause: moderation in online mental health conversations, effect: psychological improvements. Method: natural experiment (comparing the data right before moderators are introduced to a platform and right after).
+
+
+
 ### 3.3 Economics
 1. (arXiv 2017) **A deep causal inference approach to measuring the effects of forming group loans in online non-profit microfinance platform.**
 _Thai T Pham and Yuanyuan Shen_. [[pdf](https://arxiv.org/pdf/1706.02795.pdf)]
