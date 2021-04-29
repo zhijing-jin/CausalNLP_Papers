@@ -16,6 +16,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.2 Psychology and Behavior](#32-psychology-and-behavior)
   - [3.3 Economics](#33-economics)
   - [3.4 Judicial Decision](#34-judicial-decision)
+  - [3.5 Marketing strategies and sales prediction](#35-marketing-strategies-and-sales-prediction)
 - [4. Addressing "Confounders" in NLP](#4-addressing-confounders-in-nlp)
   - [4.1 Causality tools that can be applied to deconfound](#41-causality-tools-that-can-be-applied-to-deconfound)
 - [5. More Resources](#5-more-resources)
@@ -130,6 +131,12 @@ Michael Gill and Andrew Hall
    <br>[Summary] Cause: male or female/white of PoC judge. Method: RCT. [[pdf](https://poseidon01.ssrn.com/delivery.php?ID=952112098007006068097068030025100024031086037020053013069083081065096025112124105087055031099031027019034093127090116094014000033047002081054085089100116124096000121088020035013095127084107003013090092027067114011113122085113122096083067080012083116104&EXT=pdf&INDEX=TRUE)]
    
 
+### 3.5 Marketing strategies and sales prediction
+1. **Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style.** _Reid Pryzant, Sugato Basu, Kazoo Sone_. [[pdf](https://www.aclweb.org/anthology/W18-5415.pdf)]
+
+1. (eCOM@SIGIR 2017) **Predicting Sales from the Language of Product Descriptions.** _Reid Pryzant, Young-Joo Chung, Dan Jurafsky_ [[pdf](http://ceur-ws.org/Vol-2311/paper_3.pdf)]
+   <br>[Summary] Cause: product description (e.g., writing styles and word usages), confounder: brand loyalty and price strategies, effect: sales. Method: adversarial training.
+   
 ## 4. Addressing "Confounders" in NLP
 
 1. (EMNLP 2019) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
@@ -145,12 +152,8 @@ Michael Gill and Andrew Hall
 1. (AJPS 2020) **Adjusting for confounding with text matching.**
 _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
 
+1. (arXiv 2020) **Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference.** _Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, Tim Althoff_. [[pdf](https://arxiv.org/pdf/2009.09961.pdf)]
 
-### Marketing strategies and sales prediction
-1. **Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style.** _Reid Pryzant, Sugato Basu, Kazoo Sone_. [[pdf](https://www.aclweb.org/anthology/W18-5415.pdf)]
-
-1. (eCOM@SIGIR 2017) **Predicting Sales from the Language of Product Descriptions.** _Reid Pryzant, Young-Joo Chung, Dan Jurafsky_ [[pdf](http://ceur-ws.org/Vol-2311/paper_3.pdf)]
-   <br>[Summary] Cause: product description (e.g., writing styles and word usages), confounder: brand loyalty and price strategies, effect: sales. Method: adversarial training.
 
 ### 4.1 Causality tools that can be applied to deconfound
 
