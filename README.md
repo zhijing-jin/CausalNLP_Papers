@@ -74,7 +74,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
    
 1. (arXiv 2020) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
-1. (arXiv 2021) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf]https://arxiv.org/pdf/2102.05638.pdf)]
+1. (arXiv 2021) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
 
 ### Causal Relation Extraction
 1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
