@@ -11,6 +11,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [1.1 Talks/Tutorial/etc](#11-Talkstutorialetc)
   - [1.2 Overview Papers](#12-overview-papers)
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
+  - [2.1 Causal Relation Extraction](#21-causal-relation-extraction) 
 - [3. Causality for Various Applications](#3-causality-for-various-applications)
   - [3.1 Persuasion](#31-persuation)
   - [3.2 Psychology and Behavior](#32-psychology-and-behavior)
@@ -94,7 +95,7 @@ _Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy_.
 _Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
 [[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
 
-### Causal Relation Extraction
+### 2.1 Causal Relation Extraction
 #### Surveys and Reviews
 1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
    <br>[Summary] CausalRE datasets: SemEval 2007 Task 4 (114 causal sentences), SemEval 2021 Task 8 (1,331), EventCausality (485), Causal-TimeBank (318), EventStoryLine v1.5 (2,608), CaTeRS (308), BECauSE v2.1 (554), Choice of Plausible Alternatives (COPA) (1,000), The Penn Discourse Treebank (PDTB) 3.0 (7,991).
@@ -218,7 +219,7 @@ Helping to identify causal verbs, and connectives:
 1. (2005 PhD Thesis) **VerbNet: A broad-coverage, comprehensive verb lexicon.** _Karin Kipper Schuler_.
 [[pdf](https://verbs.colorado.edu/~kipper/Papers/dissertation.pdf)]
 
-1. **Using Syntax to Disambiguate Explicit Discourse Connectives in Text.** _Emily Pitler, Ani Nenkova_. [[pdf](https://www.aclweb.org/anthology/P09-2004.pdf)]
+1. (2009 ACL) **Using Syntax to Disambiguate Explicit Discourse Connectives in Text.** _Emily Pitler, Ani Nenkova_. [[pdf](https://www.aclweb.org/anthology/P09-2004.pdf)]
 
 
 Helping to annotate data efficiently and affordably:
