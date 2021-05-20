@@ -39,6 +39,11 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 ## 1. Causality Basics
 
 ### 1.1 Talks/Tutorial/etc
+
+Motivational reading:
+1. (2002 AI Magazine) **Reasoning with Cause and Effect.** _Judea Pearl_. [[pdf](https://ftp.cs.ucla.edu/pub/stat_ser/r265-ai-mag.pdf)]
+
+Talks and tutorials:
 1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
 1. (Vivid, beginner-friendly) **Yoshua Bengio's Primer on the Future of Causality&NLP.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
@@ -79,31 +84,68 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
 [[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
+
+1. (2017 EMNLP) **Detecting and Explaining Causes From Text For a Time Series Event.**
+_Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy_.
+[[pdf](https://arxiv.org/pdf/1707.08852.pdf)]
+   <br>[Summary] Finding causes for the stock price time series.
+
+1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
+_Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
+[[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
+
 ### Causal Relation Extraction
 #### Surveys and Reviews
 1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
    <br>[Summary] CausalRE datasets: SemEval 2007 Task 4 (114 causal sentences), SemEval 2021 Task 8 (1,331), EventCausality (485), Causal-TimeBank (318), EventStoryLine v1.5 (2,608), CaTeRS (308), BECauSE v2.1 (554), Choice of Plausible Alternatives (COPA) (1,000), The Penn Discourse Treebank (PDTB) 3.0 (7,991).
 
-
-
+1. (2020 COLING) **A Review of Dataset and Labeling Methods for Causality Extraction.** _Jinghang Xu, Wanli Zuo, Shining Liang, Xianglin Zuo_. [[pdf](https://www.aclweb.org/anthology/2020.coling-main.133.pdf)]
+   <br>[Summary] Very reader-friendly survey, including ideas such as Causal connectives (verb: cause, result; conjunction: because, so; preposition: for, because of; adverb: consequently; Verb Phrase: result in, lead to; Prepositional phrase: as a result of; Clause: that's why, so that); Causal concepts (sufficient, necessary, temporal); etc.
+   
 1. (2016 arXiv) **Automatic Extraction of Causal Relations from Natural Language Texts: A Comprehensive Survey.** _Nabiha Asghar_. [[GitHub](https://arxiv.org/pdf/1605.07895.pdf)]
    <br>[Summary] Automatic discovery of linguistic patterns expressing causal relations, such as 1995's work using patterns like "because [cause], [effect]", 2002's work using patterns like "NP1-CausativeVerb-NP2", later work using a Naive Bayes classifier, and many more.
 
-
 #### Method or Dataset Papers
+Causal relation extraction from web data
 1. (2019 EMNLP) **Weakly Supervised Multilingual Causality Extraction from Wikipedia.**
 _Chikara Hashimoto_. 
 [[pdf](https://www.aclweb.org/anthology/D19-1296.pdf)]
    <br>[Summary] Cross-verification between Wikipedia and Wikidata, e.g., "Protectionism causes Trade war"
 
+1. (2016 ACL) **Identifying Causal Relations Using Parallel Wikipedia Articles.**
+_Christopher Hidey, Kathy McKeown_.
+[[pdf](https://www.aclweb.org/anthology/P16-1135.pdf)]
+   <br>[Summary] Find linguistic markers like "because".
+
+1. (2014 ACL) **Toward Future Scenario Generation: Extracting Event Causality Exploiting Semantic Relation, Context, and Association Features**
+_Chikara Hashimoto, Kentaro Torisawa, Julien Kloetzer, Motoki Sano, István Varga, Jong-Hoon Oh, Yutaka Kidawara_.
+[[pdf](https://www.aclweb.org/anthology/P14-1093.pdf)]
+
+1. (2012 EMNLP) **Excitatory or Inhibitory: A New Semantic Orientation Extracts Contradiction and Causality from the Web.**
+_Chikara Hashimoto, Kentaro Torisawa, Stijn De Saeger, Jong-Hoon Oh, Jun’ichi Kazama_.
+[[pdf](https://www.aclweb.org/anthology/D12-1057.pdf)]
+   <br>[Summary] Extracted one million contradiction pairs and 500,000 causality pairs.
+
+1. (1998 Literary and Linguistic Computing) **Automatic extraction of cause-effect information from newspaper text without knowledge-based inferencing.** _Christopher Khoo, Jaklin Kornfilt, Sung Hyon Myaeng, Robert Oddy_.
+[[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.5787&rep=rep1&type=pdf)]
+
+1. (1991 Knowledge Acquisition) **Knowledge-based acquisition of causal relationships in text.**
+_Randy M. Kaplan, Genevieve Berry-Rogghe_.
+
+
+Causal relation extraction from curated datasets (relatively small):
+
 1. (2019 NAACL) **Modeling Document-level Causal Structures for Event Causal Relation Identification.** _Lei Gao, Prafulla Kumar Choubey, Ruihong Huang_.
 [[pdf](https://www.aclweb.org/anthology/N19-1179.pdf)]
    <br>[Summary] EventStoryLine corpus; method: Integer Linear Programming (ILP)
 
+1. (2018 ACL) **Joint Reasoning for Temporal and Causal Relations.** _Qiang Ning, Zhili Feng, Hao Wu, Dan Roth_. [[pdf](https://www.aclweb.org/anthology/P18-1212.pdf)]
+   <br>[Summary] Method: constrained conditional models (CCMs), n integer linear programming (ILP).
 
 1. (2018 SIGdial) **Automatic Extraction of Causal Relations from Text using Linguistically Informed Deep Neural Networks.**
 _Tirthankar Dasgupta, Rupsa Saha, Lipika Dey, Abir Naskar_.
 [[pdf](https://www.aclweb.org/anthology/W18-5035.pdf)]
+
 
 1. (2017 ACL Workshop) **The Event StoryLine Corpus: A New Benchmark for Causal and Temporal Relation Extraction.**
 _Tommaso Caselli, Piek Vossen_. [[pdf](https://www.aclweb.org/anthology/W17-2711.pdf)]
@@ -112,14 +154,31 @@ _Tommaso Caselli, Piek Vossen_. [[pdf](https://www.aclweb.org/anthology/W17-2711
 _Jesse Dunietz, Lori Levin, Jaime Carbonell_.
 [[pdf](https://www.aclweb.org/anthology/W17-0812/)]
 
+
+1. (2016 ACL Workshop) **CaTeRS: Causal and Temporal Relation Scheme for Semantic Annotation of Event Structures.**
+_Nasrin Mostafazadeh, Alyson Grealish, Nathanael Chambers, James Allen, Lucy Vanderwende_. [[pdf](https://www.aclweb.org/anthology/W16-1007.pdf)]
+
+1. (2016 KR) **Commonsense Causal Reasoning between Short Texts.**
+_Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-Won Hwang, Zhongyuan Wang_. [[pdf](https://www.aaai.org/ocs/index.php/KR/KR16/paper/view/12818/12498)]
+   <br>[Summary] Contains a list of causal cue verbs.
+
 1. (2015 ACL Workshop) **Annotating Causal Language Using Corpus Lexicography of Constructions.**
 _Jesse Dunietz, Lori Levin, Jaime Carbonell_.
 [[pdf](https://www.aclweb.org/anthology/W15-1622.pdf)]
    <br>[Summary] Quite important. This paper teaches the ontology for causality annotation, e.g., Degrees of Causation (cause, enable, prevent), types of causation (consequence, motivation, purpose), instance (causal connective, cause, effect), linguistic type (causality with no lexical trigger, causality with connectives, temporal language).
 
+1. (2014 EACL) **Annotating Causality in the TempEval-3 Corpus.**
+_Paramita Mirza, Rachele Sprugnoli, Sara Tonelli, Manuela Speranza_.
+[[pdf](https://www.aclweb.org/anthology/W14-0702.pdf)]
+   <br>[Summary] Containing some illustrative examples on page 3.
+
 3. (2011 ACL) **Minimally Supervised Event Causality Identification.**
 _Quang Do, Yee Seng Chan, Dan Roth_. [[pdf](https://www.aclweb.org/anthology/D11-1027.pdf)]
    <br>[Summary] Uses PMI, IDF, etc.
+
+1. (2009 SemEval) **SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations between Pairs of Nominals**
+_Iris Hendrickx, Su Nam Kim, Zornitsa Kozareva, Preslav Nakov, Diarmuid Ó Séaghdha, Sebastian Padó, Marco Pennacchiotti, Lorenza Romano, Stan Szpakowicz_.
+[[pdf](https://www.aclweb.org/anthology/S10-1006.pdf)]
 
 1. (2008 LREC) **Building a Corpus of Temporal-Causal Structure.** _Steven Bethard, William Corvey, Sara Klingenstein, James H. Martin_. [[pdf](http://www.lrec-conf.org/proceedings/lrec2008/pdf/229_paper.pdf)]
    <br>[Summary] Combining causal and temporal relation extraction, such as "Fuel tanks had [EVENT leaked] and [EVENT contaminated] the soil." <EVENT_leaked, causes, EVENT_contaminated>. Small dataset with 271 causal relations, and 329 BEFORE/AFTER relations.
@@ -141,9 +200,32 @@ _Roxana Girju, Preslav Nakov, Vivi Nastase, Stan Szpakowicz, Peter Turney, Deniz
 
 1. (2002 AAAI) **Text Mining for Causal Relations.** _Roxana Girju, Dan Moldovan_. [[pdf](https://www.aaai.org/Papers/FLAIRS/2002/FLAIRS02-071.pdf)]
 
+1. (2000 ACL) **Extracting Causal Knowledge from a Medical Database Using Graphical Patterns.**
+_Christopher S. G. Khoo, Syin Chan, Yun Niu_.
+[[pdf](https://www.aclweb.org/anthology/P00-1043.pdf)]
+
 1. (1997) **Coatis, an nlp system to locate expressions of actions connected by causality links.** _Daniela Garcia_. [[link](https://link.springer.com/chapter/10.1007/BFb0026799)]
 
+1. (1995 PhD Thesis) **Automatic identification of causal relations in text and their use for improving precision in information retrieval.**
+_Christopher Khoo_.
+[[pdf](https://scholar.google.com/scholar_url?url=https://repository.arizona.edu/bitstream/handle/10150/105106/chris_khoo.PhD_thesis.pdf%3Fsequence%3D1&hl=de&sa=T&oi=gsb-gga&ct=res&cd=0&d=8432224869863885584&ei=g9ymYMOVMMPtmQH3_qPYDg&scisig=AAGBfm07wHjoKM8Q_-LQaYK8Ejq1J2LR0Q)]
+
+
 #### Some useful tools:
+
+Helping to identify causal verbs, and connectives:
+
+1. (2005 PhD Thesis) **VerbNet: A broad-coverage, comprehensive verb lexicon.** _Karin Kipper Schuler_.
+[[pdf](https://verbs.colorado.edu/~kipper/Papers/dissertation.pdf)]
+
+1. **Using Syntax to Disambiguate Explicit Discourse Connectives in Text.** _Emily Pitler, Ani Nenkova_. [[pdf](https://www.aclweb.org/anthology/P09-2004.pdf)]
+
+
+Helping to annotate data efficiently and affordably:
+
+1. (2017 SIGMOD) **Snorkel: Fast Training Set Generation for Information Extraction.** _Alexander J. Ratner, Stephen H. Bach, Henry R. Ehrenberg, Chris Ré_. [[pdf](https://ajratner.github.io/assets/papers/ratner-sigmoddemo17.pdf)]
+
+Helping to analyze the semantics of causal events:
 
 1. (1998 COLING) **The Berkeley FrameNet Project.** _Collin F. Baker, Charles J. Fillmore, John B. Lowe_. [[pdf](https://www.aclweb.org/anthology/C98-1013.pdf)]
 
