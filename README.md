@@ -16,8 +16,9 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.1 Persuasion](#31-persuation)
   - [3.2 Psychology and Behavior](#32-psychology-and-behavior)
   - [3.3 Economics](#33-economics)
-  - [3.4 Judicial Decision](#34-judicial-decision)
-  - [3.5 Marketing strategies and sales prediction](#35-marketing-strategies-and-sales-prediction)
+  - [3.4 Healthcare](#34-healthcare)
+  - [3.4 Judicial Decision](#35-judicial-decision)
+  - [3.5 Marketing strategies and sales prediction](#36-marketing-strategies-and-sales-prediction)
 - [4. Addressing "Confounders" in NLP](#4-addressing-confounders-in-nlp)
   - [4.1 Causality tools that can be applied to deconfound](#41-causality-tools-that-can-be-applied-to-deconfound)
 - [5. More Resources](#5-more-resources)
@@ -72,7 +73,7 @@ Talks and tutorials:
 
 1. (CSCW 2020) **Quantifying the Causal Effects of Conversational Tendencies.** _Justine Zhang, Sendhil Mullainathan, Cristian Danescu-Niculescu-Mizil_. [[pdf](https://arxiv.org/pdf/2009.03897.pdf)]
 
-1. (arXiv 2020) **Causal Effects of Linguistic Properties.** _Reid Pryzant, Dallas Card, Dan Jurafsky, Victor Veitch, Dhanya Sridhar_. [[pdf](https://arxiv.org/pdf/2010.12919.pdf)]
+1. (arXiv 2020) **Causal Effects of Linguistic Properties.** _Reid Pryzant, Dallas Card, Dan Jurafsky, Victor Veitch, Dhanya Sridhar_. [[pdf](https://arxiv.org/pdf/2010.12919.pdf)] [[blog](http://ai.stanford.edu/blog/text-causal-inference/) and [github](https://github.com/rpryzant/causal_selection)]
    <br>[Summary] Cause: binary writer intent, confounder: other linguistic habits of the writer, mediator: text by the writer, effect: reader's response time
    
 1. (arXiv 2020) **Decoupling entrainment from consistency using deep neural networks.** [[pdf](https://arxiv.org/pdf/2011.01860.pdf)]
@@ -85,11 +86,21 @@ Talks and tutorials:
 1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
 [[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
+1. (2018 EMNLP) **Challenges of Using Text Classifiers for Causal Inference.**
+_Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/1810.00956.pdf)]
+
+1. (2018 Political Analysis) **Matching with text data: An experimental evaluation of methods for matching documents and of measuring match quality.**
+_Reagan Mozer, Luke Miratrix, Aaron Russell Kaufman, L Jason Anastasopoulos_. [[pdf](https://arxiv.org/pdf/1801.00644.pdf)]
+
 
 1. (2017 EMNLP) **Detecting and Explaining Causes From Text For a Time Series Event.**
 _Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy_.
 [[pdf](https://arxiv.org/pdf/1707.08852.pdf)]
    <br>[Summary] Finding causes for the stock price time series.
+
+1. (2016 JMLR) **Learning representations for counterfactual inference.**
+_Fredrik Johansson, Uri Shalit, David Sontag_. [[pdf](http://proceedings.mlr.press/v48/johansson16.pdf)]
+
 
 1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
 _Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
@@ -288,13 +299,21 @@ David Wadden, Tal August, Qisheng Li, Tim Althoff_. [pdf](https://arxiv.org/pdf/
 1. (arXiv 2017) **A deep causal inference approach to measuring the effects of forming group loans in online non-profit microfinance platform.**
 _Thai T Pham and Yuanyuan Shen_. [[pdf](https://arxiv.org/pdf/1706.02795.pdf)]
 
-### 3.4 Judicial Decision
+1. (2020 Journal of Economic Surveys) **Econometrics Meets Sentiment: An Overview of Methodology and Applications.** 
+_Andres Algaba, David Ardia, Keven Bluteau, Samuel Borms, and Kris Boudt_.
+   <br>[Summary] Use sentiment as a parameter or a variable to model econometric variables.
+
+### 3.4 Healthcare
+1. **Measuring semantic similarity of clinical trial outcomes using deep pre-trained language representations.**
+_Anna Koroleva, Sanjay Kamath, Patrick Paroubek_. [[pdf](https://www.sciencedirect.com/science/article/pii/S2590177X19300575)]
+
+### 3.5 Judicial Decision
 1. (SSRN 2015) **How Judicial Identity Changes the Text of Legal Rulings**
 Michael Gill and Andrew Hall
    <br>[Summary] Cause: male or female/white of PoC judge. Method: RCT. [[pdf](https://poseidon01.ssrn.com/delivery.php?ID=952112098007006068097068030025100024031086037020053013069083081065096025112124105087055031099031027019034093127090116094014000033047002081054085089100116124096000121088020035013095127084107003013090092027067114011113122085113122096083067080012083116104&EXT=pdf&INDEX=TRUE)]
    
 
-### 3.5 Marketing strategies and sales prediction
+### 3.6 Marketing strategies and sales prediction
 1. **Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style.** _Reid Pryzant, Sugato Basu, Kazoo Sone_. [[pdf](https://www.aclweb.org/anthology/W18-5415.pdf)]
 
 1. (eCOM@SIGIR 2017) **Predicting Sales from the Language of Product Descriptions.** _Reid Pryzant, Young-Joo Chung, Dan Jurafsky_ [[pdf](http://ceur-ws.org/Vol-2311/paper_3.pdf)]
