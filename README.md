@@ -45,6 +45,8 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 Motivational reading:
 1. (2002 AI Magazine) **Reasoning with Cause and Effect.** _Judea Pearl_. [[pdf](https://ftp.cs.ucla.edu/pub/stat_ser/r265-ai-mag.pdf)]
+1. (Blog) **ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus.** _Ferenc Huszár_. [[blog](https://www.inference.vc/untitled/)]
+
 
 Talks and tutorials:
 1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
