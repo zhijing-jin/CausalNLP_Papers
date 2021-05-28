@@ -267,11 +267,14 @@ Helping to analyze the semantics of causal events:
 1. (2014 Report) **Guidelines for ECB+ Annotation of Events and their Coreference.** _Agata Cybulska, Piek Vossen_.
 [[pdf](http://www.newsreader-project.eu/files/2013/01/NWR-2014-1.pdf)]
 
-### 3.2 Causal Commonsense Reasoning
+### 3.2 Causal Commonsense Reasoning and Generation
 1. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
 [[pdf](https://arxiv.org/pdf/2009.07758.pdf)]
 1. (2019 EMNLP) **Counterfactual Story Reasoning and Generation.**
 _Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark, Yejin Choi_. [[pdf](https://arxiv.org/pdf/1909.04076.pdf)]
+1. (2020 IJCAI) **Guided Generation of Cause and Effect.** _Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme_.
+[[pdf](https://www.ijcai.org/Proceedings/2020/0502.pdf)] [[video](https://www.ijcai.org/proceedings/2020/video/24610)]
+   <br>[Summary] 314 million automatically extracted cause and effects.
 
 ## 3. Causality for Various Applications
 ### 3.1 Persuasion
