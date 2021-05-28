@@ -134,6 +134,8 @@ _Jesse Dunietz_. [[pdf](https://jessedunietz.com/assets/publications/thesis.pdf)
 1. (2021 arXiv) **A Survey on Extraction of Causal Relations from Natural Language Text.**
 _Jie Yang, Soyeon Caren Han, Josiah Poon_. [[pdf](https://arxiv.org/pdf/2101.06426.pdf)]
 
+1. (2020 Thesis) **Narrative Generation to Support Causal Exploration of Directed Graphs.** 
+_Arjun Choudhry_. [[pdf](https://vtechworks.lib.vt.edu/bitstream/handle/10919/98670/Choudhry_A_T_2020.pdf?sequence=1&isAllowed=y)]
 #### Method or Dataset Papers
 Causal relation extraction from web data
 1. (2019 EMNLP) **Weakly Supervised Multilingual Causality Extraction from Wikipedia.**
