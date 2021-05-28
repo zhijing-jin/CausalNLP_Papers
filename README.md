@@ -56,6 +56,9 @@ Talks and tutorials:
 
    Every Tuesdays at 8:30 am PT (11:30 am ET / 4:30 pm London / 5:30 pm Berlin).
 
+Blogs:
+1. **Causal Analysis in Theory and Practice.** Judea Pearl's [[blog](http://causality.cs.ucla.edu/blog/)]
+
 ### 1.2 Overview Papers
 
 1. (2021 Overview, Schoelkopf+) **Towards Causal Representation Learning.** [[pdf](https://arxiv.org/pdf/2102.11107.pdf)]
