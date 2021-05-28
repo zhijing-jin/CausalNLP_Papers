@@ -128,6 +128,12 @@ _Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
 1. (2016 arXiv) **Automatic Extraction of Causal Relations from Natural Language Texts: A Comprehensive Survey.** _Nabiha Asghar_. [[GitHub](https://arxiv.org/pdf/1605.07895.pdf)]
    <br>[Summary] Automatic discovery of linguistic patterns expressing causal relations, such as 1995's work using patterns like "because [cause], [effect]", 2002's work using patterns like "NP1-CausativeVerb-NP2", later work using a Naive Bayes classifier, and many more.
 
+1. (2018 CMU Thesis) **Annotating and Automatically Tagging Constructions of Causal Language.**
+_Jesse Dunietz_. [[pdf](https://jessedunietz.com/assets/publications/thesis.pdf)] 
+
+1. (2021 arXiv) **A Survey on Extraction of Causal Relations from Natural Language Text.**
+_Jie Yang, Soyeon Caren Han, Josiah Poon_. [[pdf](https://arxiv.org/pdf/2101.06426.pdf)]
+
 #### Method or Dataset Papers
 Causal relation extraction from web data
 1. (2019 EMNLP) **Weakly Supervised Multilingual Causality Extraction from Wikipedia.**
