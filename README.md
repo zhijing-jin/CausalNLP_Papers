@@ -30,7 +30,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
     - [Applying causality to model design](#applying-causality-to-model-design)
     - [Causal induction from interventional data](#causal-induction-from-interventional-data)
     - [Grounded AI](#grounded-AI)
-  - [5.3 Other Causality Papers (Potentially Applicable to NLP)](53-other-causality-papers-potentially-applicable-to-nlp)
+  - [5.3 Other Causality Papers (Potentially Applicable to NLP)](#53-other-causality-papers-potentially-applicable-to-nlp)
   - [5.4 Books (for Systematic Learning)](#54-books-for-systematic-learning)
   - [5.5 Online Courses](#55-online-courses)
   - [5.6 People Directory](#56-people-directory)
@@ -458,13 +458,16 @@ _Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](h
 
 
 ### 5.3 Other Causality Papers (Potentially Applicable to NLP)
-- (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
+1. (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
 
-- (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
+1. (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
 [[pdf](https://arxiv.org/pdf/2102.01685.pdf)]
 
-- (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
+1. (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
 [[pdf](https://arxiv.org/pdf/1906.08663.pdf)]
+
+#### Some tools that might be useful for disentanglement
+1. (2009) **Tensor Decompositions and Applications.** _Tamara Kolda, Brett Bader_. [[pdf](https://www.kolda.net/publication/TensorReview.pdf)]
 
 ### 5.4 Books (for Systematic Learning)
 
