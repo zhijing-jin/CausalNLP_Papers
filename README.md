@@ -426,6 +426,8 @@ _Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](h
 
 #### Applying causality to model design
 
+Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generalization-vs-stereotyping-40de0713ab5d): "Causality is the idea that you can model something with an abstraction of the real-world process that generated it. When you use compositionality and learning-to-learn to break down objects into their parts and relations, modeling the object as a creation of these parts can be seen as modeling them in a causal way."
+
 1. **Recurrent Independent Mechanisms.** _Anirudh Goyal, Alex Lamb, Jordan Hoffmann, Shagun Sodhani, Sergey Levine, Yoshua Bengio, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1909.10893.pdf)]
    <br>[Summary] Divides the overall model into k small subsystems (or modules), Each small module is recurrent
 
