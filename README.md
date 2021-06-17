@@ -498,6 +498,8 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 - **Jonas Peters** (Copenhagen University; former: MPI Tübingen), Denmark. [[home page](http://web.math.ku.dk/~peters/)]
 - **Peter Bühlmann** (ETH), Switzerland.
 - **Marloes Maathuis** (ETH), Switzerland. [[video](https://www.youtube.com/watch?v=Q_2cgCeAjpo)]
+- **Nicolai Meinshausen** (ETH), Switzerland. E.g., Anchor regression.
+- **Negar Kiyavash** (EPFL), Switzerland. E.g., causal structure learning.
 - **Ilya Shpitser** (JHU; former: UCLA with Judea Pearl), US. [[home page](https://www.cs.jhu.edu/faculty/ilya-shpitser-3/)]
 - **Kun Zhang** (CMU; former: MPI Tübingen), Pittsburg, US. 
 - **Peter Spirtes** (CMU Philosophy), Pittsburgh, US.
