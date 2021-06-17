@@ -398,6 +398,7 @@ _Niki Kilbertus, Giambattista Parascandolo, Bernhard Schölkopf_.
 _Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1905.12081.pdf)]
 
 #### Causal discovery
+1. (2008 IEEE) **Causal inference using the algorithmic Markov condition.** _Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/0804.3678.pdf)]
 
 1. **Causal Discovery from Heterogeneous/Nonstationary Data with Independent Changes.** _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1903.01672.pdf)]
 
