@@ -386,6 +386,17 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 1. (2021 Overview) **Towards Causal Representation Learning.** [[pdf](https://arxiv.org/pdf/2102.11107.pdf)]
 1. (2019 Overview) **Causality for Machine Learning.** [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
 
+#### Independent Causal Mechanisms
+1. (2012 ICML) **On Causal and Anticausal Learning.** 
+_Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, Joris Mooij_.
+[[pdf](https://icml.cc/2012/papers/625.pdf)]
+2. (2018 NeurIPS workshop) **Generalization in anti-causal learning.**
+_Niki Kilbertus, Giambattista Parascandolo, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/pdf/1812.00524.pdf)]
+
+1. (UAI 2020) **Semi-supervised learning, causality and the conditional cluster assumption.**
+_Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1905.12081.pdf)]
+
 #### Causal discovery
 
 1. **Causal Discovery from Heterogeneous/Nonstationary Data with Independent Changes.** _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1903.01672.pdf)]
