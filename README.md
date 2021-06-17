@@ -511,6 +511,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 - **Kosuke Imai** (Harvard; former: Princeton), US. 
 - **Ferederick Eberhardt** (Caltech; former: CMU), US.
 - **Cheng Soon Ong** (Data61; former: MPI Tübingen), Canberra, Australia.
+- You can also track attendees of causal inference seminars/workshops: [2021 Frontiers of Causal Inference in Data Science](https://www.cceb.med.upenn.edu/cci/frontiers-causal-inference-data-science-perspectives-leaders-tech-and-academia-may-28-2021)
 
 ### 5.7 Workshops
 
