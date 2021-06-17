@@ -468,6 +468,8 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 1. (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
 [[pdf](https://arxiv.org/pdf/1906.08663.pdf)]
 
+1. (2018 IEEE workshop; robustness under domain shifts) **Causality from a Distributional Robustness Point of View.** _Nicolai Meinshausen_. [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8439889&casa_token=TqNXF6HAKDIAAAAA:U2ti2LifcIXZ4tyElAFyahiSDEAvXWxGbNLbU0NVxcvedqWKFUMuMOL8faO_yRX3mPqW_lky&tag=1)] 
+
 #### Some tools that might be useful for disentanglement
 1. (2009) **Tensor Decompositions and Applications.** _Tamara Kolda, Brett Bader_. [[pdf](https://www.kolda.net/publication/TensorReview.pdf)]
 
