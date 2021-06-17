@@ -449,6 +449,12 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 ### 5.3 Other Causality Papers (Potentially Applicable to NLP)
 - (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
 
+- (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
+[[pdf](https://arxiv.org/pdf/2102.01685.pdf)]
+
+- (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
+[[pdf](https://arxiv.org/pdf/1906.08663.pdf)]
+
 ### 5.4 Books (for Systematic Learning)
 
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
