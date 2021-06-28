@@ -98,9 +98,6 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 1. (ICLR 2020) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
 _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
 
-1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
-[[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
-
 1. **Generating Synthetic Text Data to Evaluate Causal Inference Methods.**
 _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_.
 [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
@@ -124,8 +121,22 @@ _Fredrik Johansson, Uri Shalit, David Sontag_. [[pdf](http://proceedings.mlr.pre
 1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
 _Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
 [[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
+### 2.1 Counterfactual Generation (e.g., style transfer for robustness and avoid spurious correlations)
+#### For style transfer and controlled text generation (where attributes -> text)
+1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
+[[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
-### 2.1 Causal Relation Extraction
+##### Related CV papers:
+1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
+
+#### For general data augmentation
+1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
+   <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
+
+1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
+   <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
+
+### 2.2 Causal Relation Extraction
 #### Surveys and Reviews
 1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
    <br>[Summary] CausalRE datasets: SemEval 2007 Task 4 (114 causal sentences), SemEval 2021 Task 8 (1,331), EventCausality (485), Causal-TimeBank (318), EventStoryLine v1.5 (2,608), CaTeRS (308), BECauSE v2.1 (554), Choice of Plausible Alternatives (COPA) (1,000), The Penn Discourse Treebank (PDTB) 3.0 (7,991).
@@ -148,7 +159,7 @@ _Jie Yang, Soyeon Caren Han, Josiah Poon_. [[pdf](https://arxiv.org/pdf/2101.064
 1. (2020 Thesis) **Narrative Generation to Support Causal Exploration of Directed Graphs.** 
 _Arjun Choudhry_. [[pdf](https://vtechworks.lib.vt.edu/bitstream/handle/10919/98670/Choudhry_A_T_2020.pdf?sequence=1&isAllowed=y)]
 #### Method or Dataset Papers
-Causal relation extraction from web data
+##### Causal relation extraction from web data
 1. (2019 EMNLP) **Weakly Supervised Multilingual Causality Extraction from Wikipedia.**
 _Chikara Hashimoto_. 
 [[pdf](https://www.aclweb.org/anthology/D19-1296.pdf)]
@@ -175,7 +186,12 @@ _Chikara Hashimoto, Kentaro Torisawa, Stijn De Saeger, Jong-Hoon Oh, Jun’ichi 
 _Randy M. Kaplan, Genevieve Berry-Rogghe_.
 
 
-Causal relation extraction from curated datasets (relatively small):
+##### Causal relation extraction from curated datasets (relatively small):
+1. (2021 NAACL) **Everything Has a Cause: Leveraging Causal Inference in Legal Text Analysis**
+_Xiao Liu, Da Yin, Yansong Feng, Yuting Wu, Dongyan Zhao_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.155.pdf)]
+
+1. (2021 NAACL) **Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures.**
+_Minh Tran Phu and Thien Huu Nguyen_ [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.273.pdf)]
 
 1. (2019 NAACL) **Modeling Document-level Causal Structures for Event Causal Relation Identification.** _Lei Gao, Prafulla Kumar Choubey, Ruihong Huang_.
 [[pdf](https://www.aclweb.org/anthology/N19-1179.pdf)]
