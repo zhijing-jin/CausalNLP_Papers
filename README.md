@@ -70,6 +70,8 @@ Blogs:
 1. (2020) **DoWhy: An End-to-End Library for Causal Inference.** 
 _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pdf](https://arxiv.org/pdf/2011.04216.pdf)]
 2. (2019) **Causal Discovery Toolbox in Python.** [[GitHub](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)] [[pdf](https://arxiv.org/pdf/1903.02278.pdf)] 
+3. **Causal discovery tools.** _University of Pittsburgh/Carnegie Mellon University Center for Causal Discovery_. [[link](https://www.ccd.pitt.edu/tools/)]
+   <br>e.g., Tretrad, [py-causal](https://bd2kccd.github.io/docs/py-causal/) 
 
 ## 2. Causality Applied to General NLP
 
@@ -503,7 +505,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 1. **Graphical Models and Causality.** _[Isabelle Guyon](http://www.clopinet.com/isabelle) (ETH)_. [[course website](http://clopinet.com/isabelle/Projects/ETH/Causality_Reading_Group.html)]
 1. **Applied Causality (Spring 2019).** _David Blei (Columbia University)_. [[course reading list](http://www.cs.columbia.edu/~blei/seminar/2019-applied-causality/index.html)]
-
+1. **A Week Long Course on Causal Modeling and Discovery.** (Center for Causal Discovery, 2016) [[videos](https://www.ccd.pitt.edu/video-tutorials/)]
 1. (Reading group) **Causality Reading Club@Amsterdam ML Lab.** _Prof. Joris Mooij_. [[past readings](https://amlab.science.uva.nl/meetings/causality-reading-club/)]
 
 ### 5.6 People Directory
