@@ -73,6 +73,9 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 3. **Causal discovery tools.** _University of Pittsburgh/Carnegie Mellon University Center for Causal Discovery_. [[link](https://www.ccd.pitt.edu/tools/)]
    <br>e.g., Tretrad, [py-causal](https://bd2kccd.github.io/docs/py-causal/) 
 
+#### Papers that can be treated as toolboxes
+1. (2021, Survey on continuous optimization for causal discovery) **D’ya like DAGs? A Survey on Structure Learning and Causal Discovery.** _Matthew J. Vowels, Necati Cihan Camgoz, Richard Bowden_. [[pdf](https://arxiv.org/pdf/2103.02582.pdf)]
+
 ## 2. Causality Applied to General NLP
 
 1. **Discovery of Treatments from Text Corpora.** _Christian Fong, Justin Grimmer_. [[pdf](https://www.aclweb.org/anthology/P16-1151.pdf)]
