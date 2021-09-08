@@ -62,8 +62,10 @@ Blogs:
 
 ### 1.2 Overview Papers
 
-1. (2021 Overview, Schoelkopf+) **Towards Causal Representation Learning.** [[pdf](https://arxiv.org/pdf/2102.11107.pdf)]
-1. (2019 Overview, Schoelkopf) **Causality for Machine Learning.** [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
+1. (2021 Overview, Schoelkopf+) **Towards Causal Representation Learning.** _Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2102.11107.pdf)] 
+1. (2021 Survey) **Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond.** _Amir Feder, Katherine A. Keith, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang_. [[pdf](https://arxiv.org/pdf/2109.00725.pdf)]
+1. (2019 Overview, Schoelkopf) **Causality for Machine Learning.** _Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
+1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
 
 ### 1.3 Toolboxes
 
@@ -517,24 +519,31 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 - **Judea Pearl** (UCLA), US.
 - **Bernhard Schölkopf** (MPI Tübingen), Tübingen, Germany. [[group intro](http://webdav.tuebingen.mpg.de/causality/)]
-- **Dominik Janzing** (MPI Tübingen), Tübingen, Germany.
-- **Ulrike von Luxburg** (MPI Tübingen), Tübingen, Germany.
+- **Dominik Janzing** (Amazon Tübingen; former: MPI Tübingen), Tübingen, Germany.
 - **Joris Mooij** (University of Amsterdam; former: MPI Tübingen), Netherlands. [[home page](https://staff.fnwi.uva.nl/j.m.mooij/)]
 - **Jonas Peters** (Copenhagen University; former: MPI Tübingen), Denmark. [[home page](http://web.math.ku.dk/~peters/)]
 - **Peter Bühlmann** (ETH), Switzerland.
 - **Marloes Maathuis** (ETH), Switzerland. [[video](https://www.youtube.com/watch?v=Q_2cgCeAjpo)]
 - **Nicolai Meinshausen** (ETH), Switzerland. E.g., Anchor regression.
 - **Negar Kiyavash** (EPFL), Switzerland. E.g., causal structure learning.
-- **Ilya Shpitser** (JHU; former: UCLA with Judea Pearl), US. [[home page](https://www.cs.jhu.edu/faculty/ilya-shpitser-3/)]
-- **Kun Zhang** (CMU; former: MPI Tübingen), Pittsburg, US. 
-- **Peter Spirtes** (CMU Philosophy), Pittsburgh, US.
+- **Kun Zhang** (CMU; former: MPI Tübingen), US. 
+- **Peter Spirtes** (CMU Philosophy), US.
+- **Cosma Shalizi** (CMU), US.
+- **David Sontag** (MIT), US.
+- **Caroline Uhler** (MIT), US.
+- **Victor Chernozhukov** (MIT), US.
 - **Elias Bareinboim** (Columbia), US. [[home page](https://causalai.net/)]
 - **Andrew Gelman** (Columbia; former: UCLA with Judea Pearl), US. [[video](https://www.youtube.com/watch?time_continue=25&v=cuE9eHSbjNI&app=desktop)]
-- **Stephan Hartmann** (LMU), Munich, Germany.
+- **Ilya Shpitser** (JHU; former: UCLA with Judea Pearl), US. [[home page](https://www.cs.jhu.edu/faculty/ilya-shpitser-3/)]
 - **Kosuke Imai** (Harvard; former: Princeton), US. 
+- **James Robins** (Harvard), US.
 - **Ferederick Eberhardt** (Caltech; former: CMU), US.
+- **David Heckerman** (Amazon), US.
+- **Leon Bottou** (Facebook AI), US.
+- **Thomas Richardson** (UW), US.
+- **Stephan Hartmann** (LMU), Munich, Germany.
 - **Cheng Soon Ong** (Data61; former: MPI Tübingen), Canberra, Australia.
-- You can also track attendees of causal inference seminars/workshops: [2021 Frontiers of Causal Inference in Data Science](https://www.cceb.med.upenn.edu/cci/frontiers-causal-inference-data-science-perspectives-leaders-tech-and-academia-may-28-2021)
+- You can also track the [organizers](https://www.cclear.cc/OrganizingCommittee), [area chairs](https://www.cclear.cc/AreaChairs), and [advisory board](https://www.cclear.cc/AdvisoryBoard) of the CLeaR conference, as well as attendees of causal inference seminars/workshops such as [2021 Frontiers of Causal Inference in Data Science](https://www.cceb.med.upenn.edu/cci/frontiers-causal-inference-data-science-perspectives-leaders-tech-and-academia-may-28-2021).
 
 ### 5.7 Workshops
 
