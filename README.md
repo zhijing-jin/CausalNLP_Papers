@@ -485,6 +485,28 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 
 ### 5.3 Other Causality Papers (Potentially Applicable to NLP)
+
+#### Invariance-Based Causal Discovery (for Robustness)
+1. (2016, Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
+_Jonas Peters, Peter Bühlmann, Nicolai Meinshausen_. [[pdf](https://arxiv.org/pdf/1501.01332.pdf)]
+1. (2018 Journal of Causal Inference) **Invariant Causal Prediction for Nonlinear Models.** _Christina Heinze-Deml*, Jonas Peters, and Nicolai Meinshausen_. [[pdf](https://www.degruyter.com/document/doi/10.1515/jci-2017-0016/html)]
+1. (2019) **Invariant Risk Minimization.**
+_Martin Arjovsky, Léon Bottou, Ishaan Gulrajani, David Lopez-Paz_. [[pdf](https://arxiv.org/pdf/1907.02893.pdf)]
+1. (2020) **Nonlinear Invariant Risk Minimization: A Causal Approach.**
+_Chaochao Lu, Yuhuai Wu, Jośe Miguel Hernández-Lobato, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2102.12353.pdf)]
+
+#### Interventional Robustness
+1. (2018 IEEE Data Science Workshop) **Causality from a Distributional Robustness Point of View.** _Nicolai Meinshausen_. [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8439889)]
+
+1. (2018) **Anchor regression: heterogeneous data meet causality.**
+_Dominik Rothenhäusler, Nicolai Meinshausen, Peter Bühlmann and Jonas Peters_. [[pdf](https://arxiv.org/pdf/1801.06229.pdf)]
+
+#### Causality from Cognitive Science Point of View
+1. (2002 NIPS) **Theory-Based Causal Inference.**
+_Joshua B. Tenenbaum & Thomas L. Griffiths_. [[pdf](https://papers.nips.cc/paper/2002/file/e77dbaf6759253c7c6d0efc5690369c7-Paper.pdf)]
+   <br>[Summary] Modeling human's learning of causality as Bayesian computations over a hypothesis space of causal graphical model.
+
+#### Others
 1. (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
 
 1. (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
