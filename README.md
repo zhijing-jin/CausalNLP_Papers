@@ -69,14 +69,21 @@ Blogs:
 
 ### 1.3 Toolboxes
 
+#### Causal Inference (Complete Pipeline)
 1. (2020) **DoWhy: An End-to-End Library for Causal Inference.** 
 _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pdf](https://arxiv.org/pdf/2011.04216.pdf)]
+
+#### Causal Discovery
 2. (2019) **Causal Discovery Toolbox in Python.** [[GitHub](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)] [[pdf](https://arxiv.org/pdf/1903.02278.pdf)] 
 3. **Causal discovery tools.** _University of Pittsburgh/Carnegie Mellon University Center for Causal Discovery_. [[link](https://www.ccd.pitt.edu/tools/)]
    <br>e.g., Tretrad, [py-causal](https://bd2kccd.github.io/docs/py-causal/) 
 
-#### Papers that can be treated as toolboxes
+#### Causal Effect Estimation
+1. **CausalML: Python Package for Causal Machine Learning.** [[GitHub](https://github.com/uber/causalml)] [[pdf](https://arxiv.org/pdf/2002.11631.pdf)]
+
+#### Papers that give a taxonomy of methods
 1. (2021, Survey on continuous optimization for causal discovery) **D’ya like DAGs? A Survey on Structure Learning and Causal Discovery.** _Matthew J. Vowels, Necati Cihan Camgoz, Richard Bowden_. [[pdf](https://arxiv.org/pdf/2103.02582.pdf)]
+1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
 
 ## 2. Causality Applied to General NLP
 
