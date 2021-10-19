@@ -21,22 +21,20 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.4 Healthcare](#34-healthcare)
   - [3.4 Judicial Decision](#35-judicial-decision)
   - [3.5 Marketing strategies and sales prediction](#36-marketing-strategies-and-sales-prediction)
-- [4. Addressing "Confounders" in NLP](#4-addressing-confounders-in-nlp)
-  - [4.1 Causality tools that can be applied to deconfound](#41-causality-tools-that-can-be-applied-to-deconfound)
-- [5. More Resources](#5-more-resources)
-  - [5.1 Causality Papers from Schoelkopf's Lab, MPI](#51-causality-papers-from-schoelkopfs-lab-mpi)
-  - [5.2 Causality Papers from Bengio's Lab, MILA](#52-causality-papers-from-bengios-lab-mila)
+- [4. More Resources](#4-more-resources)
+  - [4.1 Causality Papers from Schoelkopf's Lab, MPI](#41-causality-papers-from-schoelkopfs-lab-mpi)
+  - [4.2 Causality Papers from Bengio's Lab, MILA](#42-causality-papers-from-bengios-lab-mila)
     - [Motivational Position Papers](#motivational-position-papers)
     - [Applying Causality Knowledge for RL Interaction Design](#applying-causality-knowledge-for-rl-interaction-design)
     - [Applying causality to model design](#applying-causality-to-model-design)
     - [Causal induction from interventional data](#causal-induction-from-interventional-data)
     - [Grounded AI](#grounded-AI)
-  - [5.3 Other Causality Papers (Potentially Applicable to NLP)](#53-other-causality-papers-potentially-applicable-to-nlp)
-  - [5.4 Books (for Systematic Learning)](#54-books-for-systematic-learning)
-  - [5.5 Online Courses](#55-online-courses)
-  - [5.6 People Directory](#56-people-directory)
-  - [5.7 Workshops](#57-workshops)
-  - [5.8 Others](#58-others)
+  - [4.3 Other Causality Papers (Potentially Applicable to NLP)](#43-other-causality-papers-potentially-applicable-to-nlp)
+  - [4.4 Books (for Systematic Learning)](#44-books-for-systematic-learning)
+  - [4.5 Online Courses](#45-online-courses)
+  - [4.6 People Directory](#46-people-directory)
+  - [4.7 Workshops](#47-workshops)
+  - [4.8 Others](#48-others)
 - [Contributions](#contributions)
 - [How to Cite This Repo](#How-to-Cite-This-Repo)
 
@@ -85,12 +83,57 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 
 ## 2. Causality Applied to General NLP
 
-1. **Discovery of Treatments from Text Corpora.** _Christian Fong, Justin Grimmer_. [[pdf](https://www.aclweb.org/anthology/P16-1151.pdf)]
-1. **How to Make Causal Inferences Using Texts.** _Naoki Egami, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, Brandon M. Stewart_. [[pdf](https://arxiv.org/pdf/1802.02163.pdf)]
+### 2.1 Causality to Bring Insights to NLP Modeling (Robustness, Domain Adaptation, etc)
+1. (2021 EMNLP Oral) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
+_Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2110.03618)] [[talk](https://drive.google.com/file/d/19dFDslovDFzBgkXN5lKrgV9xP8kWrB5e/)]
 
-3. (NeurIPS 2020 Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
+1. (2021 arXiv) **Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests** _Victor Veitch, Alexander D'Amour, Steve Yadlowsky, Jacob Eisenstein_. [[pdf](https://arxiv.org/pdf/2106.00545.pdf)]
+
+1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
+[[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
+
+#### Addressing "Confounders" in NLP
+
+1. (EMNLP 2019) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
+   <br>[Summary] Cause: native language, confounder: topic, effect: text
+
+1. (NAACL 2018, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
+   <br>[Summary] Cause: some keywords, effect: output prediction
+
+1. (EMNLP 2020) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
+   <br>[Summary] Method: propensity matching and adversarial learning.
+
+1. (AJPS 2020) **Adjusting for confounding with text matching.**
+_Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
+
+1. (arXiv 2020) **Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference.** _Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, Tim Althoff_. [[pdf](https://arxiv.org/pdf/2009.09961.pdf)]
+
+#### Related Non-NLP Papers
+##### Causality tools that can be applied to deconfound
+
+1. (NIPS 2017, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
+
+
+##### Related CV papers on counterfactual generation:
+1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
+##### For general data augmentation
+1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
+   <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
+
+1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
+   <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
+
+### 2.2 NLP as the Topic of Causal Discovery and Causal Inference
+1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
+
+### 2.3 NLP as an Element of Causal Discovery and Causal Inference
+
+1. (2021 EMNLP Findings) **Mining the Cause of Political Decision-Making from Social Media: A Case Study of COVID-19 Policies across the US States**
+_Zhijing Jin, Zeyu Peng, Tejas Vaidhya, Bernhard Schoelkopf, Rada Mihalcea_. [[pdf](https://drive.google.com/file/d/1Y2Wcn8D9sBcSi4Or0cR7gxA2jZ5jUUQE/view?usp=sharing)] [[talk](https://drive.google.com/file/d/1Qs80sva7HvKFLu_T25r3BvGdIvzdJJ5l/)]
+
+1. (arXiv 2021) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
 
 1. (ACL 2020) **Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates.** _Katherine A. Keith, David Jensen, and Brendan O'Connor_. [[pdf](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)]
 
@@ -106,14 +149,8 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
    
 1. (arXiv 2020) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
-1. (arXiv 2021) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
-
 1. (ICLR 2020) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
 _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
-
-1. **Generating Synthetic Text Data to Evaluate Causal Inference Methods.**
-_Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_.
-[[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
 
 1. (2018 EMNLP) **Challenges of Using Text Classifiers for Causal Inference.**
 _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/1810.00956.pdf)]
@@ -121,12 +158,14 @@ _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/18
 1. (2018 Political Analysis) **Matching with text data: An experimental evaluation of methods for matching documents and of measuring match quality.**
 _Reagan Mozer, Luke Miratrix, Aaron Russell Kaufman, L Jason Anastasopoulos_. [[pdf](https://arxiv.org/pdf/1801.00644.pdf)]
 
+1. (2018 arXiv) **How to Make Causal Inferences Using Texts.** _Naoki Egami, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, Brandon M. Stewart_. [[pdf](https://arxiv.org/pdf/1802.02163.pdf)]
 
 1. (2017 EMNLP) **Detecting and Explaining Causes From Text For a Time Series Event.**
 _Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy_.
 [[pdf](https://arxiv.org/pdf/1707.08852.pdf)]
    <br>[Summary] Finding causes for the stock price time series.
 
+1. (2016 ACL) **Discovery of Treatments from Text Corpora.** _Christian Fong, Justin Grimmer_. [[pdf](https://www.aclweb.org/anthology/P16-1151.pdf)]
 1. (2016 JMLR) **Learning representations for counterfactual inference.**
 _Fredrik Johansson, Uri Shalit, David Sontag_. [[pdf](http://proceedings.mlr.press/v48/johansson16.pdf)]
 
@@ -134,22 +173,10 @@ _Fredrik Johansson, Uri Shalit, David Sontag_. [[pdf](http://proceedings.mlr.pre
 1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
 _Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
 [[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
-### 2.1 Counterfactual Generation (e.g., style transfer for robustness and avoid spurious correlations)
-#### For style transfer and controlled text generation (where attributes -> text)
-1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
-[[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
-##### Related CV papers:
-1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
 
-#### For general data augmentation
-1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
-   <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
 
-1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
-   <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
-
-### 2.2 Causal Relation Extraction
+### 2.4 Causal Relation Extraction
 #### Surveys and Reviews
 1. **CREST: A Causal Relation Schema for Text (A repo containing datasets for causal/counterfactual relation extraction)** _Pedram Hosseini_. [[GitHub](https://github.com/phosseini/CREST)]
    <br>[Summary] CausalRE datasets: SemEval 2007 Task 4 (114 causal sentences), SemEval 2021 Task 8 (1,331), EventCausality (485), Causal-TimeBank (318), EventStoryLine v1.5 (2,608), CaTeRS (308), BECauSE v2.1 (554), Choice of Plausible Alternatives (COPA) (1,000), The Penn Discourse Treebank (PDTB) 3.0 (7,991).
@@ -384,31 +411,10 @@ Michael Gill and Andrew Hall
 1. (eCOM@SIGIR 2017) **Predicting Sales from the Language of Product Descriptions.** _Reid Pryzant, Young-Joo Chung, Dan Jurafsky_ [[pdf](http://ceur-ws.org/Vol-2311/paper_3.pdf)]
    <br>[Summary] Cause: product description (e.g., writing styles and word usages), confounder: brand loyalty and price strategies, effect: sales. Method: adversarial training.
    
-## 4. Addressing "Confounders" in NLP
 
-1. (EMNLP 2019) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
-   <br>[Summary] Cause: native language, confounder: topic, effect: text
+## 4. More Resources
 
-1. (NAACL 2018, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
-   <br>[Summary] Cause: some keywords, confounder: , effect: output prediction
-
-
-1. (EMNLP 2020) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
-   <br>[Summary] Method: propensity matching and adversarial learning.
-
-1. (AJPS 2020) **Adjusting for confounding with text matching.**
-_Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
-
-1. (arXiv 2020) **Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference.** _Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, Tim Althoff_. [[pdf](https://arxiv.org/pdf/2009.09961.pdf)]
-
-
-### 4.1 Causality tools that can be applied to deconfound
-
-1. (NIPS 2017, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
-
-## 5. More Resources
-
-### 5.1 Causality Papers from Schoelkopf's Lab, MPI
+### 4.1 Causality Papers from Schoelkopf's Lab, MPI
 
 #### Overview
 
@@ -432,7 +438,7 @@ _Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](h
 1. **Causal Discovery from Heterogeneous/Nonstationary Data with Independent Changes.** _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1903.01672.pdf)]
 
 
-### 5.2 Causality Papers from Bengio's Lab, MILA
+### 4.2 Causality Papers from Bengio's Lab, MILA
 
 1. (Summary) **Yoshua Bengio's Summary Talk.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
@@ -489,7 +495,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 
 
-### 5.3 Other Causality Papers (Potentially Applicable to NLP)
+### 4.3 Other Causality Papers (Potentially Applicable to NLP)
 
 #### Invariance-Based Causal Discovery (for Robustness)
 1. (2016, Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
@@ -525,7 +531,7 @@ _Joshua B. Tenenbaum & Thomas L. Griffiths_. [[pdf](https://papers.nips.cc/paper
 #### Some tools that might be useful for disentanglement
 1. (2009) **Tensor Decompositions and Applications.** _Tamara Kolda, Brett Bader_. [[pdf](https://www.kolda.net/publication/TensorReview.pdf)]
 
-### 5.4 Books (for Systematic Learning)
+### 4.4 Books (for Systematic Learning)
 
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 1. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
@@ -533,14 +539,14 @@ _Joshua B. Tenenbaum & Thomas L. Griffiths_. [[pdf](https://papers.nips.cc/paper
 1. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
 1. A long paper&book list including multiple categories of causality papers: [[spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=0)]
 
-### 5.5 Online Courses
+### 4.5 Online Courses
 
 1. **Graphical Models and Causality.** _[Isabelle Guyon](http://www.clopinet.com/isabelle) (ETH)_. [[course website](http://clopinet.com/isabelle/Projects/ETH/Causality_Reading_Group.html)]
 1. **Applied Causality (Spring 2019).** _David Blei (Columbia University)_. [[course reading list](http://www.cs.columbia.edu/~blei/seminar/2019-applied-causality/index.html)]
 1. **A Week Long Course on Causal Modeling and Discovery.** (Center for Causal Discovery, 2016) [[videos](https://www.ccd.pitt.edu/video-tutorials/)]
 1. (Reading group) **Causality Reading Club@Amsterdam ML Lab.** _Prof. Joris Mooij_. [[past readings](https://amlab.science.uva.nl/meetings/causality-reading-club/)]
 
-### 5.6 People Directory
+### 4.6 People Directory
 
 (Credits to [Causal Resources](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=1999914756).)
 
@@ -572,11 +578,11 @@ _Joshua B. Tenenbaum & Thomas L. Griffiths_. [[pdf](https://papers.nips.cc/paper
 - **Cheng Soon Ong** (Data61; former: MPI Tübingen), Canberra, Australia.
 - You can also track the [organizers](https://www.cclear.cc/OrganizingCommittee), [area chairs](https://www.cclear.cc/AreaChairs), and [advisory board](https://www.cclear.cc/AdvisoryBoard) of the CLeaR conference, as well as attendees of causal inference seminars/workshops such as [2021 Frontiers of Causal Inference in Data Science](https://www.cceb.med.upenn.edu/cci/frontiers-causal-inference-data-science-perspectives-leaders-tech-and-academia-may-28-2021).
 
-### 5.7 Workshops
+### 4.7 Workshops
 
 Please see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=416373885) for a list of causality workshops (2016 - now). 
 
-### 5.8 Others
+### 4.8 Others
 
 - Job postings for causality researchers: [[website](https://sites.google.com/view/ocis/opportunities-in-causal-inference)]
 - [*Causality notes*](https://docs.google.com/document/d/1nsN7KMAWhxENpSIxzBwcPaflPKra-1gr9TdPqXjLmb8/edit) by Tailin Wu
