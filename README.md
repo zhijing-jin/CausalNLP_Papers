@@ -132,7 +132,7 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
 
 1. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
-1. (2021 arXiv) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
+1. (2021 ACL) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
 _Matthew Finlayson, Aaron Mueller, Sebastian Gehrmann, Stuart Shieber, Tal Linzen, Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2106.06087.pdf)]
 1. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.**
 _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
