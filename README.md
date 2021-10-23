@@ -68,6 +68,7 @@ Blogs:
 1. (2019 Overview, Schoelkopf) **Causality for Machine Learning.** _Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
 1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
 
+
 ### 1.3 Toolboxes
 
 #### Causal Discovery
@@ -83,6 +84,9 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 #### Papers that give a taxonomy of methods
 1. (2021, Survey on continuous optimization for causal discovery) **D’ya like DAGs? A Survey on Structure Learning and Causal Discovery.** _Matthew J. Vowels, Necati Cihan Camgoz, Richard Bowden_. [[pdf](https://arxiv.org/pdf/2103.02582.pdf)]
 1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
+1. (2018, National Science Review) **Learning causality and causality-related learning: some recent progress.** _Kun Zhang,  Bernhard Schölkopf,  Peter Spirtes,  Clark Glymour_. [[pdf](https://academic.oup.com/nsr/article/5/1/26/4638533)]
+1. (2016) **Causal discovery and inference: Concepts and recent methodological advances.** [[pdf](https://link.springer.com/content/pdf/10.1186/s40535-016-0018-x.pdf)]
+1. (2019 Front. Genet.) **Review of Causal Discovery Methods Based on Graphical Models.** _Clark Glymour, Kun Zhang, Peter Spirtes_. [[pdf](https://www.frontiersin.org/articles/10.3389/fgene.2019.00524/full)]
 
 ## 2. Causality Applied to General NLP
 
@@ -547,6 +551,7 @@ _Joshua B. Tenenbaum & Thomas L. Griffiths_. [[pdf](https://papers.nips.cc/paper
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 1. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
 1. (Focus on SCM) **Causality: Models, Reasoning, and Inference.** _Judea Pearl_. [[Book, 2009](https://www.amazon.de/Causality-Reasoning-Inference-Judea-Pearl/dp/0521773628)]
+1. (For statistics people on causal inference) **Causation, Prediction and Search.** _Peter Spirtes_. [[Book, 2001](https://mitpress.mit.edu/books/causation-prediction-and-search-second-edition)]
 1. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
 1. A long paper&book list including multiple categories of causality papers: [[spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=0)]
 
