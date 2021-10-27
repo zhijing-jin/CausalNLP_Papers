@@ -12,9 +12,9 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [1.2 Overview Papers](#12-overview-papers)
   - [1.3 Toolboxes](#13-toolboxes)
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
-  - [2.1 Causality to Bring Insights to NLP Modeling (Robustness, Domain Adaptation, etc)](#21-causality-to-bring-insights-to-nlp-modeling-robustness-domain-adaptation-etc)
-  - [2.2 NLP as the Topic of Causal Discovery and Causal Inference](#22-nlp-as-the-topic-of-causal-discovery-and-causal-inference)
-  - [2.3 NLP as an Element of Causal Discovery and Causal Inference](#23-nlp-as-an-element-of-causal-discovery-and-causal-inference)
+  - [2.1 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)](#21-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
+  - [2.2 NLP as the Topic of Causal Discovery and Causal Inference (for Probing, Interpretability, etc.)](#22-nlp-as-the-topic-of-causal-discovery-and-causal-inference-for-probing-interpretability-etc)
+  - [2.3 NLP as an Element in Causal Graphs (for Social Science, Psychology, etc.)](#23-nlp-as-an-element-in-causal-graphs-for-social-science-psychology-etc)
   - [2.4 Causal Relation Extraction](#24-causal-relation-extraction)
   - [2.5 Causal Commonsense Reasoning and Generation](#25-causal-commonsense-reasoning-and-generation)
 - [3. Causality for Various Applications](#3-causality-for-various-applications)
@@ -90,7 +90,7 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 
 ## 2. Causality Applied to General NLP
 
-### 2.1 Causality to Bring Insights to NLP Modeling (Robustness, Domain Adaptation, etc)
+### 2.1 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)
 1. (2021 EMNLP Oral) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
 _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2110.03618)] [[talk](https://drive.google.com/file/d/19dFDslovDFzBgkXN5lKrgV9xP8kWrB5e/)]
 
@@ -99,21 +99,14 @@ _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, 
 1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
 [[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
-#### Addressing "Confounders" in NLP
-
-1. (EMNLP 2019) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
-   <br>[Summary] Cause: native language, confounder: topic, effect: text
-
-1. (NAACL 2018, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
-   <br>[Summary] Cause: some keywords, effect: output prediction
-
-1. (EMNLP 2020) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
+1. (2020 EMNLP) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
    <br>[Summary] Method: propensity matching and adversarial learning.
 
-1. (AJPS 2020) **Adjusting for confounding with text matching.**
-_Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
+1. (2019 EMNLP) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
+   <br>[Summary] Cause: native language, confounder: topic, effect: text
 
-1. (arXiv 2020) **Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference.** _Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, Tim Althoff_. [[pdf](https://arxiv.org/pdf/2009.09961.pdf)]
+1. (2018 NAACL, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
+   <br>[Summary] Cause: some keywords, effect: output prediction
 
 #### Related Non-NLP Papers
 ##### Causality tools that can be applied to deconfound
@@ -130,7 +123,7 @@ _Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://ww
 1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
    <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
 
-### 2.2 NLP as the Topic of Causal Discovery and Causal Inference
+### 2.2 NLP as the Topic of Causal Discovery and Causal Inference (for Probing, Interpretability, etc.)
 1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
@@ -143,29 +136,35 @@ _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf
 
 1. (2020 TACL) **Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals.** _Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg_. [[pdf](https://arxiv.org/pdf/2006.00995.pdf)]
 
-### 2.3 NLP as an Element of Causal Discovery and Causal Inference
+1. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
+
+1. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
+_Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
+
+### 2.3 NLP as an Element in Causal Graphs (for Social Science, Psychology, etc.)
 
 1. (2021 EMNLP Findings) **Mining the Cause of Political Decision-Making from Social Media: A Case Study of COVID-19 Policies across the US States**
 _Zhijing Jin, Zeyu Peng, Tejas Vaidhya, Bernhard Schoelkopf, Rada Mihalcea_. [[pdf](https://drive.google.com/file/d/1Y2Wcn8D9sBcSi4Or0cR7gxA2jZ5jUUQE/view?usp=sharing)] [[talk](https://drive.google.com/file/d/1Qs80sva7HvKFLu_T25r3BvGdIvzdJJ5l/)]
 
-1. (arXiv 2021) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
+1. (2021 arXiv) **Generating Synthetic Text Data to Evaluate Causal Inference Methods.** _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/2102.05638.pdf)]
 
-1. (ACL 2020) **Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates.** _Katherine A. Keith, David Jensen, and Brendan O'Connor_. [[pdf](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)]
+1. (2020 ACL) **Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates.** _Katherine A. Keith, David Jensen, and Brendan O'Connor_. [[pdf](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)]
 
-1. (UAI 2020) **Adapting Text Embeddings for Causal Inference.** _Victor Veitch, Dhanya Sridhar, David M. Blei_. [[pdf](https://arxiv.org/pdf/1905.12741.pdf)]
+1. (2020 UAI) **Adapting Text Embeddings for Causal Inference.** _Victor Veitch, Dhanya Sridhar, David M. Blei_. [[pdf](https://arxiv.org/pdf/1905.12741.pdf)]
 
-1. (CSCW 2020) **Quantifying the Causal Effects of Conversational Tendencies.** _Justine Zhang, Sendhil Mullainathan, Cristian Danescu-Niculescu-Mizil_. [[pdf](https://arxiv.org/pdf/2009.03897.pdf)]
+1. (2020 AJPS) **Adjusting for confounding with text matching.**
+_Margaret E Roberts, Brandon M Stewart, and Richard A Nielsen_. [[pdf](http://www.mit.edu/~rnielsen/textmatching.pdf)]
 
-1. (arXiv 2020) **Causal Effects of Linguistic Properties.** _Reid Pryzant, Dallas Card, Dan Jurafsky, Victor Veitch, Dhanya Sridhar_. [[pdf](https://arxiv.org/pdf/2010.12919.pdf)] [[blog](http://ai.stanford.edu/blog/text-causal-inference/) and [github](https://github.com/rpryzant/causal_selection)]
+1. (2020 arXiv) **Adjusting for Confounders with Text: Challenges and an Empirical Evaluation Framework for Causal Inference.** _Galen Weld, Peter West, Maria Glenski, David Arbour, Ryan Rossi, Tim Althoff_. [[pdf](https://arxiv.org/pdf/2009.09961.pdf)]
+
+1. (2020 CSCW) **Quantifying the Causal Effects of Conversational Tendencies.** _Justine Zhang, Sendhil Mullainathan, Cristian Danescu-Niculescu-Mizil_. [[pdf](https://arxiv.org/pdf/2009.03897.pdf)]
+
+1. (2020 arXiv) **Causal Effects of Linguistic Properties.** _Reid Pryzant, Dallas Card, Dan Jurafsky, Victor Veitch, Dhanya Sridhar_. [[pdf](https://arxiv.org/pdf/2010.12919.pdf)] [[blog](http://ai.stanford.edu/blog/text-causal-inference/) and [github](https://github.com/rpryzant/causal_selection)]
    <br>[Summary] Cause: binary writer intent, confounder: other linguistic habits of the writer, mediator: text by the writer, effect: reader's response time
    
-1. (arXiv 2020) **Decoupling entrainment from consistency using deep neural networks.** [[pdf](https://arxiv.org/pdf/2011.01860.pdf)]
+1. (2020 arXiv) **Decoupling entrainment from consistency using deep neural networks.** [[pdf](https://arxiv.org/pdf/2011.01860.pdf)]
    <br>[Note] Entrainment = speakers adapting to conversation partners so as to become more similar
    
-1. (arXiv 2020) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
-
-1. (ICLR 2020) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
-_Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
 
 1. (2018 EMNLP) **Challenges of Using Text Classifiers for Causal Inference.**
 _Zach Wood-Doughty, Ilya Shpitser, Mark Dredze_. [[pdf](https://arxiv.org/pdf/1810.00956.pdf)]
@@ -183,12 +182,6 @@ _Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy_.
 1. (2016 ACL) **Discovery of Treatments from Text Corpora.** _Christian Fong, Justin Grimmer_. [[pdf](https://www.aclweb.org/anthology/P16-1151.pdf)]
 1. (2016 JMLR) **Learning representations for counterfactual inference.**
 _Fredrik Johansson, Uri Shalit, David Sontag_. [[pdf](http://proceedings.mlr.press/v48/johansson16.pdf)]
-
-
-1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
-_Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
-[[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
-
 
 
 ### 2.4 Causal Relation Extraction
@@ -233,6 +226,7 @@ _Chikara Hashimoto, Kentaro Torisawa, Julien Kloetzer, Motoki Sano, István Varg
 _Chikara Hashimoto, Kentaro Torisawa, Stijn De Saeger, Jong-Hoon Oh, Jun’ichi Kazama_.
 [[pdf](https://www.aclweb.org/anthology/D12-1057.pdf)]
    <br>[Summary] Extracted one million contradiction pairs and 500,000 causality pairs.
+
 
 1. (1998 Literary and Linguistic Computing) **Automatic extraction of cause-effect information from newspaper text without knowledge-based inferencing.** _Christopher Khoo, Jaklin Kornfilt, Sung Hyon Myaeng, Robert Oddy_.
 [[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.5787&rep=rep1&type=pdf)]
@@ -312,6 +306,11 @@ _Roxana Girju, Preslav Nakov, Vivi Nastase, Stan Szpakowicz, Peter Turney, Deniz
 1. (2003 ACL Workshop) **Automatic detection of causal relations for question answering.** _Roxana Girju_. [[pdf](https://www.aclweb.org/anthology/W03-1210.pdf)]
 
 1. (2002 AAAI) **Text Mining for Causal Relations.** _Roxana Girju, Dan Moldovan_. [[pdf](https://www.aaai.org/Papers/FLAIRS/2002/FLAIRS02-071.pdf)]
+
+
+1. (2001 PAKDD) **Semantic Expectation-Based Causation Knowledge Extraction: A Study on Hong Kong Stock Movement Analysis.**
+_Boon-Toh Low, Ki Chan, Lei-Lei Choi, Man-Yee Chin, Sin-Ling Lay_.
+[[link](https://link.springer.com/chapter/10.1007/3-540-45357-1_15)]
 
 1. (2000 ACL) **Extracting Causal Knowledge from a Medical Database Using Graphical Patterns.**
 _Christopher S. G. Khoo, Syin Chan, Yun Niu_.
