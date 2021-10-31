@@ -94,14 +94,19 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 1. (2021 EMNLP Oral) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
 _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2110.03618)] [[talk](https://drive.google.com/file/d/19dFDslovDFzBgkXN5lKrgV9xP8kWrB5e/)]
 
-1. (2021 arXiv) **Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests** _Victor Veitch, Alexander D'Amour, Steve Yadlowsky, Jacob Eisenstein_. [[pdf](https://arxiv.org/pdf/2106.00545.pdf)]
+1. (2021 arXiv) **Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests.** _Victor Veitch, Alexander D'Amour, Steve Yadlowsky, Jacob Eisenstein_. [[pdf](https://arxiv.org/pdf/2106.00545.pdf)]
 
-1. (ICLR 2021 Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
+1. (2021 CVPR) **Counterfactual VQA: A Cause-Effect Look at Language Bias.** _Yulei Niu, Kaihua Tang, Hanwang Zhang, Zhiwu Lu, Xian-Sheng Hua, Ji-Rong Wen_. [[pdf](https://arxiv.org/pdf/2006.04315.pdf)]
+1. (2021 ICLR Workshop) **A Causal Lens for Controllable Text Generation.** _Zhiting Hu, Li Erran Li_.
 [[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
+1. (2021 EMNLP) **Uncovering Main Causalities for Long-tailed Information Extraction.** _Guoshun Nan, Jiaqi Zeng, Rui Qiao, Zhijiang Guo, Wei Lu_. [[pdf](https://arxiv.org/pdf/2109.05213.pdf)]
 1. (2020 EMNLP) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
    <br>[Summary] Method: propensity matching and adversarial learning.
-
+1. (2020 EMNLP) **Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition.**
+_Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology.org/2020.emnlp-main.590.pdf)]
+1. (2020 EMNLP) **De-Biased Court’s View Generation with Causality.** _Yiquan Wu, Kun Kuang, Yating Zhang, Xiaozhong Liu, Changlong Sun, Jun Xiao, Yueting Zhuang, Luo Si, Fei Wu_. [[pdf](https://aclanthology.org/2020.emnlp-main.56.pdf)]
+1. (2020 EMNLP Findings) **Identifying Spurious Correlations for Robust Text Classification.** _Zhao Wang, Aron Culotta_. [[pdf](https://aclanthology.org/2020.findings-emnlp.308.pdf)]
 1. (2019 EMNLP) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
    <br>[Summary] Cause: native language, confounder: topic, effect: text
 
@@ -242,6 +247,7 @@ _Xiao Liu, Da Yin, Yansong Feng, Yuting Wu, Dongyan Zhao_. [[pdf](https://www.ac
 1. (2021 NAACL) **Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures.**
 _Minh Tran Phu and Thien Huu Nguyen_ [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.273.pdf)]
 
+1. (2020 EMNLP) **Causal Inference of Script Knowledge.** _Noah Weber, Rachel Rudinger, Benjamin Van Durme_. [[pdf](https://aclanthology.org/2020.emnlp-main.612.pdf)]
 1. (2019 NAACL) **Modeling Document-level Causal Structures for Event Causal Relation Identification.** _Lei Gao, Prafulla Kumar Choubey, Ruihong Huang_.
 [[pdf](https://www.aclweb.org/anthology/N19-1179.pdf)]
    <br>[Summary] EventStoryLine corpus; method: Integer Linear Programming (ILP)
@@ -268,6 +274,7 @@ _Nasrin Mostafazadeh, Alyson Grealish, Nathanael Chambers, James Allen, Lucy Van
 1. (2016 KR) **Commonsense Causal Reasoning between Short Texts.**
 _Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-Won Hwang, Zhongyuan Wang_. [[pdf](https://www.aaai.org/ocs/index.php/KR/KR16/paper/view/12818/12498)]
    <br>[Summary] Contains a list of causal cue verbs.
+
 
 1. (2015 ACL Workshop) **Annotating Causal Language Using Corpus Lexicography of Constructions.**
 _Jesse Dunietz, Lori Levin, Jaime Carbonell_.
@@ -349,6 +356,7 @@ Helping to analyze the semantics of causal events:
 [[pdf](http://www.newsreader-project.eu/files/2013/01/NWR-2014-1.pdf)]
 
 ### 2.5 Causal Commonsense Reasoning and Generation
+1. (2021 ACL Findings) **Empowering Language Understanding with Counterfactual Reasoning.** _Fuli Feng, Jizhi Zhang, Xiangnan He, Hanwang Zhang, Tat-Seng Chua_. [[pdf](https://arxiv.org/pdf/2106.03046.pdf)]
 1. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
 [[pdf](https://arxiv.org/pdf/2009.07758.pdf)]
 1. (2019 EMNLP) **Counterfactual Story Reasoning and Generation.**
@@ -510,6 +518,9 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 
 ### 4.3 Other Causality Papers (Potentially Applicable to NLP)
+#### Repos
+1. 
+1. [[Awesome-Causality-in-CV](https://github.com/rguo12/awesome-causality-algorithms)]
 
 #### Invariance-Based Causal Discovery (for Robustness)
 1. (2016, Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
