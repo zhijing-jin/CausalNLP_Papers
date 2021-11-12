@@ -141,8 +141,6 @@ _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf
 
 1. (2020 TACL) **Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals.** _Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg_. [[pdf](https://arxiv.org/pdf/2006.00995.pdf)]
 
-1. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.** _Amir Feder, Nadav Oved, Uri Shalit and Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
-
 1. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
 _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
 
