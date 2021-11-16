@@ -13,8 +13,8 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [1.3 Toolboxes](#13-toolboxes)
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
   - [2.1 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)](#21-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
-  - [2.2 NLP as the Topic of Causal Discovery and Causal Inference (for Probing, Interpretability, etc.)](#22-nlp-as-the-topic-of-causal-discovery-and-causal-inference-for-probing-interpretability-etc)
-  - [2.3 NLP as an Element in Causal Graphs (for Social Science, Psychology, etc.)](#23-nlp-as-an-element-in-causal-graphs-for-social-science-psychology-etc)
+  - [2.2 Language Model Analysis in a Causal Way (for Probing, Interpretability, etc.)](#22-language-model-analysis-in-a-causal-way-for-probing-interpretability-etc)
+  - [2.3 Text Features in Causal Graphs (for Social Science, Psychology, etc.)](#23-text-features-in-causal-graphs-for-social-science-psychology-etc)
   - [2.4 Causal Relation Extraction](#24-causal-relation-extraction)
   - [2.5 Causal Commonsense Reasoning and Generation](#25-causal-commonsense-reasoning-and-generation)
 - [3. Causality for Various Applications](#3-causality-for-various-applications)
@@ -114,9 +114,12 @@ _Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology
    <br>[Summary] Cause: some keywords, effect: output prediction
 
 #### Related Non-NLP Papers
+1. (2021 arXiv) **Desiderata for Representation Learning: A Causal Perspective.** _Yixin Wang, Michael I. Jordan_. [[pdf](https://arxiv.org/pdf/2109.03795.pdf)]
+   <br>[Summary] The causal predictors of a task should be both necessary and sufficient factors.
+
 ##### Causality tools that can be applied to deconfound
 
-1. (NIPS 2017, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
+1. (2017 NIPS, MPI, discover causal graphs behind data) **Avoiding Discrimination through Causal Reasoning.** _Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1706.02744.pdf)]
 
 
 ##### Related CV papers on counterfactual generation:
@@ -128,7 +131,7 @@ _Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology
 1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
    <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
 
-### 2.2 NLP as the Topic of Causal Discovery and Causal Inference (for Probing, Interpretability, etc.)
+### 2.2 Language Model Analysis in a Causal Way (for Probing, Interpretability, etc.)
 1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
@@ -144,7 +147,7 @@ _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf
 1. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
 _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
 
-### 2.3 NLP as an Element in Causal Graphs (for Social Science, Psychology, etc.)
+### 2.3 Text Features in Causal Graphs (for Social Science, Psychology, etc.)
 
 1. (2021 EMNLP Findings) **Mining the Cause of Political Decision-Making from Social Media: A Case Study of COVID-19 Policies across the US States**
 _Zhijing Jin, Zeyu Peng, Tejas Vaidhya, Bernhard Schoelkopf, Rada Mihalcea_. [[pdf](https://drive.google.com/file/d/1Y2Wcn8D9sBcSi4Or0cR7gxA2jZ5jUUQE/view?usp=sharing)] [[talk](https://drive.google.com/file/d/1Qs80sva7HvKFLu_T25r3BvGdIvzdJJ5l/)]
@@ -355,6 +358,7 @@ Helping to analyze the semantics of causal events:
 
 ### 2.5 Causal Commonsense Reasoning and Generation
 1. (2021 ACL Findings) **Empowering Language Understanding with Counterfactual Reasoning.** _Fuli Feng, Jizhi Zhang, Xiangnan He, Hanwang Zhang, Tat-Seng Chua_. [[pdf](https://arxiv.org/pdf/2106.03046.pdf)]
+1. (2021 ARR) **e-CARE: a New Dataset for Exploring Explainable Causal Reasoning.** _Anonymous_. [[pdf](https://openreview.net/pdf?id=48T0DriwGcv)]
 1. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
 [[pdf](https://arxiv.org/pdf/2009.07758.pdf)]
 1. (2019 EMNLP) **Counterfactual Story Reasoning and Generation.**
