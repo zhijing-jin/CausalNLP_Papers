@@ -72,8 +72,9 @@ Blogs:
 ### 1.3 Toolboxes
 
 #### Causal Discovery
-2. (2019) **Causal Discovery Toolbox in Python.** [[GitHub](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)] [[pdf](https://arxiv.org/pdf/1903.02278.pdf)] 
-3. **Causal discovery tools.** _University of Pittsburgh/Carnegie Mellon University Center for Causal Discovery_. [[link](https://www.ccd.pitt.edu/tools/)]
+1. (2021) **causal-learn (Python package for causal discovery).** _Carnegie Mellon University_. [[GitHub](https://github.com/cmu-phil/causal-learn)] [[documentation](https://causal-learn.readthedocs.io/en/latest/)] 
+3. (2019) **Causal Discovery Toolbox in Python.** [[GitHub](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)] [[pdf](https://arxiv.org/pdf/1903.02278.pdf)] 
+4. **Causal discovery tools.** _University of Pittsburgh/Carnegie Mellon University Center for Causal Discovery_. [[link](https://www.ccd.pitt.edu/tools/)]
    <br>e.g., Tretrad, [py-causal](https://bd2kccd.github.io/docs/py-causal/) 
 
 #### Causal Effect Estimation
