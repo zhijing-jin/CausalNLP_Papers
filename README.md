@@ -45,22 +45,22 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 ### 1.1 Talks/Tutorial/etc
 
-Motivational reading:
-1. (2002 AI Magazine) **Reasoning with Cause and Effect.** _Judea Pearl_. [[pdf](https://ftp.cs.ucla.edu/pub/stat_ser/r265-ai-mag.pdf)]
-1. (Blog) **ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus.** _Ferenc Huszár_. [[blog](https://www.inference.vc/untitled/)]
-
-
-Talks and tutorials:
-1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
+Talks and Tutorials:
+1. (CausalNLP) **Bernhard's Talk on Towards Causal NLP.** [[Video@EMNLP 2021 Workshop](https://www.youtube.com/watch?v=Zwt1jJxVSvg&list=PLtVBX_ld338UTeq9LphgjCfMpM2EcSbEs&index=1)]
 1. (Vivid, beginner-friendly) **Yoshua Bengio's Primer on the Future of Causality&NLP.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
-1. (Global, weekly reading group) Online Causal Inference Seminar. Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
+Seminars:
+1. (2021, Recordings available) **Beyond i.i.d. learning:
+Causality, dynamics, and interactions.** ETH Seminar by Prof Michael Muehlebach, Bernhard Schölkopf, Andreas Krause. [[past recordings](https://beyond-iid-learning.xyz/lectures/)]
+1. (Global, weekly reading group) **Online Causal Inference Seminar.** Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
 
    Every Tuesdays at 8:30 am PT (11:30 am ET / 4:30 pm London / 5:30 pm Berlin).
 
-Blogs:
-1. **Causal Analysis in Theory and Practice.** Judea Pearl's [[blog](http://causality.cs.ucla.edu/blog/)]
-
+Motivational Materials:
+1. (2002 AI Magazine) **Reasoning with Cause and Effect.** _Judea Pearl_. [[pdf](https://ftp.cs.ucla.edu/pub/stat_ser/r265-ai-mag.pdf)]
+1. (Blog) **ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus.** _Ferenc Huszár_. [[blog](https://www.inference.vc/untitled/)]
+1. (Blog) **Causal Analysis in Theory and Practice.** Judea Pearl's [[blog](http://causality.cs.ucla.edu/blog/)]
+1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
 ### 1.2 Overview Papers
 
 1. (2021 Overview, Schoelkopf+) **Towards Causal Representation Learning.** _Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2102.11107.pdf)] 
