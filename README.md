@@ -102,6 +102,7 @@ _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, 
 [[pdf](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-089)]
 
 1. (2021 EMNLP) **Uncovering Main Causalities for Long-tailed Information Extraction.** _Guoshun Nan, Jiaqi Zeng, Rui Qiao, Zhijiang Guo, Wei Lu_. [[pdf](https://arxiv.org/pdf/2109.05213.pdf)]
+1. (2021 ACL findings) **Discovering Topics in Long-tailed Corpora with Causal Intervention.** _Xiaobao Wu, Chunping Li, Yishu Miao_. [[pdf](https://aclanthology.org/2021.findings-acl.15.pdf)]
 1. (2020 EMNLP) **Unsupervised Discovery of Implicit Gender Bias.** _Anjalie Field, Yulia Tsvetkov_. [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf)]
    <br>[Summary] Method: propensity matching and adversarial learning.
 1. (2020 EMNLP) **Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition.**
