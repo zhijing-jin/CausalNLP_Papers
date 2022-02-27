@@ -26,12 +26,12 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.5 Marketing strategies and sales prediction](#36-marketing-strategies-and-sales-prediction)
 - [4. More Resources](#4-more-resources)
   - [4.1 Causality Papers from Schoelkopf's Lab, MPI](#41-causality-papers-from-schoelkopfs-lab-mpi)
-    - [4.1.0 Overview](410-Overview)
-    - [4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)](411-Learning-Causal-Units-and-Mechanisms-(ie-Causal-Representation-Learning))
-    - [4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)](412-Robustness-and-Invariance-(incl-Semi-Supervised-Learning-Covariate-Shift-Transfer-Learning))
-    - [4.1.3 Causal Discovery](413-Causal-Discovery)
-    - [4.1.4 Causal Effect Estimation](414-Causal-Effect-Estimation)
-    - [4.1.5 Foundational work (theory, ICA, etc.)](415-Foundational-work-(theory-ICA-etc))
+    - [4.1.0 Overview](#410-overview)
+    - [4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)](#411-learning-causal-units-and-mechanisms-ie-causal-representation-learning)
+    - [4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)](#411-learning-causal-units-and-mechanisms-ie-causal-representation-learning)
+    - [4.1.3 Causal Discovery](#411-learning-causal-units-and-mechanisms-ie-causal-representation-learning)
+    - [4.1.4 Causal Effect Estimation](#414-causal-effect-estimation)
+    - [4.1.5 Foundational work (theory, ICA, etc.)](#415-foundational-work-theory-ica-etc)
   - [4.2 Causality Papers from Bengio's Lab, MILA](#42-causality-papers-from-bengios-lab-mila)
     - [Motivational Position Papers](#motivational-position-papers)
     - [Applying Causality Knowledge for RL Interaction Design](#applying-causality-knowledge-for-rl-interaction-design)
@@ -377,6 +377,9 @@ Helping to analyze the semantics of causal events:
 [[pdf](http://www.newsreader-project.eu/files/2013/01/NWR-2014-1.pdf)]
 
 ### 2.5 Causal Commonsense Reasoning and Generation
+1. (2022 arXiv) **Causal Inference Principles for Reasoning about Commonsense Causality.**
+_Jiayao Zhang, Hongming Zhang, Dan Roth, Weijie J. Su_.
+[[pdf](https://arxiv.org/pdf/2202.00436.pdf)]
 1. (2021 ACL Findings) **Empowering Language Understanding with Counterfactual Reasoning.** _Fuli Feng, Jizhi Zhang, Xiangnan He, Hanwang Zhang, Tat-Seng Chua_. [[pdf](https://arxiv.org/pdf/2106.03046.pdf)]
 1. (2021 ARR) **e-CARE: a New Dataset for Exploring Explainable Causal Reasoning.** _Anonymous_. [[pdf](https://openreview.net/pdf?id=48T0DriwGcv)]
 1. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
@@ -389,7 +392,7 @@ _Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Cla
 
 ## 3. Causality for Various Applications
 ### 3.1 Persuasion
-1. (arXiv 2020) **Influence via Ethos: On the Persuasive Power of Reputation in Deliberation Online.** _Emaad Manzoor, George H. Chen, Dokyun Lee, Michael D. Smith_. [[pdf](https://arxiv.org/pdf/2006.00707.pdf)]
+1. (2020 arXiv) **Influence via Ethos: On the Persuasive Power of Reputation in Deliberation Online.** _Emaad Manzoor, George H. Chen, Dokyun Lee, Michael D. Smith_. [[pdf](https://arxiv.org/pdf/2006.00707.pdf)]
    <br>[Summary] Cause: reputation, effect: persuation in debates.
 
 1. **Estimating Causal Effects of Tone in Online Debates.**
@@ -399,40 +402,40 @@ _Dhanya Sridhar and Lise Getoor_. [[pdf](https://arxiv.org/pdf/1906.04177.pdf)]
 1. **The effect of wording on message propagation: Topic- and author-controlled natural experiments on Twitter.** _Chenhao Tan, Lillian Lee, Bo Pang_. [[pdf](https://www.aclweb.org/anthology/P14-1017.pdf)] 
 3. (CHI 2016) **Discovering shifts to suicidal ideation from mental health content in social media.** _Munmun De Choudhury, Emre Kiciman, Mark Dredze, Glen Coppersmith, Mrinal Kumar_. [[pdf](https://dl.acm.org/doi/pdf/10.1145/2858036.2858207?casa_token=ZJKLrg8LAOsAAAAA%3Aecs8HsunRyeUeD_De6Dx15_nPRZ1-mmjiXfAEXLpr25wwz6ywzQcJuZqWjJQIyibEGxZTOkULd1h)]
    <br>[Summary] Method: propensity score matching. Cause: linguistic and social interaction based measures on Reddit text, effect: suicidal attempt.
-2. (CWSM 2017) **The Language of Social Support in Social Media and its Effect on Suicidal Ideation Risk.** _Munmun De Choudhury, Emre Kıcıman_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565730/pdf/nihms891351.pdf)]
+2. (2017 CWSM) **The Language of Social Support in Social Media and its Effect on Suicidal Ideation Risk.** _Munmun De Choudhury, Emre Kıcıman_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565730/pdf/nihms891351.pdf)]
    <br>[Summary] Cause: linguistic clues of Reddit comments, effect: suicidal attempt.
    
 1. (Political Behavior, 2017) **Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment.** _Kevin Munger_. [[pdf](https://link.springer.com/content/pdf/10.1007/s11109-016-9373-5.pdf)]   
 
-1. (ICWSM 2017) **Estimating the Effect Of Exercising On Users’ Online Behavior.**
+1. (2017 ICWSM) **Estimating the Effect Of Exercising On Users’ Online Behavior.**
 _Seyed Amin Mirlohi Falavarjani, Hawre Hosseini, Zeinab Noorian, Ebrahim Bagheri_.
 [[pdf](https://ojs.aaai.org/index.php/ICWSM/article/view/14975/14825)]
    <br>[Summary] Cause: offline activities from Foursquare posts (e.g., check-ins at a gym, effect: user interests from topics of their Twitter posts. Discovery: shift in interest reduces significantly after users start exercising.
    
-1. (CSCW 2017) **Distilling the outcomes of personal experiences: A propensity-scored analysis of social media.** _Alexandra Olteanu, Onur Varol, Emre Kiciman_. [[pdf](https://dl.acm.org/doi/pdf/10.1145/2998181.2998353?casa_token=U8iCSHz-uGUAAAAA:i9qcF0UCEH-lYKhTE9aA5RNMxFlvqfPW0tiHtUsh_lkmdV1F1O9ko9jPIl_nb8Cx5Rbtf4nn5JGq)]
+1. (2017 CSCW) **Distilling the outcomes of personal experiences: A propensity-scored analysis of social media.** _Alexandra Olteanu, Onur Varol, Emre Kiciman_. [[pdf](https://dl.acm.org/doi/pdf/10.1145/2998181.2998353?casa_token=U8iCSHz-uGUAAAAA:i9qcF0UCEH-lYKhTE9aA5RNMxFlvqfPW0tiHtUsh_lkmdV1F1O9ko9jPIl_nb8Cx5Rbtf4nn5JGq)]
 
-1. (ICWSM 2018) **Using longitudinal social media analysis to understand the effects of early college alcohol use.**
+1. (2018 ICWSM) **Using longitudinal social media analysis to understand the effects of early college alcohol use.**
 _Emre Kiciman, Scott Counts, Melissa Gasser_. [[pdf](http://kiciman.org/wp-content/uploads/2018/10/college_alcohol_tweets_icwsm18e.pdf)]
 
-1. (ICML 2018) **Estimating causal effects of exercise from mood logging data.**
+1. (2018 ICML) **Estimating causal effects of exercise from mood logging data.**
 _Dhanya Sridhar, Aaron Springer, Victoria Hollis, Steve Whittaker, Lise Getoor_.
    <br>[Summary] Cause: daily activities, effect: wellness markers (e.g., mood) on EmotiCal, confounder: Text of mood triggers. Confounding adjustment method: Propensity score matching
 
-1. (ICWSM 2019) **A social media study on the effects of psychiatric medication use.** _Koustuv Saha, Benjamin Sugar, John Torous, Bruno Abrahao, Emre Kıcıman, Munmun De Choudhury_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152507/pdf/nihms-1578147.pdf)]
+1. (2019 ICWSM) **A social media study on the effects of psychiatric medication use.** _Koustuv Saha, Benjamin Sugar, John Torous, Bruno Abrahao, Emre Kıcıman, Munmun De Choudhury_. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152507/pdf/nihms-1578147.pdf)]
    <br>[Summary] Cause: psychiatric drugs, confounder: previous Twitter posts, effect: psychopathology (incl. mood, cognition, depression, anxiety, psychosis, and suicidal ideation). Method: stratified propensity score matching.
 
 1. (Psychological Science 2019) **Increasing vegetable intake by emphasizing tasty and enjoyable attributes: A randomized controlled multisite intervention for taste-focused labeling.** _
 Bradley Turnwald, Jaclyn Bertoldo, Margaret Perry, Peggy Policastro, Maureen Timmons, Christopher Bosso, Priscilla Connors, Robert Valgenti, Lindsey Pine, Ghislaine Challamel, Christopher Gardner, Alia Crum_. [pdf](https://journals.sagepub.com/doi/pdf/10.1177/0956797619872191)
    <br>[Summary] Cause: taste-focused lables, or health-focused labels, effect: vegetable intake. Method: RCT.
 
-1. (ICWSM 2021) **The Effect of Moderation on Online Mental Health Conversations.** _
+1. (2021 ICWSM) **The Effect of Moderation on Online Mental Health Conversations.** _
 David Wadden, Tal August, Qisheng Li, Tim Althoff_. [pdf](https://arxiv.org/pdf/2005.09225.pdf)
    <br>[Summary] Cause: moderation in online mental health conversations, effect: psychological improvements. Method: natural experiment (comparing the data right before moderators are introduced to a platform and right after).
 
 
 
 ### 3.3 Economics
-1. (arXiv 2017) **A deep causal inference approach to measuring the effects of forming group loans in online non-profit microfinance platform.**
+1. (2017 arXiv) **A deep causal inference approach to measuring the effects of forming group loans in online non-profit microfinance platform.**
 _Thai T Pham and Yuanyuan Shen_. [[pdf](https://arxiv.org/pdf/1706.02795.pdf)]
 
 1. (2020 Journal of Economic Surveys) **Econometrics Meets Sentiment: An Overview of Methodology and Applications.** 
@@ -468,172 +471,172 @@ Michael Gill and Andrew Hall
 
 #### 4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)
 
-1. (2021, ICML) **On disentangled representations learned from correlated data.**
+1. (2021 ICML) **On disentangled representations learned from correlated data.**
 _Frederik Träuble, Elliot Creager, Niki Kilbertus, Francesco Locatello, Andrea Dittadi, Anirudh Goyal, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
 
-1. (2021, NeurIPS) **Self-supervised learning with data augmentations provably isolates content from style.**
+1. (2021 NeurIPS) **Self-supervised learning with data augmentations provably isolates content from style.**
 _Julius Von Kügelgen, Yash Sharma, Luigi Gresele, Wieland Brendel, Bernhard Schölkopf, Michel Besserve, Francesco Locatello_. [[pdf]()]
 
-1. (2021, ICML) **Causal curiosity: Rl agents discovering self-supervised experiments for causal representation learning.**
+1. (2021 ICML) **Causal curiosity: Rl agents discovering self-supervised experiments for causal representation learning.**
 _Sumedh A Sontakke, Arash Mehrjou, Laurent Itti, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/2010.03110.pdf)]
 
-1. (2021, ICLR) **The Role of Pretrained Representations for the OOD Generalization of RL Agents.**
+1. (2021 ICLR) **The Role of Pretrained Representations for the OOD Generalization of RL Agents.**
 _Frederik Träuble, Andrea Dittadi, Manuel Wuthrich, Felix Widmaier, Peter Vincent Gehler, Ole Winther, Francesco Locatello, Olivier Bachem, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
 
-1. (2021, ICLR) **Invariant Causal Representation Learning for Out-of-Distribution Generalization.**
+1. (2021 ICLR) **Invariant Causal Representation Learning for Out-of-Distribution Generalization.**
 _Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2020, NeurIPS) **Object-Centric Learning with Slot Attention.**
+1. (2020 NeurIPS) **Object-Centric Learning with Slot Attention.**
 _Francesco Locatello, Dirk Weissenborn, Thomas Unterthiner, Aravindh Mahendran, Georg Heigold, Jakob Uszkoreit, Alexey Dosovitskiy, Thomas Kipf_. [[pdf](https://arxiv.org/pdf/2006.15055.pdf)]
 
-1. (2020, ICML) **Weakly-supervised disentanglement without compromises.**
+1. (2020 ICML) **Weakly-supervised disentanglement without compromises.**
 _Francesco Locatello, Ben Poole, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem, Michael Tschannen_. [[pdf]()]
 
-1. (2020, arXiv) **Learning explanations that are hard to vary.**
+1. (2020 arXiv) **Learning explanations that are hard to vary.**
 _Giambattista Parascandolo, Alexander Neitz, Antonio Orvieto, Luigi Gresele, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2020, arXiv) **A theory of independent mechanisms for extrapolation in generative models.**
+1. (2020 arXiv) **A theory of independent mechanisms for extrapolation in generative models.**
 _Michel Besserve, Rémy Sun, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2019, arXiv) **Disentangling factors of variation using few labels.**
+1. (2019 arXiv) **Disentangling factors of variation using few labels.**
 _Francesco Locatello, Michael Tschannen, Stefan Bauer, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem_. [[pdf]()]
 
-1. (2019, arXiv) **Recurrent independent mechanisms.**
+1. (2019 arXiv) **Recurrent independent mechanisms.**
 _Anirudh Goyal, Alex Lamb, Jordan Hoffmann, Shagun Sodhani, Sergey Levine, Yoshua Bengio, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2018, ICML) **Learning independent causal mechanisms.**
+1. (2018 ICML) **Learning independent causal mechanisms.**
 _Giambattista Parascandolo, Niki Kilbertus, Mateo Rojas-Carulla, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2018, NeurIPS) **Adaptive skip intervals: Temporal abstraction for recurrent dynamical models.**
+1. (2018 NeurIPS) **Adaptive skip intervals: Temporal abstraction for recurrent dynamical models.**
 _Alexander Neitz, Giambattista Parascandolo, Stefan Bauer, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2018, arXiv) **Counterfactuals uncover the modular structure of deep generative models.**
+1. (2018 arXiv) **Counterfactuals uncover the modular structure of deep generative models.**
 _Michel Besserve, Arash Mehrjou, Rémy Sun, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2017, CVPR) **Discovering causal signals in images.**
+1. (2017 CVPR) **Discovering causal signals in images.**
 _David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard Scholkopf, Léon Bottou_.
 [[pdf](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lopez-Paz_Discovering_Causal_Signals_CVPR_2017_paper.pdf)]
 
 #### 4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)
-1. (2021, ICLR) **Source-free adaptation to measurement shift via bottom-up feature restoration.**
+1. (2021 ICLR) **Source-free adaptation to measurement shift via bottom-up feature restoration.**
 _Cian Eastwood, Ian Mason, Christopher KI Williams, Bernhard Schölkopf_.
 
-1. (2016, ICML) **Domain adaptation with conditional transferable components.**
+1. (2016 ICML) **Domain adaptation with conditional transferable components.**
 _Mingming Gong, Kun Zhang, Tongliang Liu, Dacheng Tao, Clark Glymour, Bernhard Schölkopf_.
 
-1. (2021, EMNLP) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
+1. (2021 EMNLP) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
 _Zhijing Jin, Julius von Kügelgen, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_.
 
-1. (2020, UAI) **Semi-supervised learning, causality, and the conditional cluster assumption.**
+1. (2020 UAI) **Semi-supervised learning, causality, and the conditional cluster assumption.**
 _Julius Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_.
 
-1. (2018, JMLR) **Invariant models for causal transfer learning.**
+1. (2018 JMLR) **Invariant models for causal transfer learning.**
 _Mateo Rojas-Carulla, Bernhard Schölkopf, Richard Turner, Jonas Peters_.
 
-1. (2018 NeurIPS workshop) **Generalization in anti-causal learning.**
+1. (2018NeurIPS workshop) **Generalization in anti-causal learning.**
 _Niki Kilbertus, Giambattista Parascandolo, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/1812.00524.pdf)]
 
-1. (2012 ICML) **On Causal and Anticausal Learning.** 
+1. (2012ICML) **On Causal and Anticausal Learning.** 
 _Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, Joris Mooij_.
 [[pdf](https://icml.cc/2012/papers/625.pdf)]
 
 
 #### 4.1.3 Causal Discovery
-1. (2021, NeurIPS) **DiBS: Differentiable Bayesian Structure Learning.**
+1. (2021 NeurIPS) **DiBS: Differentiable Bayesian Structure Learning.**
 _Lars Lorch, Jonas Rothfuss, Bernhard Schölkopf, Andreas Krause_.
 [[pdf](https://arxiv.org/pdf/2105.11839.pdf)]
 
-1. (2021, ICML) **Necessary and sufficient conditions for causal feature selection in time series with latent common causes.**
+1. (2021 ICML) **Necessary and sufficient conditions for causal feature selection in time series with latent common causes.**
 _Atalanti A Mastakouri, Bernhard Schölkopf, Dominik Janzing_.
 [[pdf](http://proceedings.mlr.press/v139/mastakouri21a/mastakouri21a.pdf)]
 
-1. (2020, JMLR) **Causal Discovery from Heterogeneous/Nonstationary Data..**
+1. (2020 JMLR) **Causal Discovery from Heterogeneous/Nonstationary Data..**
 _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph D Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_.
 [[pdf](https://www.jmlr.org/papers/volume21/19-232/19-232.pdf)]
 
-1. (2019, Nature communications) **Inferring causation from time series in Earth system sciences.**
+1. (2019 Nature communications) **Inferring causation from time series in Earth system sciences.**
 _Jakob Runge, Sebastian Bathiany, Erik Bollt, Gustau Camps-Valls, Dim Coumou, Ethan Deyle, Clark Glymour, Marlene Kretschmer, Miguel D Mahecha, Jordi Muñoz-Marí, Egbert H van Nes, Jonas Peters, Rick Quax, Markus Reichstein, Marten Scheffer, Bernhard Schölkopf, Peter Spirtes, George Sugihara, Jie Sun, Kun Zhang, Jakob Zscheischler_.
 [[pdf](https://www.nature.com/articles/s41467-019-10105-3.pdf)]
 
-1. (2017, UAI) **Causal discovery from temporally aggregated time series.**
+1. (2017 UAI) **Causal discovery from temporally aggregated time series.**
 _Mingming Gong, Kun Zhang, Bernhard Schölkopf, Clark Glymour, Dacheng Tao_.
 [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995575/pdf/nihms904883.pdf)]
 
-1. (2016, JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
+1. (2016 JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
 _Joris M Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, Bernhard Schölkopf_.
 [[pdf](https://jmlr.org/papers/volume17/14-518/14-518.pdf)]
 
-1. (2016, UAI) **On the Identifiability and Estimation of Functional Causal Models in the Presence of Outcome-Dependent Selection..**
+1. (2016 UAI) **On the Identifiability and Estimation of Functional Causal Models in the Presence of Outcome-Dependent Selection..**
 _Kun Zhang, Jiji Zhang, Biwei Huang, Bernhard Schölkopf, Clark Glymour_.
 [[pdf](http://auai.org/uai2016/proceedings/papers/305.pdf)]
 
-1. (2016, PNAS) **Methods for causal inference from gene perturbation experiments and validation.**
+1. (2016 PNAS) **Methods for causal inference from gene perturbation experiments and validation.**
 _Nicolai Meinshausen, Alain Hauser, Joris M. Mooij, Jonas Peters, Philip Versteeg, and Peter Bühlmann_.
 [[pdf](https://www.pnas.org/content/pnas/113/27/7361.full.pdf)]
 
-1. (2016, ICML) **The arrow of time in multivariate time series.**
+1. (2016 ICML) **The arrow of time in multivariate time series.**
 _Stefan Bauer, Bernhard Schölkopf, Jonas Peters_.
 [[pdf](http://proceedings.mlr.press/v48/bauer16.pdf)]
 
-1. (2016, JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
+1. (2016 JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
 _Joris M. Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, Bernhard Schölkopf_.
 [[pdf](https://www.jmlr.org/papers/volume17/14-518/14-518)]
 
-1. (2014, UAI) **Inferring latent structures via information inequalities.**
+1. (2014 UAI) **Inferring latent structures via information inequalities.**
 _Rafael Chaves, Lukas Luft, Thiago O Maciel, David Gross, Dominik Janzing, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/1407.2256.pdf)]
 
-1. (2015, Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
+1. (2015 Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
 _Jonas Peters, Peter Bühlmann, Nicolai Meinshausen_.
 [[pdf](https://arxiv.org/pdf/1501.01332.pdf)]
 
-1. (2008 IEEE) **Causal inference using the algorithmic Markov condition.** _Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/0804.3678.pdf)]
+1. (2008IEEE) **Causal inference using the algorithmic Markov condition.** _Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/0804.3678.pdf)]
 
 #### 4.1.4 Causal Effect Estimation
-1. (2016, PASA) **A causal, data-driven approach to modeling the Kepler d.**ata
+1. (2016 PASA) **A causal, data-driven approach to modeling the Kepler d.**ata
 _Dun Wang, David W Hogg, Daniel Foreman-Mackey, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/1508.01853.pdf)]
 
-1. (2016, PNAS) **Modeling confounding by half-sibling regression.**
+1. (2016 PNAS) **Modeling confounding by half-sibling regression.**
 _Bernhard Schölkopf, David W Hogg, Dun Wang, Daniel Foreman-Mackey, Dominik Janzing, Carl-Johann Simon-Gabriel, Jonas Peters_.
 [[pdf](https://www.pnas.org/content/pnas/113/27/7391.full.pdf)]
 
-1. (2021, ICML) **Conditional distributional treatment effect with kernel conditional mean embeddings and U-statistic regression
+1. (2021 ICML) **Conditional distributional treatment effect with kernel conditional mean embeddings and U-statistic regression
 Junhyung Park, Uri Shalit, Bernhard Schölkopf, Krikamol Muandet
 http://proceedings.mlr.press/v139/park21c/park21c.pdf
 
-1. (2020, NeurIPS) **Dual Instrumental Variable Regression.**
+1. (2020 NeurIPS) **Dual Instrumental Variable Regression.**
 _Krikamol Muandet, Arash Mehrjou, Si Kai Lee, Anant Raj_.
 [[pdf](https://proceedings.neurips.cc/paper/2020/file/1c383cd30b7c298ab50293adfecb7b18-Paper.pdf)]
 
-1. (2021, ICML Spotlight) **Proximal Causal Learning with Kernels: Two-Stage Estimation and Moment Restriction.**
+1. (2021 ICML Spotlight) **Proximal Causal Learning with Kernels: Two-Stage Estimation and Moment Restriction.**
 _Afsaneh Mastouri, Yuchen Zhu, Limor Gultchin, Anna Korba, Ricardo Silva, Matt J. Kusner, Arthur Gretton, Krikamol Muandet_.
 [[pdf](https://icml.cc/virtual/2021/spotlight/9926)]
 
-1. (2021, JMLR) **Counterfactual Mean Embeddings.**
+1. (2021 JMLR) **Counterfactual Mean Embeddings.**
 _Krikamol Muandet, Motonobu Kanagawa, Sorawit Saengkyongam, Sanparith Marukatat_.
 [[pdf](https://jmlr.csail.mit.edu/papers/volume22/20-185/20-185.pdf)]
 #### 4.1.5 Foundational work (theory, ICA, etc.)
 Topics: thermodynamic arrow of time, modeling hierarchy (ODEs, macro variables, temporal abstractions), links to ICA.
 
-1. (2021, NeurIPS) Independent mechanism analysis, a new concept?
+1. (2021 NeurIPS) Independent mechanism analysis, a new concept?
 _Luigi Gresele, Julius Von Kügelgen, Vincent Stimper, Bernhard Schölkopf, Michel Besserve_. [[pdf]()]
 
-1. (2020, UAI) The incomplete rosetta stone problem: Identifiability results for multi-view nonlinear ICA
+1. (2020 UAI) The incomplete rosetta stone problem: Identifiability results for multi-view nonlinear ICA
 _Luigi Gresele, Paul K Rubenstein, Arash Mehrjou, Francesco Locatello, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2017, arXiv) Causal consistency of structural equation models
+1. (2017 arXiv) Causal consistency of structural equation models
 _Paul K Rubenstein, Sebastian Weichwald, Stephan Bongers, Joris M Mooij, Dominik Janzing, Moritz Grosse-Wentrup, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2016, arXiv) From deterministic ODEs to dynamic structural causal models
+1. (2016 arXiv) From deterministic ODEs to dynamic structural causal models
 _Paul K Rubenstein, Stephan Bongers, Bernhard Schölkopf, Joris M Mooij_. [[pdf]()]
 
-1. (2016, New Journal of Physics) Algorithmic independence of initial condition and dynamical law in thermodynamics and causal inference
+1. (2016 New Journal of Physics) Algorithmic independence of initial condition and dynamical law in thermodynamics and causal inference
 _Dominik Janzing, Rafael Chaves, Bernhard Schölkopf_. [[pdf]()]
 
-1. (2017, Book by MIT Press) Elements of causal inference: foundations and learning algorithms
+1. (2017 Book by MIT Press) Elements of causal inference: foundations and learning algorithms
 _Jonas Peters, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
 
 
@@ -644,20 +647,20 @@ _Jonas Peters, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
 
 #### Motivational Position Papers
 
-1. (Position Paper, arXiv 2020) **Inductive Biases for Deep Learning of Higher-Level Cognition.** _Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2011.15091.pdf)]
+1. (2020 Position Paper, arXiv) **Inductive Biases for Deep Learning of Higher-Level Cognition.** _Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2011.15091.pdf)]
    <br>[Summary] We need inductive bias for real understanding and generalization => such as decomposing world knowledge into right causal pieces
 
 1. (Motivational, position paper, arXiv 2017) **The Consciousness Prior.** _Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1709.08568.pdf)]
 
 #### Applying Causality Knowledge for RL Interaction Design
 
-1. (arXiv 2020) **Visual Concept Reasoning Networks.** _Taesup Kim, Sungwoong Kim, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2008.11783.pdf)]
+1. (2020 arXiv) **Visual Concept Reasoning Networks.** _Taesup Kim, Sungwoong Kim, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2008.11783.pdf)]
    <br> [Summary] Modularized visual concept reasoning by split-transform-attend-interact-modulate-merge modules
 
 1. (RLDM 2017) **Independently Controllable Features.**
    _Emmanuel Bengio, Valentin Thomas, Joelle Pineau, Doina Precup, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1703.07718.pdf)]
 
-1. (arXiv 2017) **Independently Controllable Factors.** _Valentin Thomas, Jules Pondard, Emmanuel Bengio, Marc Sarfati, Philippe Beaudoin, Marie-Jean Meurs, Joelle Pineau, Doina Precup, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1708.01289.pdf)]
+1. (2017 arXiv) **Independently Controllable Factors.** _Valentin Thomas, Jules Pondard, Emmanuel Bengio, Marc Sarfati, Philippe Beaudoin, Marie-Jean Meurs, Joelle Pineau, Doina Precup, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1708.01289.pdf)]
    <br> [Summary] The representations of (1) abstract action, and (2) abstract variables, should be learned together, because the action is about controlling variables. A way to disentangle abstractions from images & videos when we have an agent which can interact with the environment. The right abstractions have the right factors. I.e., there exists a policy and a learnable feature for each such aspect of the environment.
 
 #### Applying causality to model design
@@ -674,23 +677,23 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 [Background] Changes in distribution is caused by intervention on few causes/mechanisms (in extension of Independent Mechanisms by [[Schoelkopf+ 2012](https://icml.cc/2012/papers/625.pdf)])
 
-1. (arXiv 2019) **Learning Neural Causal Models from unknown Interventions.** _Nan Rosemary Ke, Olexa Bilaniuk, Anirudh Goyal, Stefan Bauer, Hugo Larochelle, Bernhard Schölkopf, Michael C. Mozer, Chris Pal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1910.01075.pdf)]
+1. (2019 arXiv) **Learning Neural Causal Models from unknown Interventions.** _Nan Rosemary Ke, Olexa Bilaniuk, Anirudh Goyal, Stefan Bauer, Hugo Larochelle, Bernhard Schölkopf, Michael C. Mozer, Chris Pal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1910.01075.pdf)]
    <br>[Summary] Aim: make use of the combination of observational and interventional data, Method: continuous optimization and neural networks, Extended setting: when the identity of the intervened upon variable is unknown
 
 1. (NeurIPS 2020 Spotlight) **Differentiable Causal Discovery from Interventional Data.** _Philippe Brouillard, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien, Alexandre Drouin_. [[pdf](https://arxiv.org/pdf/2007.01754.pdf)] [[review](https://papers.nips.cc/paper/2020/file/f8b7aa3a0d349d9562b424160ad18612-Review.html)]
    <br>[Summary] Closely related to [Ke+ 2019](https://arxiv.org/pdf/1910.01075.pdf), Method: continuous-constrained framework + normalizing flows
 
-1. (ICLR 2019) **Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future.** _Nan Rosemary Ke, Amanpreet Singh, Ahmed Touati, Anirudh Goyal, Yoshua Bengio, Devi Parikh, Dhruv Batra_.
+1. (2019 ICLR) **Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future.** _Nan Rosemary Ke, Amanpreet Singh, Ahmed Touati, Anirudh Goyal, Yoshua Bengio, Devi Parikh, Dhruv Batra_.
    [[pdf](https://arxiv.org/pdf/1903.01599.pdf)]
 
-1. (ICLR 2020) **A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms.** _Yoshua Bengio, Tristan Deleu, Nasim Rahaman, Rosemary Ke, Sébastien Lachapelle, Olexa Bilaniuk, Anirudh Goyal, Christopher Pal_. [[pdf](https://arxiv.org/pdf/1901.10912.pdf)]
+1. (2020 ICLR) **A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms.** _Yoshua Bengio, Tristan Deleu, Nasim Rahaman, Rosemary Ke, Sébastien Lachapelle, Olexa Bilaniuk, Anirudh Goyal, Christopher Pal_. [[pdf](https://arxiv.org/pdf/1901.10912.pdf)]
 
 #### Grounded AI
 
-1. (ICLR 2021) **CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning.** _Ossama Ahmed, Frederik Träuble, Anirudh Goyal, Alexander Neitz, Yoshua Bengio, Bernhard Schölkopf, Manuel Wüthrich, Stefan Bauer_. [[pdf](https://arxiv.org/pdf/2010.04296.pdf)]
+1. (2021 ICLR) **CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning.** _Ossama Ahmed, Frederik Träuble, Anirudh Goyal, Alexander Neitz, Yoshua Bengio, Bernhard Schölkopf, Manuel Wüthrich, Stefan Bauer_. [[pdf](https://arxiv.org/pdf/2010.04296.pdf)]
    <br>[Summary] An RL dataset to model do-interventions and discover causality
 
-1. (ICLR 2019) **BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning.** _Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1810.08272.pdf)]
+1. (2019 ICLR) **BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning.** _Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/1810.08272.pdf)]
    <br>[Summary] (not yet causal) synthetic language acquisition, A simulation platform, to do language instructions with a simulated human in the loop, Allows curriculum learning for 19 levels
 
 
