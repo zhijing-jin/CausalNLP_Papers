@@ -471,74 +471,86 @@ Michael Gill and Andrew Hall
 
 #### 4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)
 
+1. (2022 ICLR) **The Role of Pretrained Representations for the OOD Generalization of RL Agents.**
+_Frederik Träuble, Andrea Dittadi, Manuel Wuthrich, Felix Widmaier, Peter Vincent Gehler, Ole Winther, Francesco Locatello, Olivier Bachem, Bernhard Schölkopf, Stefan Bauer_. [[pdf](https://openreview.net/pdf?id=8eb12UQYxrG)]
+
 1. (2021 ICML) **On disentangled representations learned from correlated data.**
-_Frederik Träuble, Elliot Creager, Niki Kilbertus, Francesco Locatello, Andrea Dittadi, Anirudh Goyal, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
+_Frederik Träuble, Elliot Creager, Niki Kilbertus, Francesco Locatello, Andrea Dittadi, Anirudh Goyal, Bernhard Schölkopf, Stefan Bauer_. [[pdf](http://proceedings.mlr.press/v139/trauble21a/trauble21a.pdf)]
 
 1. (2021 NeurIPS) **Self-supervised learning with data augmentations provably isolates content from style.**
-_Julius Von Kügelgen, Yash Sharma, Luigi Gresele, Wieland Brendel, Bernhard Schölkopf, Michel Besserve, Francesco Locatello_. [[pdf]()]
+_Julius Von Kügelgen, Yash Sharma, Luigi Gresele, Wieland Brendel, Bernhard Schölkopf, Michel Besserve, Francesco Locatello_. [[pdf](https://proceedings.neurips.cc/paper/2021/file/8929c70f8d710e412d38da624b21c3c8-Paper.pdf)]
 
 1. (2021 ICML) **Causal curiosity: Rl agents discovering self-supervised experiments for causal representation learning.**
 _Sumedh A Sontakke, Arash Mehrjou, Laurent Itti, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/2010.03110.pdf)]
 
-1. (2021 ICLR) **The Role of Pretrained Representations for the OOD Generalization of RL Agents.**
-_Frederik Träuble, Andrea Dittadi, Manuel Wuthrich, Felix Widmaier, Peter Vincent Gehler, Ole Winther, Francesco Locatello, Olivier Bachem, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
-
 1. (2021 ICLR) **Invariant Causal Representation Learning for Out-of-Distribution Generalization.**
-_Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf_. [[pdf]()]
+_Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf_. [[pdf](https://openreview.net/pdf?id=-e4EXDWXnSn)]
+
+1. (2021 ICLR) **Learning explanations that are hard to vary.**
+_Giambattista Parascandolo, Alexander Neitz, Antonio Orvieto, Luigi Gresele, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2009.00329.pdf)]
+
+1. (2021 AAAI) **A theory of independent mechanisms for extrapolation in generative models.**
+_Michel Besserve, Rémy Sun, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2004.00184.pdf)]
 
 1. (2020 NeurIPS) **Object-Centric Learning with Slot Attention.**
 _Francesco Locatello, Dirk Weissenborn, Thomas Unterthiner, Aravindh Mahendran, Georg Heigold, Jakob Uszkoreit, Alexey Dosovitskiy, Thomas Kipf_. [[pdf](https://arxiv.org/pdf/2006.15055.pdf)]
 
 1. (2020 ICML) **Weakly-supervised disentanglement without compromises.**
-_Francesco Locatello, Ben Poole, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem, Michael Tschannen_. [[pdf]()]
+_Francesco Locatello, Ben Poole, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem, Michael Tschannen_. [[pdf](http://proceedings.mlr.press/v119/locatello20a/locatello20a.pdf)]
 
-1. (2020 arXiv) **Learning explanations that are hard to vary.**
-_Giambattista Parascandolo, Alexander Neitz, Antonio Orvieto, Luigi Gresele, Bernhard Schölkopf_. [[pdf]()]
-
-1. (2020 arXiv) **A theory of independent mechanisms for extrapolation in generative models.**
-_Michel Besserve, Rémy Sun, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
+1. (2019 ICML, Best Paper) **Challenging common assumptions in the unsupervised learning of disentangled representations.**
+_Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem_.
+[[pdf](http://proceedings.mlr.press/v97/locatello19a/locatello19a.pdf)]
 
 1. (2019 arXiv) **Disentangling factors of variation using few labels.**
-_Francesco Locatello, Michael Tschannen, Stefan Bauer, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem_. [[pdf]()]
+_Francesco Locatello, Michael Tschannen, Stefan Bauer, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem_. [[pdf](https://arxiv.org/pdf/1905.01258.pdf)]
 
 1. (2019 arXiv) **Recurrent independent mechanisms.**
-_Anirudh Goyal, Alex Lamb, Jordan Hoffmann, Shagun Sodhani, Sergey Levine, Yoshua Bengio, Bernhard Schölkopf_. [[pdf]()]
+_Anirudh Goyal, Alex Lamb, Jordan Hoffmann, Shagun Sodhani, Sergey Levine, Yoshua Bengio, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1909.10893.pdf)]
 
 1. (2018 ICML) **Learning independent causal mechanisms.**
-_Giambattista Parascandolo, Niki Kilbertus, Mateo Rojas-Carulla, Bernhard Schölkopf_. [[pdf]()]
+_Giambattista Parascandolo, Niki Kilbertus, Mateo Rojas-Carulla, Bernhard Schölkopf_. [[pdf](http://proceedings.mlr.press/v80/parascandolo18a/parascandolo18a.pdf)]
 
 1. (2018 NeurIPS) **Adaptive skip intervals: Temporal abstraction for recurrent dynamical models.**
-_Alexander Neitz, Giambattista Parascandolo, Stefan Bauer, Bernhard Schölkopf_. [[pdf]()]
+_Alexander Neitz, Giambattista Parascandolo, Stefan Bauer, Bernhard Schölkopf_. [[pdf](https://proceedings.neurips.cc/paper/2018/file/0f0ee3310223fe38a989b2c818709393-Paper.pdf)]
 
 1. (2018 arXiv) **Counterfactuals uncover the modular structure of deep generative models.**
-_Michel Besserve, Arash Mehrjou, Rémy Sun, Bernhard Schölkopf_. [[pdf]()]
+_Michel Besserve, Arash Mehrjou, Rémy Sun, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1812.03253.pdf)]
 
 1. (2017 CVPR) **Discovering causal signals in images.**
 _David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard Scholkopf, Léon Bottou_.
 [[pdf](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lopez-Paz_Discovering_Causal_Signals_CVPR_2017_paper.pdf)]
 
+1. (2017 NeurIPS) **Avoiding Discrimination through Causal Reasoning.**
+_Niki Kilbertus, Mateo Rojas-Carulla, Giambattista Parascandolo, Moritz Hardt, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://proceedings.neurips.cc/paper/2017/file/f5f8590cd58a54e94377e6ae2eded4d9-Paper.pdf)]
+
 #### 4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)
 1. (2021 ICLR) **Source-free adaptation to measurement shift via bottom-up feature restoration.**
 _Cian Eastwood, Ian Mason, Christopher KI Williams, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/abs/2107.05446.pdf)]
 
 1. (2016 ICML) **Domain adaptation with conditional transferable components.**
 _Mingming Gong, Kun Zhang, Tongliang Liu, Dacheng Tao, Clark Glymour, Bernhard Schölkopf_.
+[[pdf](http://proceedings.mlr.press/v48/gong16.pdf)]
 
-1. (2021 EMNLP) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
+1. (2021 EMNLP oral) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
 _Zhijing Jin, Julius von Kügelgen, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/pdf/2110.03618.pdf)]
 
 1. (2020 UAI) **Semi-supervised learning, causality, and the conditional cluster assumption.**
 _Julius Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_.
+[[pdf](http://proceedings.mlr.press/v124/kugelgen20a/kugelgen20a.pdf)]
 
 1. (2018 JMLR) **Invariant models for causal transfer learning.**
 _Mateo Rojas-Carulla, Bernhard Schölkopf, Richard Turner, Jonas Peters_.
+[[pdf](https://www.jmlr.org/papers/volume19/16-432/16-432.pdf)]
 
-1. (2018NeurIPS workshop) **Generalization in anti-causal learning.**
+1. (2018 NeurIPS workshop) **Generalization in anti-causal learning.**
 _Niki Kilbertus, Giambattista Parascandolo, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/1812.00524.pdf)]
 
-1. (2012ICML) **On Causal and Anticausal Learning.** 
+1. (2012 ICML) **On Causal and Anticausal Learning.** 
 _Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, Joris Mooij_.
 [[pdf](https://icml.cc/2012/papers/625.pdf)]
 
@@ -579,10 +591,6 @@ _Nicolai Meinshausen, Alain Hauser, Joris M. Mooij, Jonas Peters, Philip Verstee
 1. (2016 ICML) **The arrow of time in multivariate time series.**
 _Stefan Bauer, Bernhard Schölkopf, Jonas Peters_.
 [[pdf](http://proceedings.mlr.press/v48/bauer16.pdf)]
-
-1. (2016 JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
-_Joris M. Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, Bernhard Schölkopf_.
-[[pdf](https://www.jmlr.org/papers/volume17/14-518/14-518)]
 
 1. (2014 UAI) **Inferring latent structures via information inequalities.**
 _Rafael Chaves, Lukas Luft, Thiago O Maciel, David Gross, Dominik Janzing, Bernhard Schölkopf_.
@@ -700,7 +708,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 ### 4.3 Other Causality Papers (Potentially Applicable to NLP)
 #### Repos
-1. 
+
 1. [[Awesome-Causality-in-CV](https://github.com/rguo12/awesome-causality-algorithms)]
 
 #### Invariance-Based Causal Discovery (for Robustness)
