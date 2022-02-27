@@ -26,6 +26,12 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [3.5 Marketing strategies and sales prediction](#36-marketing-strategies-and-sales-prediction)
 - [4. More Resources](#4-more-resources)
   - [4.1 Causality Papers from Schoelkopf's Lab, MPI](#41-causality-papers-from-schoelkopfs-lab-mpi)
+    - [4.1.0 Overview](410-Overview)
+    - [4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)](411-Learning-Causal-Units-and-Mechanisms-(ie-Causal-Representation-Learning))
+    - [4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)](412-Robustness-and-Invariance-(incl-Semi-Supervised-Learning-Covariate-Shift-Transfer-Learning))
+    - [4.1.3 Causal Discovery](413-Causal-Discovery)
+    - [4.1.4 Causal Effect Estimation](414-Causal-Effect-Estimation)
+    - [4.1.5 Foundational work (theory, ICA, etc.)](415-Foundational-work-(theory-ICA-etc))
   - [4.2 Causality Papers from Bengio's Lab, MILA](#42-causality-papers-from-bengios-lab-mila)
     - [Motivational Position Papers](#motivational-position-papers)
     - [Applying Causality Knowledge for RL Interaction Design](#applying-causality-knowledge-for-rl-interaction-design)
@@ -63,7 +69,7 @@ Motivational Materials:
 1. (Videos course to introduce a series of concepts) **Introduction to Causal Inference** [[Video](https://www.youtube.com/c/BradyNealCausalInference)]
 ### 1.2 Overview Papers
 
-1. (2021 Overview, Schoelkopf+) **Towards Causal Representation Learning.** _Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2102.11107.pdf)] 
+1. (2021 IEEE, Overview by Schoelkopf+) **Towards Causal Representation Learning.** _Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio_. [[pdf](https://arxiv.org/pdf/2102.11107.pdf)] 
 1. (2021 Survey) **Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond.** _Amir Feder, Katherine A. Keith, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang_. [[pdf](https://arxiv.org/pdf/2109.00725.pdf)]
 1. (2019 Overview, Schoelkopf) **Causality for Machine Learning.** _Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
 1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
@@ -115,6 +121,24 @@ _Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology
 1. (2018 NAACL, Stanford) **Deconfounded lexicon induction for interpretable social science.** _Reid Pryzant, Kelly Shen, Dan Jurafsky, Stefan Wagner_. [[pdf](https://www.aclweb.org/anthology/N18-1146.pdf)]
    <br>[Summary] Cause: some keywords, effect: output prediction
 
+#### Related NLP Papers
+
+
+##### Data augmentation
+1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
+   <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
+
+1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
+   <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
+##### Compositionality and Neuro-Symbolic Approaches
+1. (2022 arXiv) **Compositionality as Lexical Symmetry.**
+_Ekin Akyürek, Jacob Andreas_. [[pdf](https://arxiv.org/pdf/2201.12926.pdf)]
+1. (2021 NeurIPS) **Improving Coherence and Consistency in Neural
+Sequence Models with Dual-System,
+Neuro-Symbolic Reasoning.**
+_Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake_.
+[[pdf](https://proceedings.neurips.cc/paper/2021/file/d3e2e8f631bd9336ed25b8162aef8782-Paper.pdf)]
+
 #### Related Non-NLP Papers
 1. (2021 arXiv) **Desiderata for Representation Learning: A Causal Perspective.** _Yixin Wang, Michael I. Jordan_. [[pdf](https://arxiv.org/pdf/2109.03795.pdf)]
    <br>[Summary] The causal predictors of a task should be both necessary and sufficient factors.
@@ -126,12 +150,6 @@ _Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology
 
 ##### Related CV papers on counterfactual generation:
 1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
-##### For general data augmentation
-1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
-   <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
-
-1. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
-   <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
 
 ### 2.2 Language Model Analysis in a Causal Way (for Probing, Interpretability, etc.)
 1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
@@ -442,26 +460,182 @@ Michael Gill and Andrew Hall
 
 ### 4.1 Causality Papers from Schoelkopf's Lab, MPI
 
-#### Overview
+#### 4.1.0 Overview
 
+1. (2018 ICLR) **Learning Causal Mechanisms (ICLR invited talk).** [[talk](https://www.youtube.com/watch?v=4qc28RA7HLQ)]
 1. (2021 Overview) **Towards Causal Representation Learning.** [[pdf](https://arxiv.org/pdf/2102.11107.pdf)]
 1. (2019 Overview) **Causality for Machine Learning.** [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
 
-#### Independent Causal Mechanisms
-1. (2012 ICML) **On Causal and Anticausal Learning.** 
-_Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, Joris Mooij_.
-[[pdf](https://icml.cc/2012/papers/625.pdf)]
-2. (2018 NeurIPS workshop) **Generalization in anti-causal learning.**
+#### 4.1.1 Learning Causal "Units" and Mechanisms (i.e., Causal Representation Learning)
+
+1. (2021, ICML) **On disentangled representations learned from correlated data.**
+_Frederik Träuble, Elliot Creager, Niki Kilbertus, Francesco Locatello, Andrea Dittadi, Anirudh Goyal, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
+
+1. (2021, NeurIPS) **Self-supervised learning with data augmentations provably isolates content from style.**
+_Julius Von Kügelgen, Yash Sharma, Luigi Gresele, Wieland Brendel, Bernhard Schölkopf, Michel Besserve, Francesco Locatello_. [[pdf]()]
+
+1. (2021, ICML) **Causal curiosity: Rl agents discovering self-supervised experiments for causal representation learning.**
+_Sumedh A Sontakke, Arash Mehrjou, Laurent Itti, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/pdf/2010.03110.pdf)]
+
+1. (2021, ICLR) **The Role of Pretrained Representations for the OOD Generalization of RL Agents.**
+_Frederik Träuble, Andrea Dittadi, Manuel Wuthrich, Felix Widmaier, Peter Vincent Gehler, Ole Winther, Francesco Locatello, Olivier Bachem, Bernhard Schölkopf, Stefan Bauer_. [[pdf]()]
+
+1. (2021, ICLR) **Invariant Causal Representation Learning for Out-of-Distribution Generalization.**
+_Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2020, NeurIPS) **Object-Centric Learning with Slot Attention.**
+_Francesco Locatello, Dirk Weissenborn, Thomas Unterthiner, Aravindh Mahendran, Georg Heigold, Jakob Uszkoreit, Alexey Dosovitskiy, Thomas Kipf_. [[pdf](https://arxiv.org/pdf/2006.15055.pdf)]
+
+1. (2020, ICML) **Weakly-supervised disentanglement without compromises.**
+_Francesco Locatello, Ben Poole, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem, Michael Tschannen_. [[pdf]()]
+
+1. (2020, arXiv) **Learning explanations that are hard to vary.**
+_Giambattista Parascandolo, Alexander Neitz, Antonio Orvieto, Luigi Gresele, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2020, arXiv) **A theory of independent mechanisms for extrapolation in generative models.**
+_Michel Besserve, Rémy Sun, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2019, arXiv) **Disentangling factors of variation using few labels.**
+_Francesco Locatello, Michael Tschannen, Stefan Bauer, Gunnar Rätsch, Bernhard Schölkopf, Olivier Bachem_. [[pdf]()]
+
+1. (2019, arXiv) **Recurrent independent mechanisms.**
+_Anirudh Goyal, Alex Lamb, Jordan Hoffmann, Shagun Sodhani, Sergey Levine, Yoshua Bengio, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2018, ICML) **Learning independent causal mechanisms.**
+_Giambattista Parascandolo, Niki Kilbertus, Mateo Rojas-Carulla, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2018, NeurIPS) **Adaptive skip intervals: Temporal abstraction for recurrent dynamical models.**
+_Alexander Neitz, Giambattista Parascandolo, Stefan Bauer, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2018, arXiv) **Counterfactuals uncover the modular structure of deep generative models.**
+_Michel Besserve, Arash Mehrjou, Rémy Sun, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2017, CVPR) **Discovering causal signals in images.**
+_David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard Scholkopf, Léon Bottou_.
+[[pdf](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lopez-Paz_Discovering_Causal_Signals_CVPR_2017_paper.pdf)]
+
+#### 4.1.2 Robustness and Invariance (incl. Semi-Supervised Learning, Covariate Shift, Transfer Learning)
+1. (2021, ICLR) **Source-free adaptation to measurement shift via bottom-up feature restoration.**
+_Cian Eastwood, Ian Mason, Christopher KI Williams, Bernhard Schölkopf_.
+
+1. (2016, ICML) **Domain adaptation with conditional transferable components.**
+_Mingming Gong, Kun Zhang, Tongliang Liu, Dacheng Tao, Clark Glymour, Bernhard Schölkopf_.
+
+1. (2021, EMNLP) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
+_Zhijing Jin, Julius von Kügelgen, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_.
+
+1. (2020, UAI) **Semi-supervised learning, causality, and the conditional cluster assumption.**
+_Julius Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_.
+
+1. (2018, JMLR) **Invariant models for causal transfer learning.**
+_Mateo Rojas-Carulla, Bernhard Schölkopf, Richard Turner, Jonas Peters_.
+
+1. (2018 NeurIPS workshop) **Generalization in anti-causal learning.**
 _Niki Kilbertus, Giambattista Parascandolo, Bernhard Schölkopf_.
 [[pdf](https://arxiv.org/pdf/1812.00524.pdf)]
 
-1. (UAI 2020) **Semi-supervised learning, causality and the conditional cluster assumption.**
-_Julius von Kügelgen, Alexander Mey, Marco Loog, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1905.12081.pdf)]
+1. (2012 ICML) **On Causal and Anticausal Learning.** 
+_Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, Joris Mooij_.
+[[pdf](https://icml.cc/2012/papers/625.pdf)]
 
-#### Causal discovery
+
+#### 4.1.3 Causal Discovery
+1. (2021, NeurIPS) **DiBS: Differentiable Bayesian Structure Learning.**
+_Lars Lorch, Jonas Rothfuss, Bernhard Schölkopf, Andreas Krause_.
+[[pdf](https://arxiv.org/pdf/2105.11839.pdf)]
+
+1. (2021, ICML) **Necessary and sufficient conditions for causal feature selection in time series with latent common causes.**
+_Atalanti A Mastakouri, Bernhard Schölkopf, Dominik Janzing_.
+[[pdf](http://proceedings.mlr.press/v139/mastakouri21a/mastakouri21a.pdf)]
+
+1. (2020, JMLR) **Causal Discovery from Heterogeneous/Nonstationary Data..**
+_Biwei Huang, Kun Zhang, Jiji Zhang, Joseph D Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_.
+[[pdf](https://www.jmlr.org/papers/volume21/19-232/19-232.pdf)]
+
+1. (2019, Nature communications) **Inferring causation from time series in Earth system sciences.**
+_Jakob Runge, Sebastian Bathiany, Erik Bollt, Gustau Camps-Valls, Dim Coumou, Ethan Deyle, Clark Glymour, Marlene Kretschmer, Miguel D Mahecha, Jordi Muñoz-Marí, Egbert H van Nes, Jonas Peters, Rick Quax, Markus Reichstein, Marten Scheffer, Bernhard Schölkopf, Peter Spirtes, George Sugihara, Jie Sun, Kun Zhang, Jakob Zscheischler_.
+[[pdf](https://www.nature.com/articles/s41467-019-10105-3.pdf)]
+
+1. (2017, UAI) **Causal discovery from temporally aggregated time series.**
+_Mingming Gong, Kun Zhang, Bernhard Schölkopf, Clark Glymour, Dacheng Tao_.
+[[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995575/pdf/nihms904883.pdf)]
+
+1. (2016, JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
+_Joris M Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, Bernhard Schölkopf_.
+[[pdf](https://jmlr.org/papers/volume17/14-518/14-518.pdf)]
+
+1. (2016, UAI) **On the Identifiability and Estimation of Functional Causal Models in the Presence of Outcome-Dependent Selection..**
+_Kun Zhang, Jiji Zhang, Biwei Huang, Bernhard Schölkopf, Clark Glymour_.
+[[pdf](http://auai.org/uai2016/proceedings/papers/305.pdf)]
+
+1. (2016, PNAS) **Methods for causal inference from gene perturbation experiments and validation.**
+_Nicolai Meinshausen, Alain Hauser, Joris M. Mooij, Jonas Peters, Philip Versteeg, and Peter Bühlmann_.
+[[pdf](https://www.pnas.org/content/pnas/113/27/7361.full.pdf)]
+
+1. (2016, ICML) **The arrow of time in multivariate time series.**
+_Stefan Bauer, Bernhard Schölkopf, Jonas Peters_.
+[[pdf](http://proceedings.mlr.press/v48/bauer16.pdf)]
+
+1. (2016, JMLR) **Distinguishing cause from effect using observational data: methods and benchmarks.**
+_Joris M. Mooij, Jonas Peters, Dominik Janzing, Jakob Zscheischler, Bernhard Schölkopf_.
+[[pdf](https://www.jmlr.org/papers/volume17/14-518/14-518)]
+
+1. (2014, UAI) **Inferring latent structures via information inequalities.**
+_Rafael Chaves, Lukas Luft, Thiago O Maciel, David Gross, Dominik Janzing, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/pdf/1407.2256.pdf)]
+
+1. (2015, Journal of the Royal Statistical Society) **Causal inference using invariant prediction: identification and confidence intervals.**
+_Jonas Peters, Peter Bühlmann, Nicolai Meinshausen_.
+[[pdf](https://arxiv.org/pdf/1501.01332.pdf)]
+
 1. (2008 IEEE) **Causal inference using the algorithmic Markov condition.** _Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/0804.3678.pdf)]
 
-1. **Causal Discovery from Heterogeneous/Nonstationary Data with Independent Changes.** _Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1903.01672.pdf)]
+#### 4.1.4 Causal Effect Estimation
+1. (2016, PASA) **A causal, data-driven approach to modeling the Kepler d.**ata
+_Dun Wang, David W Hogg, Daniel Foreman-Mackey, Bernhard Schölkopf_.
+[[pdf](https://arxiv.org/pdf/1508.01853.pdf)]
+
+1. (2016, PNAS) **Modeling confounding by half-sibling regression.**
+_Bernhard Schölkopf, David W Hogg, Dun Wang, Daniel Foreman-Mackey, Dominik Janzing, Carl-Johann Simon-Gabriel, Jonas Peters_.
+[[pdf](https://www.pnas.org/content/pnas/113/27/7391.full.pdf)]
+
+1. (2021, ICML) **Conditional distributional treatment effect with kernel conditional mean embeddings and U-statistic regression
+Junhyung Park, Uri Shalit, Bernhard Schölkopf, Krikamol Muandet
+http://proceedings.mlr.press/v139/park21c/park21c.pdf
+
+1. (2020, NeurIPS) **Dual Instrumental Variable Regression.**
+_Krikamol Muandet, Arash Mehrjou, Si Kai Lee, Anant Raj_.
+[[pdf](https://proceedings.neurips.cc/paper/2020/file/1c383cd30b7c298ab50293adfecb7b18-Paper.pdf)]
+
+1. (2021, ICML Spotlight) **Proximal Causal Learning with Kernels: Two-Stage Estimation and Moment Restriction.**
+_Afsaneh Mastouri, Yuchen Zhu, Limor Gultchin, Anna Korba, Ricardo Silva, Matt J. Kusner, Arthur Gretton, Krikamol Muandet_.
+[[pdf](https://icml.cc/virtual/2021/spotlight/9926)]
+
+1. (2021, JMLR) **Counterfactual Mean Embeddings.**
+_Krikamol Muandet, Motonobu Kanagawa, Sorawit Saengkyongam, Sanparith Marukatat_.
+[[pdf](https://jmlr.csail.mit.edu/papers/volume22/20-185/20-185.pdf)]
+#### 4.1.5 Foundational work (theory, ICA, etc.)
+Topics: thermodynamic arrow of time, modeling hierarchy (ODEs, macro variables, temporal abstractions), links to ICA.
+
+1. (2021, NeurIPS) Independent mechanism analysis, a new concept?
+_Luigi Gresele, Julius Von Kügelgen, Vincent Stimper, Bernhard Schölkopf, Michel Besserve_. [[pdf]()]
+
+1. (2020, UAI) The incomplete rosetta stone problem: Identifiability results for multi-view nonlinear ICA
+_Luigi Gresele, Paul K Rubenstein, Arash Mehrjou, Francesco Locatello, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2017, arXiv) Causal consistency of structural equation models
+_Paul K Rubenstein, Sebastian Weichwald, Stephan Bongers, Joris M Mooij, Dominik Janzing, Moritz Grosse-Wentrup, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2016, arXiv) From deterministic ODEs to dynamic structural causal models
+_Paul K Rubenstein, Stephan Bongers, Bernhard Schölkopf, Joris M Mooij_. [[pdf]()]
+
+1. (2016, New Journal of Physics) Algorithmic independence of initial condition and dynamical law in thermodynamics and causal inference
+_Dominik Janzing, Rafael Chaves, Bernhard Schölkopf_. [[pdf]()]
+
+1. (2017, Book by MIT Press) Elements of causal inference: foundations and learning algorithms
+_Jonas Peters, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
+
 
 
 ### 4.2 Causality Papers from Bengio's Lab, MILA
