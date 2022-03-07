@@ -159,6 +159,10 @@ _Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake_.
 1. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
 1. (2021 ACL) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
 _Matthew Finlayson, Aaron Mueller, Sebastian Gehrmann, Stuart Shieber, Tal Linzen, Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2106.06087.pdf)]
+1. (2021 CoNLL)
+**Counterfactual Interventions Reveal the Causal Effect of Relative Clause Representations on Agreement Prediction.**
+_Shauli Ravfogel, Grusha Prasad, Tal Linzen, Yoav Goldberg_.
+[[pdf](https://arxiv.org/pdf/2105.06965.pdf)]
 1. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.**
 _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
