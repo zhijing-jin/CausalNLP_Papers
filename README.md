@@ -115,6 +115,7 @@ _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, 
 _Xiangji Zeng, Yunliang Li, Yuchen Zhai, Yin Zhang_. [[pdf](https://aclanthology.org/2020.emnlp-main.590.pdf)]
 1. (2020 EMNLP) **De-Biased Court’s View Generation with Causality.** _Yiquan Wu, Kun Kuang, Yating Zhang, Xiaozhong Liu, Changlong Sun, Jun Xiao, Yueting Zhuang, Luo Si, Fei Wu_. [[pdf](https://aclanthology.org/2020.emnlp-main.56.pdf)]
 1. (2020 EMNLP Findings) **Identifying Spurious Correlations for Robust Text Classification.** _Zhao Wang, Aron Culotta_. [[pdf](https://aclanthology.org/2020.findings-emnlp.308.pdf)]
+1. (2020 EMNLP) **Counterfactual Off-Policy Training for Neural Dialogue Generation.** _Qingfu Zhu, Weinan Zhang, Ting Liu, William Yang Wang_. [[pdf](https://aclanthology.org/2020.emnlp-main.276)]
 1. (2019 EMNLP) **Topics to Avoid: Demoting Latent Confounds in Text Classification.** _Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov_. [[pdf](https://arxiv.org/pdf/1909.00453.pdf)]
    <br>[Summary] Cause: native language, confounder: topic, effect: text
 
