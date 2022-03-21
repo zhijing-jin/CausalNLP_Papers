@@ -152,6 +152,8 @@ _Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake_.
 1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
 
 ### 2.2 Language Model Analysis in a Causal Way (for Probing, Interpretability, etc.)
+1. (2022 ACL Findings) **Interpreting the Robustness of Neural NLP Models to Textual Perturbations.**
+_Yunxiang Zhang, Liangming Pan, Samson Tan, Min-Yen Kan_. [[pdf](https://arxiv.org/pdf/2110.07159.pdf)]
 1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
