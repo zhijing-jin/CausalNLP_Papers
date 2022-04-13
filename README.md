@@ -159,13 +159,19 @@ _Yunxiang Zhang, Liangming Pan, Samson Tan, Min-Yen Kan_. [[pdf](https://arxiv.o
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
 
+1. (2021 NeurIPS) **Causal Abstractions of Neural Networks.**
+_Atticus Geiger, Hanson Lu, Thomas Icard, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2106.02997.pdf)]
 1. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
 1. (2021 ACL) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
 _Matthew Finlayson, Aaron Mueller, Sebastian Gehrmann, Stuart Shieber, Tal Linzen, Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2106.06087.pdf)]
-1. (2021 CoNLL)
-**Counterfactual Interventions Reveal the Causal Effect of Relative Clause Representations on Agreement Prediction.**
+1. (2021 CoNLL) **Counterfactual Interventions Reveal the Causal Effect of Relative Clause Representations on Agreement Prediction.**
 _Shauli Ravfogel, Grusha Prasad, Tal Linzen, Yoav Goldberg_.
 [[pdf](https://arxiv.org/pdf/2105.06965.pdf)]
+1. (2021 arXiv) **Causal Distillation for Language Models.**
+_Zhengxuan Wu, Atticus Geiger, Josh Rozner, Elisa Kreiss, Hanson Lu, Thomas Icard, Christopher Potts, Noah D. Goodman_. [[pdf](https://arxiv.org/pdf/2112.02505.pdf)]
+1. (2021 arXiv) **Inducing Causal Structure for Interpretable Neural Networks.**
+_Atticus Geiger, Zhengxuan Wu, Hanson Lu, Josh Rozner, Elisa Kreiss, Thomas Icard, Noah D. Goodman, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2112.00826.pdf)] [[slides](https://web.stanford.edu/~cgpotts/talks/potts-mcgill2022-slides.pdf)]
+
 1. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.**
 _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
