@@ -275,6 +275,8 @@ _Randy M. Kaplan, Genevieve Berry-Rogghe_.
 
 
 ##### Causal relation extraction from curated datasets (relatively small):
+1. (2021 Neurocomputing) **Causality Extraction based on Self-attentive BiLSTM-CRF with Transferred Embeddings.**_Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren_. [[GitHub](https://github.com/Das-Boot/scite)]
+
 1. (2021 NAACL) **Everything Has a Cause: Leveraging Causal Inference in Legal Text Analysis**
 _Xiao Liu, Da Yin, Yansong Feng, Yuting Wu, Dongyan Zhao_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.155.pdf)]
 
