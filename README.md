@@ -245,6 +245,7 @@ _Jie Yang, Soyeon Caren Han, Josiah Poon_. [[pdf](https://arxiv.org/pdf/2101.064
 
 1. (2020 Thesis) **Narrative Generation to Support Causal Exploration of Directed Graphs.** 
 _Arjun Choudhry_. [[pdf](https://vtechworks.lib.vt.edu/bitstream/handle/10919/98670/Choudhry_A_T_2020.pdf?sequence=1&isAllowed=y)]
+
 #### Method or Dataset Papers
 ##### Causal relation extraction from web data
 1. (2019 EMNLP) **Weakly Supervised Multilingual Causality Extraction from Wikipedia.**
@@ -282,6 +283,8 @@ _Xiao Liu, Da Yin, Yansong Feng, Yuting Wu, Dongyan Zhao_. [[pdf](https://www.ac
 
 1. (2021 NAACL) **Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures.**
 _Minh Tran Phu and Thien Huu Nguyen_ [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.273.pdf)]
+
+1. (2020 EMNLP) **XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning.** _Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen_. [[pdf](https://arxiv.org/pdf/2005.00333.pdf)]
 
 1. (2020 EMNLP) **Causal Inference of Script Knowledge.** _Noah Weber, Rachel Rudinger, Benjamin Van Durme_. [[pdf](https://aclanthology.org/2020.emnlp-main.612.pdf)]
 1. (2019 NAACL) **Modeling Document-level Causal Structures for Event Causal Relation Identification.** _Lei Gao, Prafulla Kumar Choubey, Ruihong Huang_.
