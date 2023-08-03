@@ -98,6 +98,10 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 ## 2. Causality Applied to General NLP
 
 ### 2.1 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)
+1. (2023) **Towards Trustworthy and Aligned Machine Learning: A Data-centric Survey with Causality Perspectives.**
+_Haoyang Liu, Maheep Chaudhary, Haohan Wang_.
+[[pdf](https://arxiv.org/pdf/2307.16851.pdf)]
+
 1. (2021 EMNLP Oral) **Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP.**
 _Zhijing Jin*, Julius von Kügelgen*, Jingwei Ni, Tejas Vaidhya, Ayush Kaushal, Mrinmaya Sachan, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2110.03618)] [[talk](https://drive.google.com/file/d/19dFDslovDFzBgkXN5lKrgV9xP8kWrB5e/)]
 
@@ -153,6 +157,10 @@ _Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake_.
 1. (2021 ICLR) **Counterfactual Generative Networks.** _Axel Sauer, Andreas Geiger_. [[pdf](https://openreview.net/pdf?id=BXewfAYMmJw)]
 
 ### 2.2 Language Model Analysis in a Causal Way (for Probing, Interpretability, etc.)
+1. (2023 ACL) **A Causal Framework to Quantify the Robustness of Mathematical Reasoning in Language Models.**
+_Alessandro Stolfo*, Zhijing Jin*, Kumar Shridhar, Bernhard Schoelkopf, Mrinmaya Sachan_.
+[[pdf](https://arxiv.org/pdf/2210.12023.pdf)]
+
 1. (2022 ACL Findings) **Interpreting the Robustness of Neural NLP Models to Textual Perturbations.**
 _Yunxiang Zhang, Liangming Pan, Samson Tan, Min-Yen Kan_. [[pdf](https://arxiv.org/pdf/2110.07159.pdf)]
 1. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
