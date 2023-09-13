@@ -73,6 +73,8 @@ Motivational Materials:
 1. (2021 Survey) **Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond.** _Amir Feder, Katherine A. Keith, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang_. [[pdf](https://arxiv.org/pdf/2109.00725.pdf)]
 1. (2019 Overview, Schoelkopf) **Causality for Machine Learning.** _Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1911.10500.pdf)]
 1. (2018 ACM CSUR) **A Survey of Learning Causality with Data: Problems and Methods.** _Ruocheng Guo, Lu Cheng, Jundong Li, P. Richard Hahn, Huan Liu_. [[pdf](https://arxiv.org/pdf/1809.09337.pdf)]
+1. (2015 Political Analysis) **The Statistics of Causal Inference: A View from Political Methodology.** *Luke Keele*. [[pdf](https://hrr.w.uib.no/files/2019/01/Keele_2015_causal.pdf)]
+
 
 
 ### 1.3 Toolboxes
