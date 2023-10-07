@@ -100,6 +100,9 @@ _Amit Sharma, Emre Kiciman_. [[GitHub](https://github.com/microsoft/dowhy)] [[pd
 ## 2. Causality Applied to General NLP
 
 ### 2.1 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)
+1. (2023 ICML) **Towards Trustworthy Explanation: On Causal Rationalization.**
+_Wenbo Zhang, Tong Wu, Yunlong Wang, Yong Cai, Hengrui Cai_.[[pdf](https://arxiv.org/abs/2306.14115)]
+
 1. (2023) **Towards Trustworthy and Aligned Machine Learning: A Data-centric Survey with Causality Perspectives.**
 _Haoyang Liu, Maheep Chaudhary, Haohan Wang_.
 [[pdf](https://arxiv.org/pdf/2307.16851.pdf)]
