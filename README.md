@@ -15,10 +15,8 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [2.1 Overview](#21-overview)
   - [2.2 Causal Reasoning](#22-causal-reasoning)
   - [2.3 Interpretability by Causal Methods](#23-interpretability-by-causal-methods)
-  - [2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)]
-    (#24-text-features-in-causal-graphs-for-social-science-psychology-etc)
-  - [2.5 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)]
-    (#25-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
+  - [2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)](#24-text-features-in-causal-graphs-for-social-science-psychology-etc)
+  - [2.5 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)](#25-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
   - [2.6 Causal Relation Extraction](#26-causal-relation-extraction)
 - [3. Causality for Various Applications](#3-causality-for-various-applications)
   - [3.1 Persuasion](#31-persuation)
