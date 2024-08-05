@@ -126,6 +126,8 @@ Motivational Materials:
 
 #### 2.2.1 Formal Causal Reasoning
 
+##### Whether LLMs can do causal reasoning with established solutions
+
 1. (2023 NeurIPS) **CLadder: Assessing Causal Reasoning in Language Models.**
    _Zhijing Jin*, Yuen Chen*, Felix Leeb*, Luigi Gresele*, Ojasv Kamal, Zhiheng LYU, Kevin Blin, Fernando Gonzalez Adauto, 
    Max Kleiman-Weiner, Mrinmaya Sachan, Bernhard Schölkopf_.
@@ -150,6 +152,18 @@ Motivational Materials:
    _Tejas Kasetty, Divyat Mahajan, Gintare Karolina Dziugaite, Alexandre Drouin, Dhanya Sridhar_.
    [[pdf](https://arxiv.org/pdf/2404.05545)]
 
+##### LLMs to Help Causal Effect Estimation
+1. (2024 arXiv) **End-To-End Causal Effect Estimation from Unstructured Natural Language Data.**
+_Nikita Dhawan, Leonardo Cotta, Karen Ullrich, Rahul G. Krishnan, Chris J. Maddison_.
+[[pdf](https://arxiv.org/pdf/2407.07018)]
+
+##### LLMs to Help Causal Relation Discovery
+1. (2023 SPIGM Workshop at ICML) **Causal Discovery with Language Models as Imperfect Experts.**
+_Stephanie Long, Alexandre Piché, Valentina Zantedeschi, Tibor Schuster, Alexandre Drouin_.
+[[pdf](https://arxiv.org/pdf/2307.02390)]
+1. (2024 arXiv) **Efficient Causal Graph Discovery Using Large Language Models.**
+_Thomas Jiralerspong, Xiaoyin Chen, Yash More, Vedant Shah, Yoshua Bengio_.
+[[pdf](https://arxiv.org/pdf/2402.01207)]
 
 #### 2.2.2 Commonsense/Empirical Causal Reasoning
 
