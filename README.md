@@ -881,6 +881,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 1. (Focus on SCM) **Causality: Models, Reasoning, and Inference.** _Judea Pearl_. [[Book, 2009](https://www.amazon.de/Causality-Reasoning-Inference-Judea-Pearl/dp/0521773628)]
 1. (For statistics people on causal inference) **Causation, Prediction and Search.** _Peter Spirtes_. [[Book, 2001](https://mitpress.mit.edu/books/causation-prediction-and-search-second-edition)]
 1. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
+2. **Causal Inference for The Brave and True.** [[website](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)]
 1. A long paper&book list including multiple categories of causality papers: [[spreadsheet](https://docs.google.com/spreadsheets/d/1byIwl_hI-kVtxyTsNcNd6SQRQXJ3CO4xZszDIgFMtIM/edit#gid=0)]
 
 ### 4.5 Online Courses
