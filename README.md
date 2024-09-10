@@ -211,7 +211,7 @@ Motivational Materials:
     [[pdf](https://arxiv.org/abs/2407.18752)]
 13. (2024 ACL) **Open Event Causality Extraction by the Assistance of LLM in Task Annotation, Dataset, and Method.**
     _Kun Luo, Tong Zhou, Yubo Chen, Jun Zhao, Kang Liu_.
-    [[PDF](https://aclanthology.org/2024.neusymbridge-1.4/)]
+    [[pdf](https://aclanthology.org/2024.neusymbridge-1.4/)]
 14. (2023 arxiv) **Causal Discovery with Language Models as Imperfect Experts.**
     _Stephanie Long, Alexandre Piché, Valentina Zantedeschi, Tibor Schuster, Alexandre Drouin_.
     [[pdf](https://arxiv.org/abs/2307.02390)]
