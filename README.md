@@ -998,7 +998,7 @@ Please see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1byI
 
 ### 4.8 Others
 
-- Job postings for causality researchers: [[website](https://sites.google.com/view/ocis/opportunities-in-causal-inference)]
+- Job postings for causality researchers: [[website](https://sites.google.com/view/ocis/opportunities-and-resources)]
 - [*Causality notes*](https://docs.google.com/document/d/1nsN7KMAWhxENpSIxzBwcPaflPKra-1gr9TdPqXjLmb8/edit) by Tailin Wu
 
 ## Contributions
