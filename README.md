@@ -8,7 +8,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 ### Contents (Actively Updating)
 
 - [1. Causality Basics](#1-causality-basics)
-  - [1.1 Talks/Tutorial/etc](#11-Talkstutorialetc)
+  - [1.1 Talks/Tutorial/etc](#11-talks-tutorial-etc)
   - [1.2 Overview Papers](#12-overview-papers)
   - [1.3 Toolboxes](#13-toolboxes)
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
@@ -50,7 +50,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 ## 1. Causality Basics
 
-### 1.1 Talks/Tutorial/etc
+### 1.1 Talks, Tutorial, etc
 
 Talks and Tutorials:
 
@@ -59,12 +59,13 @@ Talks and Tutorials:
 
 Seminars:
 
-1. (2021, Recordings available) **Beyond i.i.d. learning:
-   Causality, dynamics, and interactions.** ETH Seminar by Prof Michael Muehlebach, Bernhard Schölkopf, Andreas Krause. [[past recordings](https://beyond-iid-learning.xyz/lectures/)]
 
-2. (Global, weekly reading group) **Online Causal Inference Seminar.** Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
+1. (Global, weekly reading group) **Online Causal Inference Seminar.** Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
 
    Every Tuesdays at 8:30 am PT (11:30 am ET / 4:30 pm London / 5:30 pm Berlin).
+1. (Current) **Causal Seminar@Harvard Data Science Institute.** [[talks](https://datascience.harvard.edu/event-category/causal-inference/)]
+1. (2021, Recordings available) **Beyond i.i.d. learning:
+   Causality, dynamics, and interactions.** ETH Seminar by Prof Michael Muehlebach, Bernhard Schölkopf, Andreas Krause. [[past recordings](https://beyond-iid-learning.xyz/lectures/)]
 
 Motivational Materials:
 
