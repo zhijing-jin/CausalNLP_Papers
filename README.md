@@ -122,6 +122,13 @@ Motivational Materials:
 3. (2024 arXiv) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
+4. (2024 arXiv) **Causal Inference with Large Language Model: A Survey.**
+   _Jing Ma_.
+   [[pdf]](https://arxiv.org/pdf/2409.09822v2)
+5. (2024 arXiv) **Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey.**
+   _Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan, Yifan Yang, Yuhang Zhou, Fuxiao Liu, Tianrui Guan, Haoliang Wang, Tong Yu, Julian McAuley, Wei Ai, Furong Huang_.
+   [[pdf]](https://arxiv.org/pdf/2409.09822v2)
+
 
 ### 2.2 Causal Reasoning
 
@@ -153,9 +160,7 @@ Motivational Materials:
    [[pdf](https://arxiv.org/pdf/2402.17644)]
 
 6. (2024 arXiv) **LLMs Are Prone to Fallacies in Causal Inference.**
-
    *Nitish Joshi, Abulhair Saparov, Yixin Wang, He He*.
-
    [[pdf](https://arxiv.org/pdf/2406.12158)]
 
 7. (2024 arXiv) **CLEAR: Can Language Models Really Understand Causal Graphs?**
@@ -168,12 +173,28 @@ Motivational Materials:
 
 ##### LLMs to Help Causal Effect Estimation
 
-1. (2024 arXiv) **End-To-End Causal Effect Estimation from Unstructured Natural Language Data.**
+1. (2023 ACL) **{DISCO}: Distilling Counterfactuals with Large Language Models.**
+   _Zeming Chen, Qiyue Gao, Antoine Bosselut, Ashish Sabharwal, Kyle Richardson_.
+   [[pdf]](https://aclanthology.org/2023.acl-long.302.pdf)
+
+2. (2024 arXiv) **End-To-End Causal Effect Estimation from Unstructured Natural Language Data.**
    _Nikita Dhawan, Leonardo Cotta, Karen Ullrich, Rahul G. Krishnan, Chris J. Maddison_.
    [[pdf](https://arxiv.org/pdf/2407.07018)]
 
 ##### LLMs to Help Causal Relation Discovery
-
+1. (2024 arXiv) **Efficient Causal Graph Discovery Using Large Language Models.**
+   _Thomas Jiralerspong, Xiaoyin Chen, Yash More, Vedant Shah, Yoshua Bengio_.
+   [[pdf]](https://arxiv.org/pdf/2402.01207)
+1. (2023 arXiv) **Causal Reasoning and Large Language Models.**:
+Opening a New Frontier for Causality**
+   _Emre Kıcıman, Robert Ness, Amit Sharma, Chenhao Tan_.
+   [[pdf]](https://arxiv.org/pdf/2305.00050)
+1. (2024 arXiv) **Can Large Language Models Build Causal Graphs?.**
+   _Stephanie Long, Tibor Schuster, Alexandre Piché_.
+   [[pdf]](https://arxiv.org/pdf/2303.05279)
+1. (2023 arXiv) **Causal Inference Using LLM-Guided Discovery.**
+   _Aniket Vashishtha, Abbavaram Gowtham Reddy, Abhinav Kumar, Saketh Bachu, Vineeth N Balasubramanian, Amit Sharma_
+   [[pdf]](https://arxiv.org/pdf/2310.15117)
 1. (2023 SPIGM Workshop at ICML) **Causal Discovery with Language Models as Imperfect Experts.**
    _Stephanie Long, Alexandre Piché, Valentina Zantedeschi, Tibor Schuster, Alexandre Drouin_.
    [[pdf](https://arxiv.org/pdf/2307.02390)]
@@ -224,31 +245,37 @@ Motivational Materials:
 1. (2024 arXiv) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
-2. (2022 arXiv) **Causal Inference Principles for Reasoning about Commonsense Causality.**
+2. (2023 arXiv) **Towards Causal Foundation Model: on Duality between Causal
+Inference and Attention.**
+   _Jiaqi Zhang, Joel Jennings, Agrin Hilmkil, Nick Pawlowski, Cheng Zhang, Chao Ma_.
+   [[pdf]](https://arxiv.org/pdf/2310.00809)
+3. (2023 EMNLP) **{CRAB}: Assessing the Strength of Causal Relationships Between Real-world Events**
+   _Angelika Romanou, Syrielle Montariol, Debjit Paul, Leo Laugier, Karl Aberer, Antoine Bosselut_.
+   [[pdf]](https://aclanthology.org/2023.emnlp-main.940.pdf)
+4. (2022 ICML) **Causal Inference Principles for Reasoning about Commonsense Causality**
+   _Jiayao Zhang, Hongming Zhang, Weijie J. Su, Dan Roth_.
+   [[pdf]](https://www.semanticscholar.org/paper/Causal-Inference-Principles-for-Reasoning-about-Zhang-Zhang/706dfab036ebe310a1af0344f8481868c8bedbed)
+5. (2022 arXiv) **Causal Inference Principles for Reasoning about Commonsense Causality.**
    _Jiayao Zhang, Hongming Zhang, Dan Roth, Weijie J. Su_.
    [[pdf](https://arxiv.org/pdf/2202.00436.pdf)]
-3. (2021 ACL Findings) **Empowering Language Understanding with Counterfactual Reasoning.** _Fuli Feng, Jizhi Zhang, Xiangnan He, Hanwang Zhang, Tat-Seng Chua_. [[pdf](https://arxiv.org/pdf/2106.03046.pdf)]
-4. (2021 ARR) **e-CARE: a New Dataset for Exploring Explainable Causal Reasoning.** _Anonymous_. [[pdf](https://openreview.net/pdf?id=48T0DriwGcv)]
-5. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
+6. (2021 ACL Findings) **Empowering Language Understanding with Counterfactual Reasoning.** _Fuli Feng, Jizhi Zhang, Xiangnan He, Hanwang Zhang, Tat-Seng Chua_. [[pdf](https://arxiv.org/pdf/2106.03046.pdf)]
+7. (2021 ARR) **e-CARE: a New Dataset for Exploring Explainable Causal Reasoning.** _Anonymous_. [[pdf](https://openreview.net/pdf?id=48T0DriwGcv)]
+8. (2020 EMNLP) **GLUCOSE: GeneraLized and COntextualized Story Explanations.** _Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll_.
    [[pdf](https://arxiv.org/pdf/2009.07758.pdf)]
-6. (2019 EMNLP) **Counterfactual Story Reasoning and Generation.**
+9. (2019 EMNLP) **Counterfactual Story Reasoning and Generation.**
    _Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark, Yejin Choi_. [[pdf](https://arxiv.org/pdf/1909.04076.pdf)]
-7. (2020 IJCAI) **Guided Generation of Cause and Effect.** _Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme_.
+10. (2020 IJCAI) **Guided Generation of Cause and Effect.** _Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme_.
    [[pdf](https://www.ijcai.org/Proceedings/2020/0502.pdf)] [[video](https://www.ijcai.org/proceedings/2020/video/24610)]
    <br>[Summary] 314 million automatically extracted cause and effects.
 
 #### 2.2.3 Both Types of Causal Reasoning
 
-1. (2024 AAAI Workshop) **A Critical Review of Causal Reasoning Benchmarks for Large Language Models**. 
-
-   *Linying Yang, Vik Shirvaikar, Oscar Clivio, Fabian Falck.* 
-
+1. (2024 AAAI Workshop) **A Critical Review of Causal Reasoning Benchmarks for Large Language Models**.
+   *Linying Yang, Vik Shirvaikar, Oscar Clivio, Fabian Falck.*
    [[pdf](https://arxiv.org/pdf/2407.08029)]
 
-2. (2024 arXiv) **C2P: Featuring Large Language Models with Causal Reasoning.** 
-
-   *Abdolmahdi Bagheri, Matin Alinejad, Kevin Bello, Alireza Akhondi-Asl*.
-
+2. (2024 arXiv) **C2P: Featuring Large Language Models with Causal Reasoning.**
+   *Abdolmahdi Bagheri, Matin Alinejad, Kevin Bello, Alireza Akhondi-Asl*
    [[pdf](https://arxiv.org/pdf/2407.18069)]
 
 
@@ -367,10 +394,15 @@ Motivational Materials:
 
 ##### Data augmentation
 
-1. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
+1. (2024 Neurips) **Data Augmentations for Improved (Large) Language
+Model Generalization.**
+   _Amir Feder, Yoav Wald, Claudia Shi, Suchi Saria, David Blei_.
+   [[pdf]](https://proceedings.neurips.cc/paper_files/paper/2023/file/df88b275bef31ac96c85f0c4013734fc-Paper-Conference.pdf)
+
+2. (2021 NAACL) **Counterfactual Data Augmentation for Neural Machine Translation.** _Qi Liu, Matt Kusner, Phil Blunsom_. [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.18.pdf)]
    <br>[Summary] First do phrase alignment between source and target sentences, and then only change some phrases in the source sentence, expecting the target sentence also only changes by that key phrase. Not much usage of causality.
 
-2. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
+3. (2019 ACL) **Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages with Rich Morphology.** _Ran Zmigrod, Sabrina J. Mielke, Hanna Wallach, Ryan Cotterell_. [[pdf](https://www.aclweb.org/anthology/P19-1161.pdf)]
    <br>[Summary] Change female words to male words in languages with rich morphology and inflections. Not much usage of causality.
 
 ##### Compositionality and Neuro-Symbolic Approaches
@@ -930,15 +962,17 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 #### Others
 
-1. (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
+1. (2024 IEEE HSI) **Causal Reasoning in Large Language Models using Causal Graph Retrieval Augmented Generation.** _C. Samarajeewa, D. De Silva, E. Osipov, D. Alahakoon, M. Manic_. [[pdf]](https://ieeexplore.ieee.org/document/10613566/references)
 
-2. (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
+2. (PSB 2020 Oral) **Robustly Extracting Medical Knowledge from EHRs: A Case Study of Learning a Health Knowledge Graph.** _Irene Y. Chen, Monica Agrawal, Steven Horng, David Sontag_. [[pdf](https://arxiv.org/pdf/1910.01116.pdf)]
+
+3. (2021 AAAI; AI Safety, RL with causality) **Agent Incentives: A Causal Perspective.** _Tom Everitt, Ryan Carey, Eric Langlois, Pedro A Ortega, Shane Legg_.
    [[pdf](https://arxiv.org/pdf/2102.01685.pdf)]
 
-3. (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
+4. (2019 IJCAI AI Safety Workshop) **Modeling AGI Safety Frameworks with Causal Influence Diagrams.** _Tom Everitt, Ramana Kumar, Victoria Krakovna, Shane Legg_ ([Causal Incentives Working Group](https://causalincentives.com/)).
    [[pdf](https://arxiv.org/pdf/1906.08663.pdf)]
 
-4. (2018 IEEE workshop; robustness under domain shifts) **Causality from a Distributional Robustness Point of View.** _Nicolai Meinshausen_. [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8439889&casa_token=TqNXF6HAKDIAAAAA:U2ti2LifcIXZ4tyElAFyahiSDEAvXWxGbNLbU0NVxcvedqWKFUMuMOL8faO_yRX3mPqW_lky&tag=1)] 
+5. (2018 IEEE workshop; robustness under domain shifts) **Causality from a Distributional Robustness Point of View.** _Nicolai Meinshausen_. [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8439889&casa_token=TqNXF6HAKDIAAAAA:U2ti2LifcIXZ4tyElAFyahiSDEAvXWxGbNLbU0NVxcvedqWKFUMuMOL8faO_yRX3mPqW_lky&tag=1)] 
 
 #### Some tools that might be useful for disentanglement
 
