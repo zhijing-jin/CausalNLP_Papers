@@ -169,9 +169,6 @@ Motivational Materials:
 
 ##### LLMs to Help Causal Relation Discovery
 
-1. (2024 arXiv) **Efficient Causal Graph Discovery Using Large Language Models.**
-   _Thomas Jiralerspong, Xiaoyin Chen, Yash More, Vedant Shah, Yoshua Bengio_.
-   [[pdf](https://arxiv.org/pdf/2402.01207)]
 2. (2023 arXiv) **Causal Reasoning and Large Language Models: Opening a New Frontier for Causality.**
    _Emre Kıcıman, Robert Ness, Amit Sharma, Chenhao Tan_.
    [[pdf](https://arxiv.org/pdf/2305.00050)]
@@ -220,9 +217,6 @@ Motivational Materials:
 17. (2024 ACL) **Open Event Causality Extraction by the Assistance of LLM in Task Annotation, Dataset, and Method.**
     _Kun Luo, Tong Zhou, Yubo Chen, Jun Zhao, Kang Liu_.
     [[pdf](https://aclanthology.org/2024.neusymbridge-1.4/)]
-18. (2023 arxiv) **Causal Discovery with Language Models as Imperfect Experts.**
-    _Stephanie Long, Alexandre Piché, Valentina Zantedeschi, Tibor Schuster, Alexandre Drouin_.
-    [[pdf](https://arxiv.org/abs/2307.02390)]
 19. (2024 ACL) **Identifying while Learning for Document Event Causality Identification.**
     _Cheng Liu, Wei Xiang, Bang Wang_.
     [[pdf](https://arxiv.org/abs/2405.20608)]
