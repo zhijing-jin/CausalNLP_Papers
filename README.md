@@ -116,7 +116,7 @@ Motivational Materials:
    _Amir Feder, Katherine A. Keith, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, 
    Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang_.
    [[pdf](https://arxiv.org/abs/2109.00725)]
-3. (2024 arXiv) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
+3. (2024 EMNLP Survey) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
 4. (2024 arXiv) **Causal Inference with Large Language Model: A Survey.**
@@ -229,7 +229,7 @@ Motivational Materials:
 
 #### 2.2.2 Commonsense/Empirical Causal Reasoning
 
-1. (2024 arXiv) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
+1. (2024 EMNLP Survey) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
 2. (2023 arXiv) **Towards Causal Foundation Model: on Duality between Causal
