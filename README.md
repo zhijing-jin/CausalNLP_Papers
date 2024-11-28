@@ -14,6 +14,8 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 - [2. Causality Applied to General NLP](#2-causality-applied-to-general-nlp)
   - [2.1 Overview](#21-overview)
   - [2.2 Causal Reasoning](#22-causal-reasoning)
+    - [2.2.1 Formal Causal Reasoning](#221-formal-causal-reasoning)
+    - [2.2.2 Commonsense/Empirical Causal Reasoning](#222-commonsense-empirical-causal-reasoning)
   - [2.3 Interpretability by Causal Methods](#23-interpretability-by-causal-methods)
   - [2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)](#24-text-features-in-causal-graphs-for-social-science-psychology-etc)
   - [2.5 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)](#25-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
@@ -160,9 +162,6 @@ Motivational Materials:
 
 ##### LLMs to Help Causal Effect Estimation
 
-1. (2023 ACL) **{DISCO}: Distilling Counterfactuals with Large Language Models.**
-   _Zeming Chen, Qiyue Gao, Antoine Bosselut, Ashish Sabharwal, Kyle Richardson_.
-   [[pdf](https://aclanthology.org/2023.acl-long.302.pdf)]
 2. (2024 arXiv) **End-To-End Causal Effect Estimation from Unstructured Natural Language Data.**
    _Nikita Dhawan, Leonardo Cotta, Karen Ullrich, Rahul G. Krishnan, Chris J. Maddison_.
    [[pdf](https://arxiv.org/pdf/2407.07018)]
@@ -226,11 +225,13 @@ Motivational Materials:
 1. (2024 EMNLP Survey) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
-2. (2023 arXiv) **Towards Causal Foundation Model: on Duality between Causal
-Inference and Attention.**
+1. (2023 ACL) **DISCO: Distilling Counterfactuals with Large Language Models.**
+   _Zeming Chen, Qiyue Gao, Antoine Bosselut, Ashish Sabharwal, Kyle Richardson_.
+   [[pdf](https://aclanthology.org/2023.acl-long.302.pdf)]
+2. (2023 arXiv) **Towards Causal Foundation Model: on Duality between Causal Inference and Attention.**
    _Jiaqi Zhang, Joel Jennings, Agrin Hilmkil, Nick Pawlowski, Cheng Zhang, Chao Ma_.
    [[pdf]](https://arxiv.org/pdf/2310.00809)
-3. (2023 EMNLP) **{CRAB}: Assessing the Strength of Causal Relationships Between Real-world Events**
+3. (2023 EMNLP) **CRAB: Assessing the Strength of Causal Relationships Between Real-world Events**
    _Angelika Romanou, Syrielle Montariol, Debjit Paul, Leo Laugier, Karl Aberer, Antoine Bosselut_.
    [[pdf](https://aclanthology.org/2023.emnlp-main.940.pdf)]
 4. (2022 ICML) **Causal Inference Principles for Reasoning about Commonsense Causality**
