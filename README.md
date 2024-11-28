@@ -15,7 +15,7 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
   - [2.1 Overview](#21-overview)
   - [2.2 Causal Reasoning](#22-causal-reasoning)
     - [2.2.1 Formal Causal Reasoning](#221-formal-causal-reasoning)
-    - [2.2.2 Commonsense/Empirical Causal Reasoning](#222-commonsense-empirical-causal-reasoning)
+    - [2.2.2 Commonsense/Empirical Causal Reasoning](#222-commonsenseempirical-causal-reasoning)
   - [2.3 Interpretability by Causal Methods](#23-interpretability-by-causal-methods)
   - [2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)](#24-text-features-in-causal-graphs-for-social-science-psychology-etc)
   - [2.5 Causality to Bring Insights to NLP Modeling (for Robustness, Domain Adaptation, etc)](#25-causality-to-bring-insights-to-nlp-modeling-for-robustness-domain-adaptation-etc)
