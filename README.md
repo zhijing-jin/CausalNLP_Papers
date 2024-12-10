@@ -264,35 +264,39 @@ Motivational Materials:
 
 ### 2.3 Interpretability by Causal Methods
 
-1. (2023 ACL) **A Causal Framework to Quantify the Robustness of Mathematical Reasoning in Language Models.**
+1. (2024 arXiv) **A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models.**
+_Daking Rai, Yilun Zhou, Shi Feng, Abulhair Saparov, Ziyu Yao_. [[pdf](https://arxiv.org/pdf/2407.02646)]
+
+2. **Mechanistic Interpretability for AI Safety -- A Review.** _Leonard Bereska, Efstratios Gavves_. [[pdf](https://arxiv.org/pdf/2404.14082)]
+3. (2023 ACL) **A Causal Framework to Quantify the Robustness of Mathematical Reasoning in Language Models.**
    _Alessandro Stolfo*, Zhijing Jin*, Kumar Shridhar, Bernhard Schoelkopf, Mrinmaya Sachan_.
    [[pdf](https://arxiv.org/pdf/2210.12023.pdf)]
 
-2. (2022 ACL Findings) **Interpreting the Robustness of Neural NLP Models to Textual Perturbations.**
+4. (2022 ACL Findings) **Interpreting the Robustness of Neural NLP Models to Textual Perturbations.**
    _Yunxiang Zhang, Liangming Pan, Samson Tan, Min-Yen Kan_. [[pdf](https://arxiv.org/pdf/2110.07159.pdf)]
-3. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
+5. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
 
-4. (2021 NeurIPS) **Causal Abstractions of Neural Networks.**
+6. (2021 NeurIPS) **Causal Abstractions of Neural Networks.**
    _Atticus Geiger, Hanson Lu, Thomas Icard, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2106.02997.pdf)]
-5. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
-6. (2021 ACL) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
+7. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
+8. (2021 ACL) **Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models.**
    _Matthew Finlayson, Aaron Mueller, Sebastian Gehrmann, Stuart Shieber, Tal Linzen, Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2106.06087.pdf)]
-7. (2021 CoNLL) **Counterfactual Interventions Reveal the Causal Effect of Relative Clause Representations on Agreement Prediction.**
+9. (2021 CoNLL) **Counterfactual Interventions Reveal the Causal Effect of Relative Clause Representations on Agreement Prediction.**
    _Shauli Ravfogel, Grusha Prasad, Tal Linzen, Yoav Goldberg_.
    [[pdf](https://arxiv.org/pdf/2105.06965.pdf)]
-8. (2021 arXiv) **Causal Distillation for Language Models.**
+10. (2021 arXiv) **Causal Distillation for Language Models.**
    _Zhengxuan Wu, Atticus Geiger, Josh Rozner, Elisa Kreiss, Hanson Lu, Thomas Icard, Christopher Potts, Noah D. Goodman_. [[pdf](https://arxiv.org/pdf/2112.02505.pdf)]
-9. (2021 arXiv) **Inducing Causal Structure for Interpretable Neural Networks.**
+11. (2021 arXiv) **Inducing Causal Structure for Interpretable Neural Networks.**
    _Atticus Geiger, Zhengxuan Wu, Hanson Lu, Josh Rozner, Elisa Kreiss, Thomas Icard, Noah D. Goodman, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2112.00826.pdf)] [[slides](https://web.stanford.edu/~cgpotts/talks/potts-mcgill2022-slides.pdf)]
 
-10. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.**
+12. (2020 CL) **CausaLM: Causal Model Explanation Through Counterfactual Language Models.**
     _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
-11. (2020 TACL) **Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals.** _Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg_. [[pdf](https://arxiv.org/pdf/2006.00995.pdf)]
+13. (2020 TACL) **Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals.** _Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg_. [[pdf](https://arxiv.org/pdf/2006.00995.pdf)]
 
-12. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
+14. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
     _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
 
 ### 2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)
