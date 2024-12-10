@@ -268,16 +268,36 @@ Motivational Materials:
 _Daking Rai, Yilun Zhou, Shi Feng, Abulhair Saparov, Ziyu Yao_. [[pdf](https://arxiv.org/pdf/2407.02646)]
 
 2. (2024 TMLR) **Mechanistic Interpretability for AI Safety -- A Review.** _Leonard Bereska, Efstratios Gavves_. [[pdf](https://arxiv.org/pdf/2404.14082)]
+
+#### 2.3.1 Causal Behavioral Tests
+
 3. (2023 ACL) **A Causal Framework to Quantify the Robustness of Mathematical Reasoning in Language Models.**
    _Alessandro Stolfo*, Zhijing Jin*, Kumar Shridhar, Bernhard Schoelkopf, Mrinmaya Sachan_.
    [[pdf](https://arxiv.org/pdf/2210.12023.pdf)]
 
 4. (2022 ACL Findings) **Interpreting the Robustness of Neural NLP Models to Textual Perturbations.**
    _Yunxiang Zhang, Liangming Pan, Samson Tan, Min-Yen Kan_. [[pdf](https://arxiv.org/pdf/2110.07159.pdf)]
+
+1. **GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models.**
+_Iman Mirzadeh, Keivan Alizadeh, Hooman Shahrokhi, Oncel Tuzel, Samy Bengio, Mehrdad Farajtabar_. [[pdf](https://arxiv.org/pdf/2410.05229)]
+
+
+14. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
+    _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
+
+#### 2.3.2 Causal Instrinsic Tests
+
 5. (2020 NeurIPS Spotlight) **Causal Mediation Analysis for Interpreting Neural NLP:
    The Case of Gender Bias.** _Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Simas Sakenis, Jason Huang, Yaron Singer, Stuart Shieber_. [[pdf](https://arxiv.org/pdf/2004.12265.pdf)]
    <br>[Summary] Cause: input text, mediator: some neurons, effect: output prediction
+1. (ICLR 2024) **Sparse Autoencoders Find Highly Interpretable Features in Language Models.**
+_Robert Huben, Hoagy Cunningham, Logan Riggs Smith, Aidan Ewart, Lee Sharkey_. [[pdf](https://arxiv.org/pdf/2411.00743)]
+1. (2024) **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.** [[blog](https://transformer-circuits.pub/2024/scaling-monosemanticity/)]
+1. (2024 ICML) **A mechanistic understanding of alignment algorithms: A case study on DPO and toxicity. **
+_Andrew Lee, Xiaoyan Bai, Itamar Pres, Martin Wattenberg, Jonathan K. Kummerfeld, and Rada Mihalcea_. [[pdf](https://arxiv.org/pdf/2401.01967)]
 
+1. (2024 ACL) **Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals.**
+_Francesco Ortu, Zhijing Jin, Diego Doimo, Mrinmaya Sachan, Alberto Cazzaniga, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2402.11655)]
 6. (2021 NeurIPS) **Causal Abstractions of Neural Networks.**
    _Atticus Geiger, Hanson Lu, Thomas Icard, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2106.02997.pdf)]
 7. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
@@ -295,9 +315,7 @@ _Daking Rai, Yilun Zhou, Shi Feng, Abulhair Saparov, Ziyu Yao_. [[pdf](https://a
     _Amir Feder, Nadav Oved, Uri Shalit, Roi Reichart_. [[pdf](https://arxiv.org/pdf/2005.13407.pdf)]
 
 13. (2020 TACL) **Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals.** _Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg_. [[pdf](https://arxiv.org/pdf/2006.00995.pdf)]
-
-14. (2020 ICLR) **Learning the Difference that Makes a Difference with Counterfactually-Augmented Data.**
-    _Divyansh Kaushik, Eduard Hovy, Zachary C. Lipton_. [[pdf](https://arxiv.org/pdf/1909.12434.pdf)]
+1. (2017 arXiv) **Learning To Generate Reviews and Discovering Sentiment.** _Alec Radford, Rafal Jozefowicz, Ilya Sutskever_. [[pdf](https://arxiv.org/pdf/1704.01444)]
 
 ### 2.4 Text Features in Causal Graphs (for Social Science, Psychology, etc.)
 
