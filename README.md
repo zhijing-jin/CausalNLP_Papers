@@ -267,7 +267,7 @@ Motivational Materials:
 1. (2024 arXiv) **A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models.**
 _Daking Rai, Yilun Zhou, Shi Feng, Abulhair Saparov, Ziyu Yao_. [[pdf](https://arxiv.org/pdf/2407.02646)]
 
-2. **Mechanistic Interpretability for AI Safety -- A Review.** _Leonard Bereska, Efstratios Gavves_. [[pdf](https://arxiv.org/pdf/2404.14082)]
+2. (2024 TMLR) **Mechanistic Interpretability for AI Safety -- A Review.** _Leonard Bereska, Efstratios Gavves_. [[pdf](https://arxiv.org/pdf/2404.14082)]
 3. (2023 ACL) **A Causal Framework to Quantify the Robustness of Mathematical Reasoning in Language Models.**
    _Alessandro Stolfo*, Zhijing Jin*, Kumar Shridhar, Bernhard Schoelkopf, Mrinmaya Sachan_.
    [[pdf](https://arxiv.org/pdf/2210.12023.pdf)]
