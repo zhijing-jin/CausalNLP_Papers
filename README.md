@@ -298,6 +298,8 @@ _Andrew Lee, Xiaoyan Bai, Itamar Pres, Martin Wattenberg, Jonathan K. Kummerfeld
 
 1. (2024 ACL) **Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals.**
 _Francesco Ortu, Zhijing Jin, Diego Doimo, Mrinmaya Sachan, Alberto Cazzaniga, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/2402.11655)]
+1. (2023 arXiv) **Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations.**
+_Atticus Geiger, Zhengxuan Wu, Christopher Potts, Thomas Icard, Noah D. Goodman_. [[pdf](https://arxiv.org/pdf/2303.02536)]
 6. (2021 NeurIPS) **Causal Abstractions of Neural Networks.**
    _Atticus Geiger, Hanson Lu, Thomas Icard, Christopher Potts_. [[pdf](https://arxiv.org/pdf/2106.02997.pdf)]
 7. (2021 arXiv) **Probing Classifiers: Promises, Shortcomings, and Advances.** _Yonatan Belinkov_. [[pdf](https://arxiv.org/pdf/2102.12452.pdf)]
