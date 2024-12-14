@@ -183,37 +183,38 @@ Motivational Materials:
 6. (2024 arXiv) **Efficient Causal Graph Discovery Using Large Language Models.**
    _Thomas Jiralerspong, Xiaoyin Chen, Yash More, Vedant Shah, Yoshua Bengio_.
    [[pdf](https://arxiv.org/pdf/2402.01207)]
-7. (2023 arxiv) **From Query Tools to Causal Architects: Harnessing Large Language Models for Advanced Causal Discovery from Data.**
+7. (2024 arXiv) **Efficient Differentiable Discovery of Causal Order.** _Mathieu Chevalley, Arash Mehrjou, Patrick Schwab_. [[pdf](https://arxiv.org/pdf/2410.08787)]
+8.  (2023 arxiv) **From Query Tools to Causal Architects: Harnessing Large Language Models for Advanced Causal Discovery from Data.**
     _Taiyu Ban, Lyvzhou Chen, Xiangyu Wang, Huanhuan Chen_.
     [[pdf](https://arxiv.org/abs/2306.16902)]
-8. (2024 arviv) **ALCM: Autonomous LLM-Augmented Causal Discovery Framework.**
+9. (2024 arviv) **ALCM: Autonomous LLM-Augmented Causal Discovery Framework.**
     _Elahe Khatibi, Mahyar Abbasian, Zhongqi Yang, Iman Azimi, Amir M. Rahmani_.
     [[pdf](https://arxiv.org/abs/2405.01744)]
-9. (2024 arxiv) **Large Language Models are Effective Priors for Causal Graph Discovery.**
+10. (2024 arxiv) **Large Language Models are Effective Priors for Causal Graph Discovery.**
     _Victor-Alexandru Darvariu, Stephen Hailes, Mirco Musolesi_.
     [[pdf](https://arxiv.org/abs/2405.13551)]
-10. (2024 arxiv) **Multi-Agent Causal Discovery Using Large Language Models.**
+11. (2024 arxiv) **Multi-Agent Causal Discovery Using Large Language Models.**
     _Hao Duong Le, Xin Xia, Zhang Chen_.
     [[pdf](https://arxiv.org/abs/2407.15073)]
-11. (2024 arxiv) **Bridging Causal Discovery and Large Language Models: A Comprehensive Survey of Integrative Approaches and Future Directions.**
+12. (2024 arxiv) **Bridging Causal Discovery and Large Language Models: A Comprehensive Survey of Integrative Approaches and Future Directions.**
     _Guangya Wan, Yuqi Wu, Mengxuan Hu, Zhixuan Chu, Sheng Li_.
     [[pdf](https://arxiv.org/abs/2402.11068)]
-12. (2024 arxiv) **Large Language Models for Constrained-Based Causal Discovery.**
+13. (2024 arxiv) **Large Language Models for Constrained-Based Causal Discovery.**
     _Kai-Hendrik Cohrs, Gherardo Varando, Emiliano Diaz, Vasileios Sitokonstantinou, Gustau Camps-Valls_.
     [[pdf](https://arxiv.org/abs/2406.07378)]
-13. (2024 arxiv) **Causal Graph Discovery with Retrieval-Augmented Generation based Large Language Models.**
+14. (2024 arxiv) **Causal Graph Discovery with Retrieval-Augmented Generation based Large Language Models.**
     _Yuzhe Zhang, Yipeng Zhang, Yidong Gan, Lina Yao, Chen Wang_.
     [[pdf](https://arxiv.org/abs/2402.15301)]
-14. (2024 SSRN) **Towards Automating Causal Discovery in Financial Markets and Beyond.**
+15. (2024 SSRN) **Towards Automating Causal Discovery in Financial Markets and Beyond.**
     _Alik Sokolov, Fabrizzio Sabelli, Behzad Azadie faraz, Wuding Li, Luis Seco_.
     [[pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4679414)]
-15. (2024 COLM) **LLM4Causal: Democratized Causal Tools for Everyone via Large Language Model.**
+16. (2024 COLM) **LLM4Causal: Democratized Causal Tools for Everyone via Large Language Model.**
     _Haitao Jiang, Lin Ge, Yuhe Gao, Jianian Wang, Rui Song_.
     [[pdf](https://openreview.net/attachment?id=H1Edd5d2JP&name=pdf)]
-16. (2024 arxiv) **Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-based Causal Discovery.**
+17. (2024 arxiv) **Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-based Causal Discovery.**
     _Yuni Susanti, Michael Färber_.
     [[pdf](https://arxiv.org/abs/2407.18752)]
-17. (2024 ACL) **Open Event Causality Extraction by the Assistance of LLM in Task Annotation, Dataset, and Method.**
+18. (2024 ACL) **Open Event Causality Extraction by the Assistance of LLM in Task Annotation, Dataset, and Method.**
     _Kun Luo, Tong Zhou, Yubo Chen, Jun Zhao, Kang Liu_.
     [[pdf](https://aclanthology.org/2024.neusymbridge-1.4/)]
 19. (2024 ACL) **Identifying while Learning for Document Event Causality Identification.**
