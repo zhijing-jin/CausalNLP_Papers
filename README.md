@@ -61,7 +61,7 @@ Talks and Tutorials:
 
 Seminars:
 
-1. (Global, weekly reading group) **Online Causal Inference Seminar.** Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks-and-recordings)] 
+1. (Global, weekly reading group) **Online Causal Inference Seminar.** Organized by Stanford, ETH, etc. [[speakers](https://sites.google.com/view/ocis/home#h.13whjoi1jght)] [[past recordings](https://sites.google.com/view/ocis/past-talks)] 
 
    Every Tuesdays at 8:30 am PT (11:30 am ET / 4:30 pm London / 5:30 pm Berlin).
 2. (Current) **Causal Seminar@Harvard Data Science Institute.** [[talks](https://datascience.harvard.edu/event-category/causal-inference/)]
