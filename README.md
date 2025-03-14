@@ -56,8 +56,9 @@ Welcome to be a collaborator, -- you can make an issue/pull request, and I can a
 
 Talks and Tutorials:
 
-1. (CausalNLP) **Bernhard's Talk on Towards Causal NLP.** [[Video@EMNLP 2021 Workshop](https://www.youtube.com/watch?v=Zwt1jJxVSvg&list=PLtVBX_ld338UTeq9LphgjCfMpM2EcSbEs&index=1)]
-2. (Vivid, beginner-friendly) **Yoshua Bengio's Primer on the Future of Causality&NLP.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
+1. (2024) [[NeurIPS Tutorial Causality for Large Language Models](https://neurips.cc/virtual/2024/tutorial/99520)]
+2. (CausalNLP) **Bernhard's Talk on Towards Causal NLP.** [[Video@EMNLP 2021 Workshop](https://www.youtube.com/watch?v=Zwt1jJxVSvg&list=PLtVBX_ld338UTeq9LphgjCfMpM2EcSbEs&index=1)]
+3. (Vivid, beginner-friendly) **Yoshua Bengio's Primer on the Future of Causality&NLP.** [[Video@ELLIS NLP Workshop](https://www.youtube.com/watch?v=u3IR6sSwwjg&list=PL5_PEnlMYYahS7HZ3rt8QTkeKlxuYhomD&index=4&ab_channel=ELLISNLP)]
 
 Seminars:
 
@@ -988,7 +989,7 @@ Quote from [a blog](https://medium.com/@wcarvalho92/success-vs-failure-generaliz
 
 1. (For ML Audience) **Elements of Causal Inference.** _Jonas Peters, Dominik Janzing and Bernhard Schölkopf_. [[Book, 2017](https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf?sequence=1)]
 2. (Quick Primer by Judea Pearl) **Causal Inference in Statistics: A Primer.** _Judea Pearl_. [[Book, 2016](http://bayes.cs.ucla.edu/PRIMER/)]
-3. (Focus on SCM) **Causality: Models, Reasoning, and Inference.** _Judea Pearl_. [[Book, 2009](https://www.amazon.de/Causality-Reasoning-Inference-Judea-Pearl/dp/0521773628)]
+3. (Focus on SCM) **Causality: Models, Reasoning, and Inference.** _Judea Pearl_. [[Book, 2009](https://bayes.cs.ucla.edu/BOOK-2K/)]
 4. (For statistics people on causal inference) **Causation, Prediction and Search.** _Peter Spirtes_. [[Book, 2001](https://mitpress.mit.edu/books/causation-prediction-and-search-second-edition)]
 5. More book recommendations: See Brady Neal's [blog](https://www.bradyneal.com/which-causal-inference-book), and this [pointer](https://sites.google.com/view/causality-reading-group/introduction) to causality books for beginner/intermediate/advanced.
 6. **Causal Inference for The Brave and True.** [[website](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)]
