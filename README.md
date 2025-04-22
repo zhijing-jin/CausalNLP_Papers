@@ -221,6 +221,9 @@ Motivational Materials:
 19. (2024 ACL) **Identifying while Learning for Document Event Causality Identification.**
     _Cheng Liu, Wei Xiang, Bang Wang_.
     [[pdf](https://arxiv.org/abs/2405.20608)]
+20. (2025 arXiv) **Causal-Copilot: An Autonomous Causal Analysis Agent**
+    _Xinyue Wang, Kun Zhou, Wenyi Wu, Har Simrat Singh, Fang Nan, Songyao Jin, Aryan Philip, Saloni Patnaik, Hou Zhu,Shivam Singh, Parjanya Prashant, Qian Shen, Biwei Huang_
+    [[pdf](https://arxiv.org/pdf/2504.13263)]
 
 #### 2.2.2 Commonsense/Empirical Causal Reasoning
 
