@@ -111,23 +111,26 @@ Motivational Materials:
 
 ### 2.1 Overview
 
-1. (2024 arXiv) **Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey.**
+1. (2025 arXiv) **Causality for Natural Language Processing.**
+   _Zhijing Jin_.
+   [[pdf](https://arxiv.org/pdf/2504.14530)]
+3. (2024 arXiv) **Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey.**
    _Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan, Yifan Yang, Yuhang Zhou, Fuxiao Liu, Tianrui Guan, Haoliang Wang, 
    Tong Yu, Julian McAuley, Wei Ai, Furong Huang_.
    [[pdf](https://arxiv.org/pdf/2403.09606)]
-2. (2022 TACL) **Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond.**
+4. (2022 TACL) **Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond.**
    _Amir Feder, Katherine A. Keith, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, 
    Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang_.
    [[pdf](https://arxiv.org/abs/2109.00725)]
-3. (2024 EMNLP Survey) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
+5. (2024 EMNLP Survey) **The Odyssey of Commonsense Causality: From Foundational Benchmarks to Cutting-Edge Reasoning.**
    *Shaobo Cui, Zhijing Jin, Bernhard Schölkopf, Boi Faltings*.
    [[pdf](https://arxiv.org/pdf/2406.19307)]
-4. (2024 arXiv) **Causal Inference with Large Language Model: A Survey.**
+6. (2024 arXiv) **Causal Inference with Large Language Model: A Survey.**
    _Jing Ma_.
-   [[pdf]](https://arxiv.org/pdf/2409.09822v2)
-5. (2024 arXiv) **Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey.**
+   [[pdf](https://arxiv.org/pdf/2409.09822v2)]
+7. (2024 arXiv) **Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey.**
    _Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan, Yifan Yang, Yuhang Zhou, Fuxiao Liu, Tianrui Guan, Haoliang Wang, Tong Yu, Julian McAuley, Wei Ai, Furong Huang_.
-   [[pdf]](https://arxiv.org/pdf/2409.09822v2)
+   [[pdf](https://arxiv.org/pdf/2409.09822v2)]
 
 ### 2.2 Causal Reasoning
 
@@ -172,7 +175,7 @@ Motivational Materials:
 2. (2023 arXiv) **Causal Reasoning and Large Language Models: Opening a New Frontier for Causality.**
    _Emre Kıcıman, Robert Ness, Amit Sharma, Chenhao Tan_.
    [[pdf](https://arxiv.org/pdf/2305.00050)]
-3. (2024 arXiv) **Can Large Language Models Build Causal Graphs?.**
+3. (2024 arXiv) **Can Large Language Models Build Causal Graphs?**
    _Stephanie Long, Tibor Schuster, Alexandre Piché_.
    [[pdf](https://arxiv.org/pdf/2303.05279)]
 4. (2023 arXiv) **Causal Inference Using LLM-Guided Discovery.**
@@ -836,27 +839,43 @@ Helping to analyze the semantics of causal events:
 
 #### 4.1.4 Causal Effect Estimation
 
-1. (2016 PASA) **A causal, data-driven approach to modeling the Kepler d.**ata
-   _Dun Wang, David W Hogg, Daniel Foreman-Mackey, Bernhard Schölkopf_.
+1. (2016 ICML) **Learning Representations for Counterfactual Inference.**
+   _Fredrik D. Johansson, Uri Shalit, David Sontag_.
+   [[pdf](http://proceedings.mlr.press/v48/johansson16.pdf)]
+   
+2. (2016 PASA) **A causal, data-driven approach to modeling the Kepler data.**
+   _Dun Wang, David W. Hogg, Daniel Foreman-Mackey, Bernhard Schölkopf_.
    [[pdf](https://arxiv.org/pdf/1508.01853.pdf)]
 
-2. (2016 PNAS) **Modeling confounding by half-sibling regression.**
-   _Bernhard Schölkopf, David W Hogg, Dun Wang, Daniel Foreman-Mackey, Dominik Janzing, Carl-Johann Simon-Gabriel, Jonas Peters_.
+3. (2016 PNAS) **Modeling confounding by half-sibling regression.**
+   _Bernhard Schölkopf, David W. Hogg, Dun Wang, Daniel Foreman-Mackey, Dominik Janzing, Carl-Johann Simon-Gabriel, Jonas Peters_.
    [[pdf](https://www.pnas.org/content/pnas/113/27/7391.full.pdf)]
 
-3. (2021 ICML) **Conditional distributional treatment effect with kernel conditional mean embeddings and U-statistic regression
-   Junhyung Park, Uri Shalit, Bernhard Schölkopf, Krikamol Muandet
-   http://proceedings.mlr.press/v139/park21c/park21c.pdf
+4. (2017 ICML) **Estimating individual treatment effect: generalization bounds and algorithms.**
+   _Fredrik D. Johansson, Uri Shalit, David Sontag_.
+   [[pdf](http://proceedings.mlr.press/v70/shalit17a/shalit17a.pdf)]
 
-4. (2020 NeurIPS) **Dual Instrumental Variable Regression.**
+5. (2017 NeurIPS) **Causal Effect Inference with Deep Latent-Variable Models.**
+   _Christos Louizos, Uri Shalit, Joris Mooij, David Sontag, Richard Zemel, Max Welling_.
+   [[pdf](https://proceedings.neurips.cc/paper/2017/file/94b5bde6de888ddf9cde6748ad2523d1-Paper.pdf)]
+
+6. (2019 JMLR) **Generalization Bounds and Representation Learning for Estimation of Potential Outcomes and Causal Effects.**
+   _Fredrik D. Johansson, Uri Shalit, Nathan Kallus, David Sontag_.
+   [[pdf](https://www.jmlr.org/papers/volume23/19-511/19-511.pdf)]
+
+7. (2021 ICML) **Conditional distributional treatment effect with kernel conditional mean embeddings and U-statistic regression**
+   _Junhyung Park, Uri Shalit, Bernhard Schölkopf, Krikamol Muandet_.
+   [[pdf](http://proceedings.mlr.press/v139/park21c/park21c.pdf)]
+
+8. (2020 NeurIPS) **Dual Instrumental Variable Regression.**
    _Krikamol Muandet, Arash Mehrjou, Si Kai Lee, Anant Raj_.
    [[pdf](https://proceedings.neurips.cc/paper/2020/file/1c383cd30b7c298ab50293adfecb7b18-Paper.pdf)]
 
-5. (2021 ICML Spotlight) **Proximal Causal Learning with Kernels: Two-Stage Estimation and Moment Restriction.**
+9. (2021 ICML Spotlight) **Proximal Causal Learning with Kernels: Two-Stage Estimation and Moment Restriction.**
    _Afsaneh Mastouri, Yuchen Zhu, Limor Gultchin, Anna Korba, Ricardo Silva, Matt J. Kusner, Arthur Gretton, Krikamol Muandet_.
    [[pdf](https://icml.cc/virtual/2021/spotlight/9926)]
 
-6. (2021 JMLR) **Counterfactual Mean Embeddings.**
+10. (2021 JMLR) **Counterfactual Mean Embeddings.**
    _Krikamol Muandet, Motonobu Kanagawa, Sorawit Saengkyongam, Sanparith Marukatat_.
    [[pdf](https://jmlr.csail.mit.edu/papers/volume22/20-185/20-185.pdf)]
 
@@ -865,22 +884,22 @@ Helping to analyze the semantics of causal events:
 Topics: thermodynamic arrow of time, modeling hierarchy (ODEs, macro variables, temporal abstractions), links to ICA.
 
 1. (2021 NeurIPS) Independent mechanism analysis, a new concept?
-   _Luigi Gresele, Julius Von Kügelgen, Vincent Stimper, Bernhard Schölkopf, Michel Besserve_. [[pdf]()]
+   _Luigi Gresele, Julius Von Kügelgen, Vincent Stimper, Bernhard Schölkopf, Michel Besserve_. [[pdf](https://arxiv.org/pdf/2106.05200)]
 
 2. (2020 UAI) The incomplete rosetta stone problem: Identifiability results for multi-view nonlinear ICA
-   _Luigi Gresele, Paul K Rubenstein, Arash Mehrjou, Francesco Locatello, Bernhard Schölkopf_. [[pdf]()]
+   _Luigi Gresele, Paul K Rubenstein, Arash Mehrjou, Francesco Locatello, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1905.06642)]
 
 3. (2017 arXiv) Causal consistency of structural equation models
-   _Paul K Rubenstein, Sebastian Weichwald, Stephan Bongers, Joris M Mooij, Dominik Janzing, Moritz Grosse-Wentrup, Bernhard Schölkopf_. [[pdf]()]
+   _Paul K Rubenstein, Sebastian Weichwald, Stephan Bongers, Joris M Mooij, Dominik Janzing, Moritz Grosse-Wentrup, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1707.00819)]
 
 4. (2016 arXiv) From deterministic ODEs to dynamic structural causal models
-   _Paul K Rubenstein, Stephan Bongers, Bernhard Schölkopf, Joris M Mooij_. [[pdf]()]
+   _Paul K Rubenstein, Stephan Bongers, Bernhard Schölkopf, Joris M Mooij_. [[pdf](https://arxiv.org/pdf/1608.08028)]
 
 5. (2016 New Journal of Physics) Algorithmic independence of initial condition and dynamical law in thermodynamics and causal inference
-   _Dominik Janzing, Rafael Chaves, Bernhard Schölkopf_. [[pdf]()]
+   _Dominik Janzing, Rafael Chaves, Bernhard Schölkopf_. [[pdf](https://arxiv.org/pdf/1512.02057)]
 
 6. (2017 Book by MIT Press) Elements of causal inference: foundations and learning algorithms
-   _Jonas Peters, Dominik Janzing, Bernhard Schölkopf_. [[pdf]()]
+   _Jonas Peters, Dominik Janzing, Bernhard Schölkopf_. [[pdf](https://library.oapen.org/bitstream/id/056a11be-ce3a-44b9-8987-a6c68fce8d9b/11283.pdf)]
 
 
 
